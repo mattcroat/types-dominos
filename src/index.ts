@@ -1,17 +1,15 @@
 import { Item } from 'dominos'
 
-// https://github.com/microsoft/TypeScript/issues/8335
-// https://www.typescriptlang.org/docs/handbook/modules.html
-
-// console.log(
-//   Object.getOwnPropertyNames(Item).filter((f) => typeof Item[f] === 'function')
-// )
-
+// todo: add types for members
+// todo: add types for options
+// https://stackoverflow.com/questions/46969551/constructor-in-typescript-interface
 const pizza = new Item({
-  ID: 1,
-  code: '14SCREEN',
+  code: '16SCREEN',
   options: {
     X: { '1/1': '1' },
     C: { '1/1': '2' },
+    P: { '1/2': '2' },
   },
 })
+
+console.dir(pizza)

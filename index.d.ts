@@ -1,10 +1,8 @@
-import { Address } from 'dominos'
-
 type Item = {
   /**
    * This number will auto increment with each item created, you do not need to do anything unless you want specific ids on your items.
    */
-  ID?: number
+  iD?: number
   /**
    * The product code, like 14SCREEN for a 14' cheese pizza
    */
@@ -168,7 +166,7 @@ declare module 'dominos' {
   }
 
   /**
-   * This Class will initialize a creditcard payment object for an order
+   * This Class will initialize a credit card payment object for an order
    */
   export class Payment {
     constructor(paramaters: Payment)
