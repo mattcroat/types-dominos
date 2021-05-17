@@ -2,20 +2,20 @@
  * Item
  */
 
-type ID = number
-type Code = string
-type Qty = number
-type Options = {
+type IDType = number
+type CodeType = string
+type QtyType = number
+type OptionsType = {
   [key: string]: Record<string, string>
 }
-type IsNew = boolean
+type IsNewType = boolean
 
-type ItemOptions = {
-  iD?: ID
-  code: Code
-  qty?: Qty
-  options?: Options
-  isNew?: IsNew
+interface ItemType {
+  iD?: IDType
+  code: CodeType
+  qty?: QtyType
+  options?: OptionsType
+  isNew?: IsNewType
 }
 
 /**
@@ -23,66 +23,66 @@ type ItemOptions = {
  */
 
 // todo: this can be a string or Address instance
-type AddressType = AddressObject | AddressString
-type FirstName = string
-type LastName = string
-type Email = string
-type Phone = string
-type PhonePrefix = string
+type AddressType = AddressObject | AddressStringType
+type FirstNameType = string
+type LastNameType = string
+type EmailType = string
+type PhoneType = string
+type PhonePrefixType = string
 
-type CustomerOptions = {
+interface CustomerType {
   address: AddressType
-  firstName: FirstName
-  lastName: LastName
-  email: Email
-  phone: Phone
-  phonePrefix?: PhonePrefix
+  firstName: FirstNameType
+  lastName: LastNameType
+  email: EmailType
+  phone: PhoneType
+  phonePrefix?: PhonePrefixType
 }
 
 /**
  * Address
  */
 
-type Street = string
-type StreetName = string
-type StreetNumber = string
-type UnitType = string
-type UnitNumber = string
-type City = string
-type Region = string
-type PostalCode = string
-type DeliveryInstructions = string
+type StreetType = string
+type StreetNameType = string
+type StreetNumberType = string
+type UnitTypeType = string
+type UnitNumberType = string
+type CityType = string
+type RegionType = string
+type PostalCodeType = string
+type DeliveryInstructionsType = string
 
-type AddressObject = {
-  street?: Street
-  streetName?: StreetName
-  streetNumber?: StreetNumber
-  unitType?: UnitType
-  unitNumber?: UnitNumber
-  city?: City
-  region?: Region
-  postalCode?: PostalCode
-  deliveryInstructions?: DeliveryInstructions
+interface AddressObject {
+  street?: StreetType
+  streetName?: StreetNameType
+  streetNumber?: StreetNumberType
+  unitType?: UnitTypeType
+  unitNumber?: UnitNumberType
+  city?: CityType
+  region?: RegionType
+  postalCode?: PostalCodeType
+  deliveryInstructions?: DeliveryInstructionsType
 }
 
-type AddressString = string
+type AddressStringType = string
 
 /**
  * NearbyStores
  */
 
-type PickUpType = 'Delivery' | 'Carryout' | 'all'
+type PickUpTypeType = 'Delivery' | 'Carryout' | 'all'
 
 /**
  * Payment
  */
 
-type Amount = number
-type TipAmount = number
-type Number = string
-type Expiration = string
-type SecurityCode = string
-type PostalCode = string
+type AmountType = number
+type TipAmountType = number
+type NumberType = string
+type ExpirationType = string
+type SecurityCodeType = string
+type PostalCodeType = string
 
 type PaymentType = 'CreditCard'
 type CardType =
@@ -94,24 +94,24 @@ type CardType =
   | 'JCB'
   | 'ENROUTE'
 
-type PaymentOptions = {
-  amount?: Amount
-  tipAmount?: TipAmount
+interface PaymentOptions {
+  amount?: AmountType
+  tipAmount?: TipAmountType
   number: Number
-  expiration: Expiration
-  securityCode: SecurityCode
-  postalCode: PostalCode
+  expiration: ExpirationType
+  securityCode: SecurityCodeType
+  postalCode: PostalCodeType
 }
 
 /**
  * Menu
  */
 
-type StoreID = number | string
+type StoreIDType = number | string
 // todo: add language suggestions? might not be future proof
-type Language = string
+type LanguageType = string
 // todo: add description from docs to each field
-type MenuType = {
+interface MenuType {
   categories: {}
   coupons: {
     products: {}
@@ -147,8 +147,8 @@ type InfoType = Record<string, string>
  * Image
  */
 
-type ProductCode = string
-type Base64Image = string
+type ProductCodeType = string
+type Base64ImageType = string
 
 /**
  * Dominos
@@ -156,22 +156,22 @@ type Base64Image = string
 
 declare module 'dominos' {
   class Item {
-    iD: ID
-    code: Code
-    qty: Qty
-    options: Options
-    isNew: IsNew
+    public iD: IDType
+    public code: CodeType
+    public qty: QtyType
+    public options: OptionsType
+    public isNew: IsNewType
 
-    constructor({ iD, code, qty, options, isNew }: ItemOptions)
+    constructor({ iD, code, qty, options, isNew }: ItemType)
   }
 
   class Customer {
-    address: AddressType
-    firstName: FirstName
-    lastName: LastName
-    email: Email
-    phone: Phone
-    phonePrefix: PhonePrefix
+    public address: AddressType
+    public firstName: FirstNameType
+    public lastName: LastNameType
+    public email: EmailType
+    public phone: PhoneType
+    public phonePrefix: PhonePrefixType
 
     constructor({
       address,
@@ -180,84 +180,84 @@ declare module 'dominos' {
       email,
       phone,
       phonePrefix,
-    }: CustomerOptions)
+    }: CustomerType)
   }
 
   class NearbyStores {
-    address: AddressType
+    public address: AddressType
     // todo: Array of basic store objects
-    stores: []
+    public stores: []
     // todo dominosAPIResponse Object
-    dominosAPIResponse: any
+    public dominosAPIResponse: any
 
-    constructor(address: AddressType, type?: PickUpType)
+    constructor(address: AddressType, type?: PickUpTypeType)
   }
 
   class Order {
     // todo: check if this is the instance
-    address: AddressType
+    public address: AddressType
     // todo: ?
-    amounts: any
+    public amounts: any
     // todo: AmountsBreakdown
-    amountsBreakdown: any
-    businessDate: string
-    coupons: []
-    currency: string
-    customerID: string
-    estimatedWaitMinutes: string
-    email: string
-    extension: string
-    firstName: string
-    hotspotsLite: boolean
-    iP: string
-    lastName: string
-    languageCode: string
-    market: string
+    public amountsBreakdown: any
+    public businessDate: string
+    public coupons: []
+    public currency: string
+    public customerID: string
+    public estimatedWaitMinutes: string
+    public email: string
+    public extension: string
+    public firstName: string
+    public hotspotsLite: boolean
+    public iP: string
+    public lastName: string
+    public languageCode: string
+    public market: string
     // todo: ?
-    metaData: any
-    newUser: boolean
-    noCombine: boolean
-    orderChannel: string
-    orderID: string
-    orderInfoCollection: []
-    orderMethod: string
-    orderTaker: string
+    public metaData: any
+    public newUser: boolean
+    public noCombine: boolean
+    public orderChannel: string
+    public orderID: string
+    public orderInfoCollection: []
+    public orderMethod: string
+    public orderTaker: string
     // todo: ?
-    partners: any
+    public partners: any
     // todo: Array of payment instances
-    payments: any
-    phone: string
-    phonePrefix: string
-    priceOrderMs: number
-    priceOrderTime: string
+    public payments: any
+    public phone: string
+    public phonePrefix: string
+    public priceOrderMs: number
+    public priceOrderTime: string
     // todo: array of item instances
-    products: []
-    promotions: []
-    pulseOrderGuid: string
-    serviceMethod: string
-    sourceOrganizationURI: string
-    storeID: string | number
+    public products: []
+    public promotions: []
+    public pulseOrderGuid: string
+    public serviceMethod: string
+    public sourceOrganizationURI: string
+    public storeID: string | number
     // todo: ?
-    tags: any
-    userAgent: string
-    version: string
+    public tags: any
+    public userAgent: string
+    public version: string
 
     //  todo: do I include hidden fields?
 
     // todo: can you use another class as type?
-    constructor(customer: CustomerOptions)
+    constructor(customer: CustomerType)
   }
 
   class Payment {
     // todo: ?
-    type: PaymentType
-    amount: Amount
-    tipAmount: TipAmount
-    number: Number
-    cardType: CardType
-    expiration: Expiration
-    securityCode: SecurityCode
-    postalCode: PostalCode
+    public type: PaymentType
+    public amount: AmountType
+    public tipAmount: TipAmountType
+    public number: Number
+    public cardType: CardType
+    public expiration: ExpirationType
+    public securityCode: SecurityCodeType
+    public postalCode: PostalCodeType
 
     constructor({
       amount,
@@ -270,46 +270,46 @@ declare module 'dominos' {
   }
 
   class Tracking {
-    // todo: actually returns itself, figure out if this works
-    byPhone: (phone: string) => this
-    byPhoneClassic: (phone: string) => this
+    // todo: actually returns promise
+    public byPhone: (phone: string) => this
+    public byPhoneClassic: (phone: string) => this
     // todo: it's easier finding waldo than these
-    byId: (storeID: string | number, orderKey: string) => this
-    byUrl: (url: string) => this
+    public byId: (storeID: string | number, orderKey: string) => this
+    public byUrl: (url: string) => this
 
     // todo: do I add hidden methods?
   }
 
   class Address {
-    street: Street
-    streetNumber: StreetName
-    streetName: StreetNumber
-    unitType: UnitType
-    unitNumber: UnitNumber
-    city: City
-    region: Region
-    postalCode: PostalCode
-    deliveryInstructions: DeliveryInstructions
+    public street: StreetType
+    public streetNumber: StreetNameType
+    public streetName: StreetNumberType
+    public unitType: UnitTypeType
+    public unitNumber: UnitNumberType
+    public city: CityType
+    public region: RegionType
+    public postalCode: PostalCodeType
+    public deliveryInstructions: DeliveryInstructionsType
 
     constructor(address: AddressType)
   }
 
   class Menu {
-    menu: MenuType
+    public menu: MenuType
 
-    constructor(storeID: StoreID, lang?: Language)
+    constructor(storeID: StoreIDType, lang?: LanguageType)
   }
 
   class Store {
-    menu: MenuType
-    info: InfoType
+    public menu: MenuType
+    public info: InfoType
 
-    constructor(storeID: StoreID, lang?: Language)
+    constructor(storeID: StoreIDType, lang?: LanguageType)
   }
 
   class Image {
-    base64Image: Base64Image
+    public base64Image: Base64ImageType
 
-    constructor(productCode: ProductCode)
+    constructor(productCode: ProductCodeType)
   }
 }
