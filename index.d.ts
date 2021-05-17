@@ -1,229 +1,315 @@
-type Item = {
-  /**
-   * This number will auto increment with each item created, you do not need to do anything unless you want specific ids on your items.
-   */
-  iD?: number
-  /**
-   * The product code, like 14SCREEN for a 14' cheese pizza
-   */
-  code: string
-  /**
-   * The quantity of the item to order, defaults to 1 if not specified
-   */
-  qty?: number
-  /**
-   * The special options for these items, options supported for various products can be found in the menu entries for the item
-   */
-  options?: {
-    [key: string]: Record<string, string>
-  }
-  /**
-   * Suggested you do not modify this. Tells the dominos api if this is a new item. If set to false, dominos will not return duplicate information for this item
-   */
-  isNew?: boolean
+/**
+ * Item
+ */
+
+type ID = number
+type Code = string
+type Qty = number
+type Options = {
+  [key: string]: Record<string, string>
 }
+type IsNew = boolean
+
+type ItemOptions = {
+  iD?: ID
+  code: Code
+  qty?: Qty
+  options?: Options
+  isNew?: IsNew
+}
+
+/**
+ * Customer
+ */
+
+// todo: this can be a string or Address instance
+type AddressType = AddressObject | AddressString
+type FirstName = string
+type LastName = string
+type Email = string
+type Phone = string
+type PhonePrefix = string
+
+type CustomerOptions = {
+  address: AddressType
+  firstName: FirstName
+  lastName: LastName
+  email: Email
+  phone: Phone
+  phonePrefix?: PhonePrefix
+}
+
+/**
+ * Address
+ */
+
+type Street = string
+type StreetName = string
+type StreetNumber = string
+type UnitType = string
+type UnitNumber = string
+type City = string
+type Region = string
+type PostalCode = string
+type DeliveryInstructions = string
 
 type AddressObject = {
-  /**
-   * Street address (most commonly used to combine street number, name and apartment number)
-   */
-  street?: string
-  /**
-   * Street name
-   */
-  streetName?: string
-  /**
-   * Street number
-   */
-  streetNumber?: string
-  /**
-   * Unit type: suite, apartment, etc.
-   */
-  unitType?: string
-  /**
-   * Apartment number
-   */
-  unitNumber?: string
-  /**
-   * Address city
-   */
-  city?: string
-  /**
-   * In the US this would be the state. In other countries it may be the province, or prefecture.
-   */
-  region?: string
-  /**
-   * Address postal, or zip code
-   */
-  postalCode?: string
-  /**
-   * This is for special instructions, like "ring the bell", or "please don't give the Pizza to the old lady out front, she is not my Grandma, and always steals my food deliveries".
-   */
-  deliveryInstructions?: string
+  street?: Street
+  streetName?: StreetName
+  streetNumber?: StreetNumber
+  unitType?: UnitType
+  unitNumber?: UnitNumber
+  city?: City
+  region?: Region
+  postalCode?: PostalCode
+  deliveryInstructions?: DeliveryInstructions
 }
 
-/**
- * Address string
- */
 type AddressString = string
 
-// todo: inquire if phonePrefix is used
-
-type Customer = {
-  /**
-   * Customers address
-   */
-  address: Address
-  /**
-   * First name
-   */
-  firstName: string
-  /**
-   * Last name
-   */
-  lastName: string
-  /**
-   * Email
-   */
-  email: string
-  /**
-   * Phone
-   */
-  phone: string
-  /**
-   * Phone prefix
-   */
-  phonePrefix?: string
-}
-
 /**
- * Pick up type
+ * NearbyStores
  */
+
 type PickUpType = 'Delivery' | 'Carryout' | 'all'
 
-type Payment = {
-  /**
-   * Amount ot pay with the card
-   */
-  amount?: number
-  /**
-   * Amount of the payment that is a tip
-   */
-  tipAmount?: number
-  /**
-   * Credit card number sanitized when instantiatied per Domino's rules (numbers only)
-   */
-  number: string
-  /**
-   * Credit card expiration sanitized when instantiatied per Domino's rules (numbers only)
-   */
-  expiration: string
-  /**
-   * Credit card security code
-   */
-  securityCode: string
-  /**
-   * Credit card billing postal/zip code
-   */
-  postalCode: string
+/**
+ * Payment
+ */
+
+type Amount = number
+type TipAmount = number
+type Number = string
+type Expiration = string
+type SecurityCode = string
+type PostalCode = string
+
+type PaymentType = 'CreditCard'
+type CardType =
+  | 'VISA'
+  | 'MASTERCARD'
+  | 'AMEX'
+  | 'DINERS'
+  | 'DISCOVER'
+  | 'JCB'
+  | 'ENROUTE'
+
+type PaymentOptions = {
+  amount?: Amount
+  tipAmount?: TipAmount
+  number: Number
+  expiration: Expiration
+  securityCode: SecurityCode
+  postalCode: PostalCode
 }
 
 /**
- * Store ID
+ * Menu
  */
+
 type StoreID = number | string
-
-/**
- * Language (default is 'en')
- */
+// todo: add language suggestions? might not be future proof
 type Language = string
+// todo: add description from docs to each field
+type MenuType = {
+  categories: {}
+  coupons: {
+    products: {}
+    shortCouponDescriptions: {}
+    couponTiers: {}
+  }
+  flavors: {}
+  products: {}
+  sides: {}
+  sizes: {}
+  toppings: {}
+  variants: {}
+  preconfiguredProducts: {}
+  shortProductDescriptions: {}
+  unsupported: {
+    products: {}
+    options: {}
+  }
+  cooking: {
+    instructions: {}
+    instructionGroups: {}
+  }
+}
 
 /**
- * Product code from the menu
+ * Store
  */
+
+// todo: should include massive object?
+type InfoType = Record<string, string>
+
+/**
+ * Image
+ */
+
 type ProductCode = string
+type Base64Image = string
+
+/**
+ * Dominos
+ */
 
 declare module 'dominos' {
-  /**
-   * This is the primary Order Class used for ordering Domino's food
-   */
-  export class Order {
-    constructor(customer: Customer)
+  class Item {
+    iD: ID
+    code: Code
+    qty: Qty
+    options: Options
+    isNew: IsNew
+
+    constructor({ iD, code, qty, options, isNew }: ItemOptions)
   }
 
-  /**
-   * The customer class is used to create a customer instance for a Domino's Pizza Order.
-   */
-  export class Customer {
-    constructor(parameters: Customer)
+  class Customer {
+    address: AddressType
+    firstName: FirstName
+    lastName: LastName
+    email: Email
+    phone: Phone
+    phonePrefix: PhonePrefix
+
+    constructor({
+      address,
+      firstName,
+      lastName,
+      email,
+      phone,
+      phonePrefix,
+    }: CustomerOptions)
   }
 
-  /**
-   * Items are used to track what products, quantities, and options a customer would like to Order.
-   */
-  export class Item {
-    constructor(parameters: Item)
+  class NearbyStores {
+    address: AddressType
+    // todo: Array of basic store objects
+    stores: []
+    // todo dominosAPIResponse Object
+    dominosAPIResponse: any
+
+    constructor(address: AddressType, type?: PickUpType)
   }
 
-  /**
-   * This Class will initialize a credit card payment object for an order
-   */
-  export class Payment {
-    constructor(paramaters: Payment)
+  class Order {
+    // todo: check if this is the instance
+    address: AddressType
+    // todo: ?
+    amounts: any
+    // todo: AmountsBreakdown
+    amountsBreakdown: any
+    businessDate: string
+    coupons: []
+    currency: string
+    customerID: string
+    estimatedWaitMinutes: string
+    email: string
+    extension: string
+    firstName: string
+    hotspotsLite: boolean
+    iP: string
+    lastName: string
+    languageCode: string
+    market: string
+    // todo: ?
+    metaData: any
+    newUser: boolean
+    noCombine: boolean
+    orderChannel: string
+    orderID: string
+    orderInfoCollection: []
+    orderMethod: string
+    orderTaker: string
+    // todo: ?
+    partners: any
+    // todo: Array of payment instances
+    payments: any
+    phone: string
+    phonePrefix: string
+    priceOrderMs: number
+    priceOrderTime: string
+    // todo: array of item instances
+    products: []
+    promotions: []
+    pulseOrderGuid: string
+    serviceMethod: string
+    sourceOrganizationURI: string
+    storeID: string | number
+    // todo: ?
+    tags: any
+    userAgent: string
+    version: string
+
+    //  todo: do I include hidden fields?
+
+    // todo: can you use another class as type?
+    constructor(customer: CustomerOptions)
   }
 
-  /**
-   * NearbyStores is constructed async, so when you instantiate it, you should await it, like this: `const nearbyStores = await new NearbyStores(...)`. This will work in your main Node code without wrapping it in an anonymous async function.
-   */
-  export class NearbyStores {
-    // todo: requires clarification
-    // todo: does addressInstance represent `new NearbyStores(new Address(...))`
-    constructor(
-      addressInstance?: unknown,
-      addressObject?: AddressObject,
-      addressString?: AddressString,
-      pickUpType?: PickUpType
-    )
+  class Payment {
+    // todo: ?
+    type: PaymentType
+    amount: Amount
+    tipAmount: TipAmount
+    number: Number
+    cardType: CardType
+    expiration: Expiration
+    securityCode: SecurityCode
+    postalCode: PostalCode
+
+    constructor({
+      amount,
+      tipAmount,
+      number,
+      expiration,
+      securityCode,
+      postalCode,
+    }: PaymentOptions)
   }
 
-  /**
-   * This is how to track an order/orders progress.
-   *
-   * There are a couple ways to do it, but the most common way is `.byPhone`.
-   *
-   * Rely on the `order.place` response as well. If the order fails, it will throw a `DominosPlaceOrderError`. Otherwise, your pizza is on the way.
-   *
-   * You can track its progress, who is working on it, who your delivery person is, and how many stops they have before you using this Class.
-   *
-   * If there are no orders for a given phone number, it will throw a `DominosTrackingError`.
-   */
-  export class Tracking {}
+  class Tracking {
+    // todo: actually returns itself, figure out if this works
+    byPhone: (phone: string) => this
+    byPhoneClassic: (phone: string) => this
+    // todo: it's easier finding waldo than these
+    byId: (storeID: string | number, orderKey: string) => this
+    byUrl: (url: string) => this
 
-  /**
-   * This is the primary Address Class used for all things Domino's.
-   */
-  export class Address {
-    constructor(addressObject?: AddressObject, addressString?: AddressString)
+    // todo: do I add hidden methods?
   }
 
-  /**
-   * Store is constructed async, so when you instantiate it, you should await it, like this: `const store = await new Store(...)`. This will work in your main Node code without wrapping it in an anonymous async function.
-   */
-  export class Store {
+  class Address {
+    street: Street
+    streetNumber: StreetName
+    streetName: StreetNumber
+    unitType: UnitType
+    unitNumber: UnitNumber
+    city: City
+    region: Region
+    postalCode: PostalCode
+    deliveryInstructions: DeliveryInstructions
+
+    constructor(address: AddressType)
+  }
+
+  class Menu {
+    menu: MenuType
+
     constructor(storeID: StoreID, lang?: Language)
   }
 
-  /**
-   * Menu is constructed `async`, so when you instantiate it, you should await it, like this: `const menu = await new Menu(...)`. This will work in your main Node code without wrapping it in an anonymous async function.
-   */
-  export class Menu {
-    constructor(storeID: StoreID, lang: Language)
+  class Store {
+    menu: MenuType
+    info: InfoType
+
+    constructor(storeID: StoreID, lang?: Language)
   }
 
-  /**
-   * The Image Class will grab the image for a product code and Base64 encode it.
-   */
-  export class Image {
+  class Image {
+    base64Image: Base64Image
+
     constructor(productCode: ProductCode)
   }
 }
