@@ -10,6 +10,7 @@
     "dominos": "^3.3.0"
   },
   "devDependencies": {
+    "@types/node": "^15.3.0",
     "nodemon": "^2.0.7",
     "ts-node": "^9.1.1",
     "typescript": "^4.2.4"
