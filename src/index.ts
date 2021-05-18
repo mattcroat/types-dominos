@@ -1,6 +1,7 @@
 import {
   Address,
   Customer,
+  Image,
   Item,
   Menu,
   NearbyStores,
@@ -137,3 +138,16 @@ const onlyZip = new Address('63102')
 
 // todo: is there a way to throw an error if no await?
 const menu = await new Menu(4337)
+
+const productCode = 'S_PIZPX'
+const savePath = './'
+
+const pepperoniPizza = await new Image(productCode)
+
+pepperoniPizza.base64Image
+
+pepperoniPizza.saveSync(
+  pepperoniPizza.base64Image,
+  savePath,
+  productCode + '.jpg'
+)

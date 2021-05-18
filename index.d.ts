@@ -1,160 +1,165 @@
 /**
- * Item
+ * Requires node types
  */
 
-type IDType = number
-type CodeType = string
-type QtyType = number
-type OptionsType = {
-  [key: string]: Record<string, string>
-}
-type IsNewType = boolean
-
-interface ItemType {
-  iD?: IDType
-  code: CodeType
-  qty?: QtyType
-  options?: OptionsType
-  isNew?: IsNewType
-}
-
-/**
- * Customer
- */
-
-// todo: this can be a string or Address instance
-type AddressType = AddressObject | AddressStringType
-type FirstNameType = string
-type LastNameType = string
-type EmailType = string
-type PhoneType = string
-type PhonePrefixType = string
-
-interface CustomerType {
-  address: AddressType
-  firstName: FirstNameType
-  lastName: LastNameType
-  email: EmailType
-  phone: PhoneType
-  phonePrefix?: PhonePrefixType
-}
-
-/**
- * Address
- */
-
-type StreetType = string
-type StreetNameType = string
-type StreetNumberType = string
-type UnitTypeType = string
-type UnitNumberType = string
-type CityType = string
-type RegionType = string
-type PostalCodeType = string
-type DeliveryInstructionsType = string
-
-interface AddressObject {
-  street?: StreetType
-  streetName?: StreetNameType
-  streetNumber?: StreetNumberType
-  unitType?: UnitTypeType
-  unitNumber?: UnitNumberType
-  city?: CityType
-  region?: RegionType
-  postalCode?: PostalCodeType
-  deliveryInstructions?: DeliveryInstructionsType
-}
-
-type AddressStringType = string
-
-/**
- * NearbyStores
- */
-
-type PickUpTypeType = 'Delivery' | 'Carryout' | 'all'
-
-/**
- * Payment
- */
-
-type AmountType = number
-type TipAmountType = number
-type NumberType = string
-type ExpirationType = string
-type SecurityCodeType = string
-type PostalCodeType = string
-
-type PaymentType = 'CreditCard'
-type CardType =
-  | 'VISA'
-  | 'MASTERCARD'
-  | 'AMEX'
-  | 'DINERS'
-  | 'DISCOVER'
-  | 'JCB'
-  | 'ENROUTE'
-
-interface PaymentOptions {
-  amount?: AmountType
-  tipAmount?: TipAmountType
-  number: Number
-  expiration: ExpirationType
-  securityCode: SecurityCodeType
-  postalCode: PostalCodeType
-}
-
-/**
- * Menu
- */
-
-type StoreIDType = number | string
-// todo: add language suggestions? might not be future proof
-type LanguageType = string
-// todo: add description from docs to each field
-interface MenuType {
-  categories: {}
-  coupons: {
-    products: {}
-    shortCouponDescriptions: {}
-    couponTiers: {}
-  }
-  flavors: {}
-  products: {}
-  sides: {}
-  sizes: {}
-  toppings: {}
-  variants: {}
-  preconfiguredProducts: {}
-  shortProductDescriptions: {}
-  unsupported: {
-    products: {}
-    options: {}
-  }
-  cooking: {
-    instructions: {}
-    instructionGroups: {}
-  }
-}
-
-/**
- * Store
- */
-
-// todo: should include massive object?
-type InfoType = Record<string, string>
-
-/**
- * Image
- */
-
-type ProductCodeType = string
-type Base64ImageType = string
+/// <reference types="node" />
 
 /**
  * Dominos
  */
 
 declare module 'dominos' {
+  /**
+   * Item
+   */
+
+  type IDType = number
+  type CodeType = string
+  type QtyType = number
+  type OptionsType = {
+    [key: string]: Record<string, string>
+  }
+  type IsNewType = boolean
+
+  interface ItemType {
+    iD?: IDType
+    code: CodeType
+    qty?: QtyType
+    options?: OptionsType
+    isNew?: IsNewType
+  }
+
+  /**
+   * Customer
+   */
+
+  type AddressType = Address | AddressObject | AddressStringType
+  type FirstNameType = string
+  type LastNameType = string
+  type EmailType = string
+  type PhoneType = string
+  type PhonePrefixType = string
+
+  interface CustomerType {
+    address: AddressType
+    firstName: FirstNameType
+    lastName: LastNameType
+    email: EmailType
+    phone: PhoneType
+    phonePrefix?: PhonePrefixType
+  }
+
+  /**
+   * Address
+   */
+
+  type StreetType = string
+  type StreetNameType = string
+  type StreetNumberType = string
+  type UnitTypeType = string
+  type UnitNumberType = string
+  type CityType = string
+  type RegionType = string
+  type PostalCodeType = string
+  type DeliveryInstructionsType = string
+
+  interface AddressObject {
+    street?: StreetType
+    streetName?: StreetNameType
+    streetNumber?: StreetNumberType
+    unitType?: UnitTypeType
+    unitNumber?: UnitNumberType
+    city?: CityType
+    region?: RegionType
+    postalCode?: PostalCodeType
+    deliveryInstructions?: DeliveryInstructionsType
+  }
+
+  type AddressStringType = string
+
+  /**
+   * NearbyStores
+   */
+
+  type PickUpTypeType = 'Delivery' | 'Carryout' | 'all'
+
+  /**
+   * Payment
+   */
+
+  type AmountType = number
+  type TipAmountType = number
+  type NumberType = string
+  type ExpirationType = string
+  type SecurityCodeType = string
+  type PostalCodeType = string
+
+  type PaymentType = 'CreditCard'
+  type CardType =
+    | 'VISA'
+    | 'MASTERCARD'
+    | 'AMEX'
+    | 'DINERS'
+    | 'DISCOVER'
+    | 'JCB'
+    | 'ENROUTE'
+
+  interface PaymentOptions {
+    amount?: AmountType
+    tipAmount?: TipAmountType
+    number: Number
+    expiration: ExpirationType
+    securityCode: SecurityCodeType
+    postalCode: PostalCodeType
+  }
+
+  /**
+   * Menu
+   */
+
+  type StoreIDType = number | string
+  // todo: add language suggestions? might not be future proof
+  type LanguageType = string
+  // todo: add description from docs to each field
+  interface MenuType {
+    categories: {}
+    coupons: {
+      products: {}
+      shortCouponDescriptions: {}
+      couponTiers: {}
+    }
+    flavors: {}
+    products: {}
+    sides: {}
+    sizes: {}
+    toppings: {}
+    variants: {}
+    preconfiguredProducts: {}
+    shortProductDescriptions: {}
+    unsupported: {
+      products: {}
+      options: {}
+    }
+    cooking: {
+      instructions: {}
+      instructionGroups: {}
+    }
+  }
+
+  /**
+   * Store
+   */
+
+  // todo: should include massive object?
+  type InfoType = Record<string, string>
+
+  /**
+   * Image
+   */
+
+  type ProductCodeType = string
+  type Base64ImageType = string
+
   class Item {
     public iD: IDType
     public code: CodeType
@@ -194,8 +199,8 @@ declare module 'dominos' {
   }
 
   class Order {
-    // todo: check if this is the instance
-    public address: AddressType
+    // todo: double check if this should be the instance or AddressType
+    public address: Address
     // todo: ?
     public amounts: any
     // todo: AmountsBreakdown
@@ -307,9 +312,45 @@ declare module 'dominos' {
     constructor(storeID: StoreIDType, lang?: LanguageType)
   }
 
-  class Image {
+  class Image extends Base64File {
     public base64Image: Base64ImageType
 
     constructor(productCode: ProductCodeType)
   }
+}
+
+/**
+ * Base64File
+ */
+
+type NodeFetchOptions = {
+  method?: string
+  headers?: {}
+  body?: null | string | BufferSource | Blob | ReadableStream
+  redirect?: 'error' | 'follow' | 'manual'
+  signal?: AbortSignal | null
+  follow?: number
+  compress?: boolean
+  size?: number
+  // todo: add type
+  agent?: Agent | ((parsedUrl: URL) => Agent)
+  highWaterMark?: number
+  insecureHTTPParser?: boolean
+}
+
+class Base64File {
+  load: (
+    path: string,
+    fileName: string,
+    callback: (err: Error, data: string) => void
+  ) => void
+  loadSync: (path: string, fileName: string) => void
+  loadRemote: (url: string, fileName: string, options: NodeFetchOptions) => void
+  save: (
+    data: string,
+    path: string,
+    fileName: string,
+    callback: (err: Error, data: string) => void
+  ) => void
+  saveSync: (data: string, path: string, fileName: string) => void
 }
