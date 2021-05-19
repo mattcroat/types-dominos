@@ -29,6 +29,17 @@ declare module 'dominos' {
     isNew?: IsNewType
   }
 
+  class Item {
+    public iD: IDType
+    public code: CodeType
+    public qty: QtyType
+    // todo: check if this should be typed
+    public options: OptionsType
+    public isNew: IsNewType
+
+    constructor({ iD, code, qty, options, isNew }: ItemType)
+  }
+
   /**
    * Customer
    */
@@ -47,6 +58,24 @@ declare module 'dominos' {
     email: EmailType
     phone: PhoneType
     phonePrefix?: PhonePrefixType
+  }
+
+  class Customer {
+    public address: AddressType
+    public firstName: FirstNameType
+    public lastName: LastNameType
+    public email: EmailType
+    public phone: PhoneType
+    public phonePrefix: PhonePrefixType
+
+    constructor({
+      address,
+      firstName,
+      lastName,
+      email,
+      phone,
+      phonePrefix,
+    }: CustomerType)
   }
 
   /**
@@ -77,11 +106,156 @@ declare module 'dominos' {
 
   type AddressStringType = string
 
+  class Address {
+    public street: StreetType
+    public streetNumber: StreetNameType
+    public streetName: StreetNumberType
+    public unitType: UnitTypeType
+    public unitNumber: UnitNumberType
+    public city: CityType
+    public region: RegionType
+    public postalCode: PostalCodeType
+    public deliveryInstructions: DeliveryInstructionsType
+
+    constructor(address: AddressType)
+  }
+
   /**
    * NearbyStores
    */
 
-  type PickUpTypeType = 'Delivery' | 'Carryout' | 'all'
+  type PickUpType = 'Delivery' | 'Carryout' | 'all'
+  type DominosAPIResponseType = Record<string, any>
+
+  class NearbyStores {
+    public address: Address
+    public stores: BasicStoreInfoType[]
+    public dominosAPIResponse: DominosAPIResponseType
+
+    constructor(address: AddressType, type?: PickUpType)
+  }
+
+  /**
+   * AmountsBreakdown
+   */
+
+  type FoodAndBeverageType = string
+  type AdjustmentType = string
+  type SurchargeType = string
+  type DeliveryFeeTypr = string
+  type TaxType = number
+  type Tax1Type = number
+  type Tax2Type = number
+  type Tax3Type = number
+  type Tax4Type = number
+  type Tax5Type = number
+  type BottleType = number
+  type CustomerType = number
+  type RoundingAdjustmentType = number
+  type CashType = number
+  type SavingsType = string
+
+  interface AmountsBreakdownOptions {
+    foodAndBeverage?: FoodAndBeverageType
+    adjustment?: AdjustmentType
+    surcharge?: SurchargeType
+    deliveryFee?: DeliveryFeeTypr
+    tax?: TaxType
+    tax1?: Tax1Type
+    tax2?: Tax2Type
+    tax3?: Tax3Type
+    tax4?: Tax4Type
+    tax5?: Tax5Type
+    bottle?: BottleType
+    customer?: CustomerType
+    roundingAdjustment?: RoundingAdjustmentType
+    cash?: CashType
+    savings?: SavingsType
+  }
+
+  class AmountsBreakdown {
+    foodAndBeverage: FoodAndBeverageType
+    adjustment: AdjustmentType
+    surcharge: SurchargeType
+    deliveryFee: DeliveryFeeTypr
+    tax: TaxType
+    tax1: Tax1Type
+    tax2: Tax2Type
+    tax3: Tax3Type
+    tax4: Tax4Type
+    tax5: Tax5Type
+    bottle: BottleType
+    customer: CustomerType
+    roundingAdjustment: RoundingAdjustmentType
+    cash: CashType
+    savings: SavingsType
+
+    constructor({
+      foodAndBeverage,
+      adjustment,
+      surcharge,
+      deliveryFee,
+      tax,
+      tax1,
+      tax2,
+      tax3,
+      tax4,
+      tax5,
+      bottle,
+      customer,
+      roundingAdjustment,
+      cash,
+      savings,
+    }: AmountsBreakdownOptions)
+  }
+
+  /**
+   * Order
+   */
+
+  class Order {
+    public address: Address
+    public amounts: any
+    public amountsBreakdown: AmountsBreakdown
+    public businessDate: string
+    public coupons: []
+    public currency: string
+    public customerID: string
+    public estimatedWaitMinutes: string
+    public email: string
+    public extension: string
+    public firstName: string
+    public hotspotsLite: boolean
+    public iP: string
+    public lastName: string
+    public languageCode: string
+    public market: string
+    public metaData: any
+    public newUser: boolean
+    public noCombine: boolean
+    public orderChannel: string
+    public orderID: string
+    public orderInfoCollection: []
+    public orderMethod: string
+    public orderTaker: string
+    public partners: {}
+    public payments: Payment[]
+    public phone: string
+    public phonePrefix: string
+    public priceOrderMs: number
+    public priceOrderTime: string
+    public products: Item[]
+    public promotions: []
+    public pulseOrderGuid: string
+    public serviceMethod: string
+    public sourceOrganizationURI: string
+    public storeID: string | number
+    public tags: {}
+    public userAgent: string
+    public version: string
+
+    constructor(customer: CustomerType)
+  }
 
   /**
    * Payment
@@ -107,10 +281,45 @@ declare module 'dominos' {
   interface PaymentOptions {
     amount?: AmountType
     tipAmount?: TipAmountType
-    number: Number
+    number: NumberType
     expiration: ExpirationType
     securityCode: SecurityCodeType
     postalCode: PostalCodeType
+  }
+
+  class Payment {
+    public type: PaymentType
+    public amount: AmountType
+    public tipAmount: TipAmountType
+    public number: NumberType
+    public cardType: CardType
+    public expiration: ExpirationType
+    public securityCode: SecurityCodeType
+    public postalCode: PostalCodeType
+
+    constructor({
+      amount,
+      tipAmount,
+      number,
+      expiration,
+      securityCode,
+      postalCode,
+    }: PaymentOptions)
+  }
+
+  /**
+   * Tracking
+   */
+
+  type PhoneType = string
+  type StoreIDType = string | number
+  type OrderKeyType = string
+
+  class Tracking {
+    public byPhone: (phone: PhoneType) => this
+    public byPhoneClassic: (phone: PhoneType) => this
+    public byId: (storeID: StoreIDType, orderKey: OrderKeyType) => this
+    public byUrl: (url: URL) => this
   }
 
   /**
@@ -146,12 +355,61 @@ declare module 'dominos' {
     }
   }
 
+  class Menu {
+    public menu: MenuType
+
+    constructor(storeID: StoreIDType, lang?: LanguageType)
+  }
+
   /**
    * Store
    */
 
-  // todo: should include massive object?
-  type InfoType = Record<string, string>
+  type BasicStoreInfoType = {
+    StoreID: StoreIDType
+    IsDeliveryStore: boolean
+    MinDistance: number
+    MaxDistance: number
+    Phone: PhoneType
+    AddressDescription: string
+    HolidaysDescription: string
+    HoursDescription: string
+    ServiceHoursDescription: {
+      Carryout: string
+      Delivery: string
+      DriveUpCarryout: string
+    }
+    IsOnlineCapable: boolean
+    IsOnlineNow: boolean
+    IsNEONow: boolean
+    IsSpanish: boolean
+    LocationInfo: string
+    LanguageLocationInfo: { en: string; es: string }
+    AllowDeliveryOrders: boolean
+    AllowCarryoutOrders: boolean
+    AllowDuc: boolean
+    ServiceMethodEstimatedWaitMinutes: {
+      Delivery: { Min: number; Max: number }
+      Carryout: { Min: number; Max: number }
+    }
+    StoreCoordinates: { StoreLatitude: string; StoreLongitude: string }
+    AllowPickupWindowOrders: boolean
+    ContactlessDelivery: string
+    ContactlessCarryout: string
+    IsOpen: boolean
+    ServiceIsOpen: {
+      Carryout: boolean
+      Delivery: boolean
+      DriveUpCarryout: boolean
+    }
+  }
+
+  class Store {
+    public menu: MenuType
+    public info: BasicStoreInfoType
+
+    constructor(storeID: StoreIDType, lang?: LanguageType)
+  }
 
   /**
    * Image
@@ -159,158 +417,6 @@ declare module 'dominos' {
 
   type ProductCodeType = string
   type Base64ImageType = string
-
-  class Item {
-    public iD: IDType
-    public code: CodeType
-    public qty: QtyType
-    public options: OptionsType
-    public isNew: IsNewType
-
-    constructor({ iD, code, qty, options, isNew }: ItemType)
-  }
-
-  class Customer {
-    public address: AddressType
-    public firstName: FirstNameType
-    public lastName: LastNameType
-    public email: EmailType
-    public phone: PhoneType
-    public phonePrefix: PhonePrefixType
-
-    constructor({
-      address,
-      firstName,
-      lastName,
-      email,
-      phone,
-      phonePrefix,
-    }: CustomerType)
-  }
-
-  class NearbyStores {
-    public address: AddressType
-    // todo: Array of basic store objects
-    public stores: []
-    // todo dominosAPIResponse Object
-    public dominosAPIResponse: any
-
-    constructor(address: AddressType, type?: PickUpTypeType)
-  }
-
-  class Order {
-    // todo: double check if this should be the instance or AddressType
-    public address: Address
-    // todo: ?
-    public amounts: any
-    // todo: AmountsBreakdown
-    public amountsBreakdown: any
-    public businessDate: string
-    public coupons: []
-    public currency: string
-    public customerID: string
-    public estimatedWaitMinutes: string
-    public email: string
-    public extension: string
-    public firstName: string
-    public hotspotsLite: boolean
-    public iP: string
-    public lastName: string
-    public languageCode: string
-    public market: string
-    // todo: ?
-    public metaData: any
-    public newUser: boolean
-    public noCombine: boolean
-    public orderChannel: string
-    public orderID: string
-    public orderInfoCollection: []
-    public orderMethod: string
-    public orderTaker: string
-    // todo: ?
-    public partners: any
-    // todo: Array of payment instances
-    public payments: any
-    public phone: string
-    public phonePrefix: string
-    public priceOrderMs: number
-    public priceOrderTime: string
-    // todo: array of item instances
-    public products: []
-    public promotions: []
-    public pulseOrderGuid: string
-    public serviceMethod: string
-    public sourceOrganizationURI: string
-    public storeID: string | number
-    // todo: ?
-    public tags: any
-    public userAgent: string
-    public version: string
-
-    //  todo: do I include hidden fields?
-
-    // todo: can you use another class as type?
-    constructor(customer: CustomerType)
-  }
-
-  class Payment {
-    // todo: ?
-    public type: PaymentType
-    public amount: AmountType
-    public tipAmount: TipAmountType
-    public number: Number
-    public cardType: CardType
-    public expiration: ExpirationType
-    public securityCode: SecurityCodeType
-    public postalCode: PostalCodeType
-
-    constructor({
-      amount,
-      tipAmount,
-      number,
-      expiration,
-      securityCode,
-      postalCode,
-    }: PaymentOptions)
-  }
-
-  class Tracking {
-    // todo: actually returns promise
-    public byPhone: (phone: string) => this
-    public byPhoneClassic: (phone: string) => this
-    // todo: it's easier finding waldo than these
-    public byId: (storeID: string | number, orderKey: string) => this
-    public byUrl: (url: string) => this
-
-    // todo: do I add hidden methods?
-  }
-
-  class Address {
-    public street: StreetType
-    public streetNumber: StreetNameType
-    public streetName: StreetNumberType
-    public unitType: UnitTypeType
-    public unitNumber: UnitNumberType
-    public city: CityType
-    public region: RegionType
-    public postalCode: PostalCodeType
-    public deliveryInstructions: DeliveryInstructionsType
-
-    constructor(address: AddressType)
-  }
-
-  class Menu {
-    public menu: MenuType
-
-    constructor(storeID: StoreIDType, lang?: LanguageType)
-  }
-
-  class Store {
-    public menu: MenuType
-    public info: InfoType
-
-    constructor(storeID: StoreIDType, lang?: LanguageType)
-  }
 
   class Image extends Base64File {
     public base64Image: Base64ImageType

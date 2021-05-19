@@ -7,6 +7,7 @@ import {
   NearbyStores,
   Order,
   Payment,
+  Store,
   Tracking,
   urls,
 } from 'dominos'
@@ -22,7 +23,6 @@ const pizza = new Item({
 })
 
 const customer = new Customer({
-  // todo: check if you can pass new Address instance
   address: '2 Portola Plaza, Monterey, Ca, 93940',
   firstName: 'Brandon',
   lastName: 'Miller',
@@ -151,3 +151,5 @@ pepperoniPizza.saveSync(
   savePath,
   productCode + '.jpg'
 )
+
+const store = new Store(4337)
