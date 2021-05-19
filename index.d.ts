@@ -16,9 +16,7 @@ declare module 'dominos' {
   type IDType = number
   type CodeType = string
   type QtyType = number
-  type OptionsType = {
-    [key: string]: Record<string, string>
-  }
+  type OptionsType = {}
   type IsNewType = boolean
 
   interface ItemType {
@@ -254,6 +252,25 @@ declare module 'dominos' {
     public userAgent: string
     public version: string
 
+    // hidden methods
+    addCustomer: (Customer) => this
+    addCoupon: (couponCode: string) => this
+    removeCoupon: (couponCode: string) => this
+    addItem: (Item) => this
+    removeItem: (Item) => this
+    orderInFuture: (date: Date) => void
+    orderNow: () => void
+    validate: () => Promise<this>
+    price: () => Promise<this>
+    place: () => Promise<this>
+
+    // hidden fields
+    payload: string
+    formatted: {}
+    validationResponse: {}
+    priceResponse: {}
+    placeResponse: {}
+
     constructor(customer: CustomerType)
   }
 
@@ -316,10 +333,12 @@ declare module 'dominos' {
   type OrderKeyType = string
 
   class Tracking {
-    public byPhone: (phone: PhoneType) => this
-    public byPhoneClassic: (phone: PhoneType) => this
-    public byId: (storeID: StoreIDType, orderKey: OrderKeyType) => this
-    public byUrl: (url: URL) => this
+    public byPhone: (phone: PhoneType) => Promise<this>
+    public byPhoneClassic: (phone: PhoneType) => Promise<this>
+    public byId: (storeID: StoreIDType, orderKey: OrderKeyType) => Promise<this>
+    public byUrl: (url: URL) => Promise<this>
+
+    public version: number
   }
 
   /**
