@@ -11,7 +11,7 @@ import {
   Tracking,
   urls,
 } from 'dominos'
-import { useInternational, canada } from 'dominos/utils/urls.js'
+import { useInternational, canada, usa } from 'dominos/utils/urls.js'
 
 const pizza = new Item({
   code: '16SCREEN',
@@ -81,8 +81,6 @@ try {
   console.dir(order.placeResponse, { depth: 5 })
 }
 
-// todo: add types for useInternational?
-
 const myCountriesURLs = {
   referer: 'https://order.dominos.nz/en/pages/order/',
   sourceUri: 'order.dominos.nz',
@@ -136,7 +134,6 @@ const fullAddressObject = new Address({
 
 const onlyZip = new Address('63102')
 
-// todo: is there a way to throw an error if no await?
 const menu = await new Menu(4337)
 
 const productCode = 'S_PIZPX'
