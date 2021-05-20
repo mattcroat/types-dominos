@@ -42,7 +42,7 @@ declare module 'dominos' {
    * Customer
    */
 
-  type AddressType = Address | AddressObject | AddressStringType
+  type AddressType = Address | AddressObjectType | AddressStringType
   type FirstNameType = string
   type LastNameType = string
   type EmailType = string
@@ -90,7 +90,7 @@ declare module 'dominos' {
   type PostalCodeType = string
   type DeliveryInstructionsType = string
 
-  interface AddressObject {
+  interface AddressObjectType {
     street?: StreetType
     streetName?: StreetNameType
     streetNumber?: StreetNumberType
@@ -153,7 +153,7 @@ declare module 'dominos' {
   type CashType = number
   type SavingsType = string
 
-  interface AmountsBreakdownOptions {
+  interface AmountsBreakdownOptionsType {
     foodAndBeverage?: FoodAndBeverageType
     adjustment?: AdjustmentType
     surcharge?: SurchargeType
@@ -204,7 +204,7 @@ declare module 'dominos' {
       roundingAdjustment,
       cash,
       savings,
-    }: AmountsBreakdownOptions)
+    }: AmountsBreakdownOptionsType)
   }
 
   /**
@@ -295,7 +295,7 @@ declare module 'dominos' {
     | 'JCB'
     | 'ENROUTE'
 
-  interface PaymentOptions {
+  interface PaymentOptionsType {
     amount?: AmountType
     tipAmount?: TipAmountType
     number: NumberType
@@ -321,7 +321,7 @@ declare module 'dominos' {
       expiration,
       securityCode,
       postalCode,
-    }: PaymentOptions)
+    }: PaymentOptionsType)
   }
 
   /**
@@ -442,6 +442,35 @@ declare module 'dominos' {
 
     constructor(productCode: ProductCodeType)
   }
+
+  /**
+   * Urls
+   */
+
+  interface CountryURLsType {
+    sourceUri: string
+    location: {
+      find: string
+    }
+    store: {
+      find: string
+      info: string
+      menu: string
+    }
+    order: {
+      validate: string
+      price: string
+      place: string
+    }
+    images: string
+    trackRoot: string
+    track: string
+    token: string
+    upsell: string
+    stepUpsell: string
+  }
+
+  declare var urls: CountryURLsType
 }
 
 /**
@@ -478,4 +507,40 @@ class Base64File {
     callback: (err: Error, data: string) => void
   ) => void
   saveSync: (data: string, path: string, fileName: string) => void
+}
+
+/**
+ * Dominos Utils
+ */
+
+declare module 'dominos/utils/urls.js' {
+  interface CountryURLsType {
+    referer?: string
+    sourceUri: string
+    location: {
+      find: string
+    }
+    store: {
+      find: string
+      info: string
+      menu: string
+    }
+    order: {
+      validate: string
+      price: string
+      place: string
+    }
+    track: string
+    images?: string
+    trackRoot?: string
+    track?: string
+    token?: string
+    upsell?: string
+    stepUpsell?: string
+  }
+
+  function useInternational(internationalURLs: CountryURLsType)
+
+  declare var canada: CountryURLsType
+  declare var usa: CountryURLsType
 }
