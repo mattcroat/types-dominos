@@ -1,0 +1,5494 @@
+{
+  "Misc": {
+    "Status": 0,
+    "StoreID": "50050",
+    "BusinessDate": "2021-05-20",
+    "StoreAsOfTime": "2021-05-20 14:50:51",
+    "LanguageCode": "hr",
+    "Version": "1.001",
+    "ExpiresOn": ""
+  },
+  "Categorization": {
+    "Food": {
+      "Categories": [
+        {
+          "Categories": [
+            {
+              "Categories": [],
+              "Code": "Promo",
+              "Description": "Promotion",
+              "Products": [
+                "S_CRCH",
+                "S_CRCAPR",
+                "S_CRCARB",
+                "S_CRBBQ"
+              ],
+              "Name": "Promotion",
+              "Tags": {}
+            },
+            {
+              "Categories": [],
+              "Code": "Classic",
+              "Description": "Value",
+              "Products": [
+                "S_MARG",
+                "S_CAPRS",
+                "S_FUNG",
+                "S_VSUVO",
+                "S_GRPO"
+              ],
+              "Name": "Value",
+              "Tags": {}
+            },
+            {
+              "Categories": [],
+              "Code": "Feast",
+              "Description": "Favourite",
+              "Products": [
+                "S_PEPPSN",
+                "S_CHKN",
+                "S_PICANTE",
+                "S_HAW",
+                "S_VEG",
+                "S_CAPCCA",
+                "S_FRCHE",
+                "S_SLAV"
+              ],
+              "Name": "Favourite",
+              "Tags": {}
+            },
+            {
+              "Categories": [],
+              "Code": "Premium",
+              "Description": "Premium",
+              "Products": [
+                "S_CHBRG",
+                "S_BBQMT",
+                "S_EXTRAV",
+                "S_BBQCHK"
+              ],
+              "Name": "Premium",
+              "Tags": {}
+            },
+            {
+              "Categories": [],
+              "Code": "BuildYourOwn",
+              "Description": "Extra Pizza Options",
+              "Products": [
+                "S_BYO",
+                "S_HNH"
+              ],
+              "Name": "Extra Pizza Options",
+              "Tags": {}
+            }
+          ],
+          "Code": "Pizza",
+          "Description": "Pizza",
+          "Products": [],
+          "Name": "Pizza",
+          "Tags": {
+            "PartCount": "2",
+            "OptionQtys": "0:0.5:1:1.5:2:3",
+            "MaxOptionQty": "10",
+            "DefaultSpecialtyCode": "PIZZA",
+            "PageTags": "Legend:Feast:Premium",
+            "NeedsCustomization": true
+          }
+        },
+        {
+          "Categories": [],
+          "Code": "Bread",
+          "Description": "Krušni proizvodi",
+          "Products": [
+            "F_GARBRD",
+            "F_CHEBRD",
+            "F_CBRDTG",
+            "F_CBRDPP",
+            "F_CBRDBJ",
+            "F_CBRDHB"
+          ],
+          "Name": "Krušni proizvodi",
+          "Tags": {
+            "MaxOptionQty": "99"
+          }
+        },
+        {
+          "Categories": [],
+          "Code": "Wings",
+          "Description": "Piletina",
+          "Products": [
+            "S_KICK",
+            "S_PLNWINGS",
+            "S_STRIP",
+            "S_CHICKBOX"
+          ],
+          "Name": "Piletina",
+          "Tags": {
+            "OptionQtys": "0:0.5:1:1.5:2:3:4:5",
+            "MaxOptionQty": "99"
+          }
+        },
+        {
+          "Categories": [],
+          "Code": "Sides",
+          "Description": "Umaci",
+          "Products": [
+            "F_BBQDIP",
+            "F_SIDHOT",
+            "F_SWCHIL"
+          ],
+          "Name": "Umaci",
+          "Tags": {}
+        },
+        {
+          "Categories": [],
+          "Code": "Drinks",
+          "Description": "Pića",
+          "Products": [
+            "F_CKZERO",
+            "F_COKE",
+            "F_ORANGE",
+            "F_SPRITE",
+            "F_FZFF",
+            "F_FZPCH",
+            "F_CWATER",
+            "F_WATER",
+            "F_INDPLALE",
+            "F_PILSNER",
+            "F_PALEALE",
+            "F_HEINEKEN"
+          ],
+          "Name": "Pića",
+          "Tags": {}
+        },
+        {
+          "Categories": [],
+          "Code": "Pastas",
+          "Description": "Pastas",
+          "Products": [],
+          "Name": "Pastas",
+          "Tags": {}
+        },
+        {
+          "Categories": [],
+          "Code": "Dessert",
+          "Description": "Deserti",
+          "Products": [
+            "F_CCOOKIE",
+            "F_CINNA",
+            "F_CHOCO",
+            "F_CHRCHOCO"
+          ],
+          "Name": "Deserti",
+          "Tags": {
+            "MaxOptionQty": "99"
+          }
+        },
+        {
+          "Categories": [],
+          "Code": "Calzone",
+          "Description": "Calzone",
+          "Products": [],
+          "Name": "Calzone",
+          "Tags": {}
+        }
+      ],
+      "Code": "Food",
+      "Description": "Food Items",
+      "Products": [],
+      "Name": "Food",
+      "Tags": {}
+    },
+    "Coupons": {
+      "Categories": [
+        {
+          "Categories": [],
+          "Code": "Feeds1To2",
+          "Description": "",
+          "Products": [],
+          "Name": "Feeds 1 to 2",
+          "Tags": {}
+        },
+        {
+          "Categories": [],
+          "Code": "Feeds3To5",
+          "Description": "",
+          "Products": [],
+          "Name": "Feeds 3 to 5",
+          "Tags": {}
+        },
+        {
+          "Categories": [],
+          "Code": "Feeds6Plus",
+          "Description": "",
+          "Products": [],
+          "Name": "Feeds 6+",
+          "Tags": {}
+        },
+        {
+          "Categories": [],
+          "Code": "LunchOffers",
+          "Description": "",
+          "Products": [],
+          "Name": "Lunch Offers",
+          "Tags": {}
+        },
+        {
+          "Categories": [],
+          "Code": "All",
+          "Description": "",
+          "Products": [
+            "1163",
+            "1163L",
+            "1163G",
+            "1282",
+            "1165",
+            "1000",
+            "1000L",
+            "1000G",
+            "1002",
+            "1003",
+            "1004",
+            "1005"
+          ],
+          "Name": "Ne može se kombinirati s drugim ponudama ili popustima",
+          "Tags": {}
+        },
+        {
+          "Categories": [],
+          "Code": "AllStoreCoupons",
+          "Description": "",
+          "Products": [
+            "1163",
+            "1163L",
+            "1163G",
+            "1282",
+            "1165",
+            "1000",
+            "1000L",
+            "1000G",
+            "1002",
+            "1003",
+            "1004",
+            "1005"
+          ],
+          "Name": "All Available Coupons",
+          "Tags": {}
+        }
+      ],
+      "Code": "Coupons",
+      "Description": "Coupon Items",
+      "Products": [],
+      "Name": "Coupons",
+      "Tags": {}
+    },
+    "PreconfiguredProducts": {
+      "Categories": [
+        {
+          "Categories": [
+            {
+              "Categories": [],
+              "Code": "GroupOrderingPizza",
+              "Description": "Pizza",
+              "Products": [],
+              "Name": "Pizza",
+              "Tags": {}
+            },
+            {
+              "Categories": [],
+              "Code": "GroupOrderingChicken",
+              "Description": "Pollo",
+              "Products": [],
+              "Name": "Pollo",
+              "Tags": {}
+            },
+            {
+              "Categories": [],
+              "Code": "GroupOrderingBread",
+              "Description": "Panes",
+              "Products": [],
+              "Name": "Panes",
+              "Tags": {}
+            },
+            {
+              "Categories": [],
+              "Code": "GroupOrderingDessert",
+              "Description": "Postres",
+              "Products": [],
+              "Name": "Postres",
+              "Tags": {}
+            },
+            {
+              "Categories": [],
+              "Code": "GroupOrderingDrink",
+              "Description": "Bebidas",
+              "Products": [],
+              "Name": "Bebidas",
+              "Tags": {}
+            }
+          ],
+          "Code": "GroupOrdering",
+          "Description": "Group Ordering",
+          "Products": [],
+          "Name": "Group Ordering",
+          "Tags": {}
+        },
+        {
+          "Categories": [],
+          "Code": "PopularItems",
+          "Description": "Popular Items",
+          "Products": [],
+          "Name": "Popular Items",
+          "Tags": {}
+        }
+      ],
+      "Code": "PreconfiguredProducts",
+      "Description": "Preconfigured Products",
+      "Products": [],
+      "Name": "Preconfigured Products",
+      "Tags": {}
+    }
+  },
+  "Coupons": {
+    "1000": {
+      "Code": "1000",
+      "ImageCode": "1000",
+      "Description": "Classic Double Deal 78 KN:  bilo koje dvije classic pizze. Svaku sljedeću classic pizzu nadoplati 39 KN. Isključuje `Napravi svoju pizzu'.",
+      "Name": "Classic Double Deal 78 KN:  bilo koje dvije classic pizze. Svaku sljedeću classic pizzu nadoplati 39 KN. Isključuje `Napravi svoju pizzu'.",
+      "Price": "",
+      "Tags": {
+        "ValidServiceMethods": [
+          "Carryout",
+          "Delivery"
+        ],
+        "SortSeq": "11",
+        "Combine": "Complementary",
+        "MultiSame": true
+      },
+      "Local": false,
+      "Bundle": false
+    },
+    "1002": {
+      "Code": "1002",
+      "ImageCode": "1002",
+      "Description": "Combo Deal 119 Kn: 2 ´large´ pizzu + 2 krušni proizvodi. Isključuje `Napravi svoju pizzu'.",
+      "Name": "Combo Deal 119 Kn: 2 ´large´ pizzu + 2 krušni proizvodi. Isključuje `Napravi svoju pizzu'.",
+      "Price": "",
+      "Tags": {
+        "ValidServiceMethods": [
+          "Carryout",
+          "Delivery"
+        ],
+        "SortSeq": "17",
+        "Combine": "Complementary",
+        "MultiSame": true
+      },
+      "Local": false,
+      "Bundle": true
+    },
+    "1003": {
+      "Code": "1003",
+      "ImageCode": "1003",
+      "Description": "Snack Duo 35 Kn: 1 pileći prilog + 1 krušni proizvodi",
+      "Name": "Snack Duo 35 Kn: 1 pileći prilog + 1 krušni proizvodi",
+      "Price": "",
+      "Tags": {
+        "ValidServiceMethods": [
+          "Carryout",
+          "Delivery"
+        ],
+        "SortSeq": "18",
+        "Combine": "Complementary",
+        "MultiSame": true
+      },
+      "Local": false,
+      "Bundle": true
+    },
+    "1004": {
+      "Code": "1004",
+      "ImageCode": "1004",
+      "Description": "Package Deal 119 Kn: 2 ´large´ pizze +  krušni proizvodi + 1l pića. Isključuje 'Napravi svoju pizzu'.",
+      "Name": "Package Deal 119 Kn: 2 ´large´ pizze +  krušni proizvodi + 1l pića. Isključuje 'Napravi svoju pizzu'.",
+      "Price": "",
+      "Tags": {
+        "ValidServiceMethods": [
+          "Carryout",
+          "Delivery"
+        ],
+        "SortSeq": "20",
+        "Combine": "Complementary",
+        "MultiSame": true
+      },
+      "Local": false,
+      "Bundle": true
+    },
+    "1005": {
+      "Code": "1005",
+      "ImageCode": "1005",
+      "Description": "Triple Deal 70 Kn: 1 ´large´ pizza + prilog ili desert + 0,5l pića. Isključuje 'Napravi svoju pizzu'.",
+      "Name": "Triple Deal 70 Kn: 1 ´large´ pizza + prilog ili desert + 0,5l pića. Isključuje 'Napravi svoju pizzu'.",
+      "Price": "",
+      "Tags": {
+        "ValidServiceMethods": [
+          "Carryout",
+          "Delivery"
+        ],
+        "SortSeq": "19",
+        "Combine": "Complementary",
+        "MultiSame": true
+      },
+      "Local": false,
+      "Bundle": true
+    },
+    "1163": {
+      "Code": "1163",
+      "ImageCode": "1163",
+      "Description": "Classic Lunch Deal 35 Kn: Bilo koja classic VALUE ili FAVOURITE pizza",
+      "Name": "Classic Lunch Deal 35 Kn: Bilo koja classic VALUE ili FAVOURITE pizza",
+      "Price": "",
+      "Tags": {
+        "EffectiveAt": [
+          "10",
+          "30",
+          "00"
+        ],
+        "ExpiresAt": [
+          "16",
+          "00",
+          "00"
+        ],
+        "Days": [
+          "Mo",
+          "Tu",
+          "We",
+          "Th",
+          "Fr"
+        ],
+        "ValidServiceMethods": [
+          "Carryout",
+          "Delivery"
+        ],
+        "SortSeq": "3",
+        "MultiSame": true,
+        "Combine": "Complementary"
+      },
+      "Local": true,
+      "Bundle": false
+    },
+    "1165": {
+      "Code": "1165",
+      "ImageCode": "1165",
+      "Description": "Family Deal 159 KN: 2 large pizzu + 2 krušni proizvodi + 2 deserti. Isključuje `Napravi svoju pizzu'.",
+      "Name": "Family Deal 159 KN: 2 large pizzu + 2 krušni proizvodi + 2 deserti. Isključuje `Napravi svoju pizzu'.",
+      "Price": "",
+      "Tags": {
+        "ValidServiceMethods": [
+          "Carryout",
+          "Delivery"
+        ],
+        "SortSeq": "22",
+        "Combine": "Complementary"
+      },
+      "Local": true,
+      "Bundle": true
+    },
+    "1282": {
+      "Code": "1282",
+      "ImageCode": "1282",
+      "Description": "Duo Special Pon-Sri: Kupi jedan proizvod po redovnoj cijeni i izaberi bilo koji drugi za samo 15 kn. Popust se odnosi na proizvod s nižom cijenom.Isključuje `Napravi svoju pizzu'.",
+      "Name": "Duo Special Pon-Sri: Kupi jedan proizvod po redovnoj cijeni i izaberi bilo koji drugi za samo 15 kn. Popust se odnosi na proizvod s nižom cijenom.Isključuje `Napravi svoju pizzu'.",
+      "Price": "",
+      "Tags": {
+        "Days": [
+          "Mo",
+          "Tu",
+          "We"
+        ],
+        "ValidServiceMethods": [
+          "Carryout",
+          "Delivery"
+        ],
+        "SortSeq": "2",
+        "MultiSame": true,
+        "Combine": "Complementary"
+      },
+      "Local": false,
+      "Bundle": false
+    },
+    "1000G": {
+      "Code": "1000G",
+      "ImageCode": "1000G",
+      "Description": "Grande Double Deal 128 KN: bilo koje dvije grande pizze. Svaku sljedeću grande pizzu nadoplati 64 KN. Isključuje `Napravi svoju pizzu'.",
+      "Name": "Grande Double Deal 128 KN: bilo koje dvije grande pizze. Svaku sljedeću grande pizzu nadoplati 64 KN. Isključuje `Napravi svoju pizzu'.",
+      "Price": "",
+      "Tags": {
+        "ValidServiceMethods": [
+          "Carryout",
+          "Delivery"
+        ],
+        "SortSeq": "13",
+        "Combine": "Complementary",
+        "MultiSame": true
+      },
+      "Local": true,
+      "Bundle": false
+    },
+    "1000L": {
+      "Code": "1000L",
+      "ImageCode": "1000L",
+      "Description": "Large Double Deal 98 KN: bilo koje dvije large pizze. Svaku sljedeću large pizzu nadoplati 49 KN. Isključuje `Napravi svoju pizzu'.",
+      "Name": "Large Double Deal 98 KN: bilo koje dvije large pizze. Svaku sljedeću large pizzu nadoplati 49 KN. Isključuje `Napravi svoju pizzu'.",
+      "Price": "",
+      "Tags": {
+        "ValidServiceMethods": [
+          "Carryout",
+          "Delivery"
+        ],
+        "SortSeq": "12",
+        "Combine": "Complementary",
+        "MultiSame": true
+      },
+      "Local": true,
+      "Bundle": false
+    },
+    "1163G": {
+      "Code": "1163G",
+      "ImageCode": "1163G",
+      "Description": "Grande Lunch Deal 60 Kn: Bilo koja grande VALUE ili FAVOURITE pizza",
+      "Name": "Grande Lunch Deal 60 Kn: Bilo koja grande VALUE ili FAVOURITE pizza",
+      "Price": "",
+      "Tags": {
+        "EffectiveAt": [
+          "10",
+          "30",
+          "00"
+        ],
+        "ExpiresAt": [
+          "16",
+          "00",
+          "00"
+        ],
+        "Days": [
+          "Mo",
+          "Tu",
+          "We",
+          "Th",
+          "Fr"
+        ],
+        "ValidServiceMethods": [
+          "Carryout",
+          "Delivery"
+        ],
+        "SortSeq": "5",
+        "MultiSame": true,
+        "Combine": "Complementary"
+      },
+      "Local": true,
+      "Bundle": false
+    },
+    "1163L": {
+      "Code": "1163L",
+      "ImageCode": "1163L",
+      "Description": "Large Lunch Deal 45 Kn: Bilo koja large VALUE ili FAVOURITE pizza",
+      "Name": "Large Lunch Deal 45 Kn: Bilo koja large VALUE ili FAVOURITE pizza",
+      "Price": "",
+      "Tags": {
+        "EffectiveAt": [
+          "10",
+          "30",
+          "00"
+        ],
+        "ExpiresAt": [
+          "16",
+          "00",
+          "00"
+        ],
+        "Days": [
+          "Mo",
+          "Tu",
+          "We",
+          "Th",
+          "Fr"
+        ],
+        "ValidServiceMethods": [
+          "Carryout",
+          "Delivery"
+        ],
+        "SortSeq": "4",
+        "MultiSame": true,
+        "Combine": "Complementary"
+      },
+      "Local": true,
+      "Bundle": false
+    }
+  },
+  "Flavors": {
+    "Pizza": {
+      "HANDTOSS": {
+        "Code": "HANDTOSS",
+        "Description": "",
+        "Local": false,
+        "Name": "Domino's Originalna Kora",
+        "SortSeq": "01"
+      }
+    },
+    "Wings": {
+      "KICK": {
+        "Code": "KICK",
+        "Description": "6 ljutih pilećih zalogaja u krušnim mrvicama (uklj. 1 umak)",
+        "Local": false,
+        "Name": "Chicken Kickers",
+        "SortSeq": "01"
+      },
+      "PLNWINGS": {
+        "Code": "PLNWINGS",
+        "Description": "6 pilećih krilaca (uklj. 1 umak)",
+        "Local": false,
+        "Name": "Chicken Wings",
+        "SortSeq": "02"
+      },
+      "STRIP": {
+        "Code": "STRIP",
+        "Description": "6 pilećih traka u krušnim mrvicama (uklj. 1 umak)",
+        "Local": false,
+        "Name": "Chicken Strippers",
+        "SortSeq": "03"
+      },
+      "CHIBOX": {
+        "Code": "CHIBOX",
+        "Description": "4 Chicken Wings, 3 Chicken Kickers i 3 Chicken Strippers (uklj. 2 umaka)",
+        "Local": false,
+        "Name": "Chicken Box",
+        "SortSeq": "04"
+      }
+    }
+  },
+  "Products": {
+    "F_CHEBRD": {
+      "AvailableToppings": "",
+      "AvailableSides": "BBQDIP,SIDHOT,SIDCHL",
+      "Code": "F_CHEBRD",
+      "DefaultToppings": "",
+      "DefaultSides": "",
+      "Description": "Zapečeni pizza kruh s rastezljivom mozzarellom na vrhu i začinom od češnjaka",
+      "ImageCode": "F_CHEBRD",
+      "Local": false,
+      "Name": "Cheesy Bread",
+      "ProductType": "Bread",
+      "Tags": {},
+      "Variants": [
+        "8PCCHSYBRD"
+      ]
+    },
+    "F_GARBRD": {
+      "AvailableToppings": "",
+      "AvailableSides": "BBQDIP,SIDHOT,SIDCHL",
+      "Code": "F_GARBRD",
+      "DefaultToppings": "",
+      "DefaultSides": "",
+      "Description": "Pizza kruh začinjen maslacem od češnjaka i ukusnom mozzarellom",
+      "ImageCode": "F_GARBRD",
+      "Local": false,
+      "Name": "Garlic Bread",
+      "ProductType": "Bread",
+      "Tags": {},
+      "Variants": [
+        "8PCGARBRD"
+      ]
+    },
+    "F_CBRDTG": {
+      "AvailableToppings": "",
+      "AvailableSides": "BBQDIP,SIDHOT,SIDCHL",
+      "Code": "F_CBRDTG",
+      "DefaultToppings": "",
+      "DefaultSides": "",
+      "Description": "Cheesy Bread sa cheddar sirom, svježom rajčicom i začinom od češnjaka",
+      "ImageCode": "F_CBRDTG",
+      "Local": false,
+      "Name": "Cheesy Bread Tomato & Garlic",
+      "ProductType": "Bread",
+      "Tags": {},
+      "Variants": [
+        "8CBRDTG"
+      ]
+    },
+    "F_CBRDHB": {
+      "AvailableToppings": "",
+      "AvailableSides": "BBQDIP,SIDHOT,SIDCHL",
+      "Code": "F_CBRDHB",
+      "DefaultToppings": "",
+      "DefaultSides": "",
+      "Description": "Cheesy Bread sa cheddar sirom, šunkom i pljesnivim sirom",
+      "ImageCode": "F_CBRDHB",
+      "Local": false,
+      "Name": "Cheesy Bread Ham & Blue Cheese",
+      "ProductType": "Bread",
+      "Tags": {},
+      "Variants": [
+        "8CBRDHB"
+      ]
+    },
+    "F_CBRDPP": {
+      "AvailableToppings": "",
+      "AvailableSides": "BBQDIP,SIDHOT,SIDCHL",
+      "Code": "F_CBRDPP",
+      "DefaultToppings": "",
+      "DefaultSides": "",
+      "Description": "Cheesy Bread sa cheddar sirom, pepperoni salamom i paprikom",
+      "ImageCode": "F_CBRDPP",
+      "Local": false,
+      "Name": "Cheesy Bread Pepperoni & Peppers",
+      "ProductType": "Bread",
+      "Tags": {},
+      "Variants": [
+        "8CBRDPP"
+      ]
+    },
+    "F_CBRDBJ": {
+      "AvailableToppings": "",
+      "AvailableSides": "BBQDIP,SIDHOT,SIDCHL",
+      "Code": "F_CBRDBJ",
+      "DefaultToppings": "",
+      "DefaultSides": "",
+      "Description": "Cheesy Bread sa cheddar sirom, slaninom i jalapeño papričicama",
+      "ImageCode": "F_CBRDBJ",
+      "Local": false,
+      "Name": "Cheesy Bread Bacon & Jalapeño",
+      "ProductType": "Bread",
+      "Tags": {},
+      "Variants": [
+        "8CBRDBJ"
+      ]
+    },
+    "F_CCOOKIE": {
+      "AvailableToppings": "",
+      "AvailableSides": "",
+      "Code": "F_CCOOKIE",
+      "DefaultToppings": "",
+      "DefaultSides": "",
+      "Description": "3 ukusna cookiesa zapečena u pećnici",
+      "ImageCode": "F_CCOOKIE",
+      "Local": false,
+      "Name": "Chocolate Chip Cookies",
+      "ProductType": "Dessert",
+      "Tags": {},
+      "Variants": [
+        "3PCCHCKIE"
+      ]
+    },
+    "F_CHOCO": {
+      "AvailableToppings": "",
+      "AvailableSides": "",
+      "Code": "F_CHOCO",
+      "DefaultToppings": "",
+      "DefaultSides": "",
+      "Description": "Lisnato tijesto zapečeno u pećnici napunjeno čokoladnom kremom, posuto šećerom u prahu",
+      "ImageCode": "F_CHOCO",
+      "Local": false,
+      "Name": "Choco Pie",
+      "ProductType": "Dessert",
+      "Tags": {},
+      "Variants": [
+        "8PCCHOCPIE"
+      ]
+    },
+    "F_CINNA": {
+      "AvailableToppings": "",
+      "AvailableSides": "",
+      "Code": "F_CINNA",
+      "DefaultToppings": "",
+      "DefaultSides": "",
+      "Description": "Pecivo posipano cimetom i šećerom (uklj. šećerni preljev)",
+      "ImageCode": "F_CINNA",
+      "Local": false,
+      "Name": "CinnamonStix",
+      "ProductType": "Dessert",
+      "Tags": {},
+      "Variants": [
+        "8PCCINASTX"
+      ]
+    },
+    "F_CHRCHOCO": {
+      "AvailableToppings": "",
+      "AvailableSides": "",
+      "Code": "F_CHRCHOCO",
+      "DefaultToppings": "",
+      "DefaultSides": "",
+      "Description": "Lisnato tijesto zapečeno u pećnici i napunjeno čokoladnom kremom i punjenjem od višanja, posuto šećerom u prahu",
+      "ImageCode": "F_CHRCHOCO",
+      "Local": true,
+      "Name": "Cherry Choco Pie",
+      "ProductType": "Dessert",
+      "Tags": {},
+      "Variants": [
+        "8CHRCHOPIE"
+      ]
+    },
+    "F_CKZERO": {
+      "AvailableToppings": "",
+      "AvailableSides": "",
+      "Code": "F_CKZERO",
+      "DefaultToppings": "",
+      "DefaultSides": "",
+      "Description": "1L & 500ml",
+      "ImageCode": "F_CKZERO",
+      "Local": false,
+      "Name": "Coca-Cola No sugar",
+      "ProductType": "Drinks",
+      "Tags": {},
+      "Variants": [
+        "1LTCKZERO",
+        "500MLCZERO"
+      ]
+    },
+    "F_COKE": {
+      "AvailableToppings": "",
+      "AvailableSides": "",
+      "Code": "F_COKE",
+      "DefaultToppings": "",
+      "DefaultSides": "",
+      "Description": "1L & 500ml",
+      "ImageCode": "F_COKE",
+      "Local": false,
+      "Name": "Coca-Cola Original",
+      "ProductType": "Drinks",
+      "Tags": {},
+      "Variants": [
+        "1LTCOKE",
+        "500MLCOKE"
+      ]
+    },
+    "F_ORANGE": {
+      "AvailableToppings": "",
+      "AvailableSides": "",
+      "Code": "F_ORANGE",
+      "DefaultToppings": "",
+      "DefaultSides": "",
+      "Description": "1L & 500ml",
+      "ImageCode": "F_ORANGE",
+      "Local": false,
+      "Name": "Fanta Orange",
+      "ProductType": "Drinks",
+      "Tags": {},
+      "Variants": [
+        "1LTORANGE",
+        "500MLORG"
+      ]
+    },
+    "F_SPRITE": {
+      "AvailableToppings": "",
+      "AvailableSides": "",
+      "Code": "F_SPRITE",
+      "DefaultToppings": "",
+      "DefaultSides": "",
+      "Description": "1L & 500ml",
+      "ImageCode": "F_SPRITE",
+      "Local": false,
+      "Name": "Sprite",
+      "ProductType": "Drinks",
+      "Tags": {},
+      "Variants": [
+        "1LTSPRITE",
+        "500MLSPRT"
+      ]
+    },
+    "F_INDPLALE": {
+      "AvailableToppings": "",
+      "AvailableSides": "",
+      "Code": "F_INDPLALE",
+      "DefaultToppings": "",
+      "DefaultSides": "",
+      "Description": "0,33l. Hmeljasta, jaka i punog okusa. ABV 6.5%",
+      "ImageCode": "F_INDPLALE",
+      "Local": false,
+      "Name": "Garden Brewery 'India Pale Ale'",
+      "ProductType": "Drinks",
+      "Tags": {
+        "EffectiveAt": [
+          "10",
+          "30"
+        ],
+        "ExpiresAt": [
+          "22",
+          "00"
+        ]
+      },
+      "Variants": [
+        "330MLINDAL"
+      ]
+    },
+    "F_PILSNER": {
+      "AvailableToppings": "",
+      "AvailableSides": "",
+      "Code": "F_PILSNER",
+      "DefaultToppings": "",
+      "DefaultSides": "",
+      "Description": "0,33l. Legan, osvježavajuć i klasičan. ABV 4.5%",
+      "ImageCode": "F_PILSNER",
+      "Local": false,
+      "Name": "Garden Brewery 'Pilsner'",
+      "ProductType": "Drinks",
+      "Tags": {
+        "EffectiveAt": [
+          "10",
+          "30"
+        ],
+        "ExpiresAt": [
+          "22",
+          "00"
+        ]
+      },
+      "Variants": [
+        "330MLPILSN"
+      ]
+    },
+    "F_PALEALE": {
+      "AvailableToppings": "",
+      "AvailableSides": "",
+      "Code": "F_PALEALE",
+      "DefaultToppings": "",
+      "DefaultSides": "",
+      "Description": "0,33l. Osvježavajuć, lagano gorak s tropskim notama. ABV 5.1%",
+      "ImageCode": "F_PALEALE",
+      "Local": false,
+      "Name": "Garden Brewery 'Pale Ale'",
+      "ProductType": "Drinks",
+      "Tags": {
+        "EffectiveAt": [
+          "10",
+          "30"
+        ],
+        "ExpiresAt": [
+          "22",
+          "00"
+        ]
+      },
+      "Variants": [
+        "330MLPLALE"
+      ]
+    },
+    "F_HEINEKEN": {
+      "AvailableToppings": "",
+      "AvailableSides": "",
+      "Code": "F_HEINEKEN",
+      "DefaultToppings": "",
+      "DefaultSides": "",
+      "Description": "Bogat, osvježavajući okus, prepoznatljiv diljem svijeta ABV 5%",
+      "ImageCode": "F_HEINEKEN",
+      "Local": false,
+      "Name": "Heineken svijetlo lager pivo 0,33l",
+      "ProductType": "Drinks",
+      "Tags": {
+        "EffectiveAt": [
+          "10",
+          "30"
+        ],
+        "ExpiresAt": [
+          "22",
+          "00"
+        ]
+      },
+      "Variants": [
+        "330MLHNKEN"
+      ]
+    },
+    "F_CWATER": {
+      "AvailableToppings": "",
+      "AvailableSides": "",
+      "Code": "F_CWATER",
+      "DefaultToppings": "",
+      "DefaultSides": "",
+      "Description": "500ml",
+      "ImageCode": "F_CWATER",
+      "Local": false,
+      "Name": "Romerquelle gazirana prirodna mineralna voda",
+      "ProductType": "Drinks",
+      "Tags": {},
+      "Variants": [
+        "500MLCWATR"
+      ]
+    },
+    "F_FZFF": {
+      "AvailableToppings": "",
+      "AvailableSides": "",
+      "Code": "F_FZFF",
+      "DefaultToppings": "",
+      "DefaultSides": "",
+      "Description": "500ml",
+      "ImageCode": "F_FZFF",
+      "Local": false,
+      "Name": "Fuzetea šumsko voće  ledeni čaj",
+      "ProductType": "Drinks",
+      "Tags": {},
+      "Variants": [
+        "500MLFZFF"
+      ]
+    },
+    "F_FZPCH": {
+      "AvailableToppings": "",
+      "AvailableSides": "",
+      "Code": "F_FZPCH",
+      "DefaultToppings": "",
+      "DefaultSides": "",
+      "Description": "500ml",
+      "ImageCode": "F_FZPCH",
+      "Local": false,
+      "Name": "Fuzetea breskva ledeni čaj",
+      "ProductType": "Drinks",
+      "Tags": {},
+      "Variants": [
+        "500MLFZPCH"
+      ]
+    },
+    "F_WATER": {
+      "AvailableToppings": "",
+      "AvailableSides": "",
+      "Code": "F_WATER",
+      "DefaultToppings": "",
+      "DefaultSides": "",
+      "Description": "500ml",
+      "ImageCode": "F_WATER",
+      "Local": false,
+      "Name": "Romerquelle negazirana prirodna mineralna voda",
+      "ProductType": "Drinks",
+      "Tags": {},
+      "Variants": [
+        "500MLWATER"
+      ]
+    },
+    "S_BBQMT": {
+      "AvailableToppings": "A,Bq=0:0.5:1:1.5,Bu,Cl,Cm,Cs,G,Gp,Bc,Jp,Kk,Kv,Ls,Mg,Mz,N,O,Pa,Pe,Pi,Ps,R,Sk,Sl,Xw=0:0.5:1:1.5,X=0:0.5:1:1.5",
+      "AvailableSides": "",
+      "Code": "S_BBQMT",
+      "DefaultToppings": "Mz=1,Ps=1,Sk=1,Sl=1,Bq=1,Pi=1",
+      "DefaultSides": "",
+      "Description": "BBQ umak, šunka, pepperoni salama, piletina, slanina, mozzarella",
+      "ImageCode": "S_BBQMT",
+      "Local": false,
+      "Name": "BBQ Meatlovers",
+      "ProductType": "Pizza",
+      "Tags": {
+        "OptionQtys": [
+          "0",
+          "0.5",
+          "1",
+          "1.5",
+          "2",
+          "3"
+        ],
+        "MaxOptionQty": "10",
+        "PartCount": "2",
+        "NeedsCustomization": true
+      },
+      "Variants": [
+        "CLHTBBQMT",
+        "LGHTBBQMT",
+        "GRHTBBQMT"
+      ]
+    },
+    "S_EXTRAV": {
+      "AvailableToppings": "A,Bq=0:0.5:1:1.5,Bu,Cl,Cm,Cs,G,Gp,Bc,Jp,Kk,Kv,Ls,Mg,Mz,N,O,Pa,Pe,Pi,Ps,R,Sk,Sl,Xw=0:0.5:1:1.5,X=0:0.5:1:1.5",
+      "AvailableSides": "",
+      "Code": "S_EXTRAV",
+      "DefaultToppings": "X=1,Mz=1.5,Ps=1,Sk=1,G=1,Cl=1,Cm=1,Mg=1,Pa=1",
+      "DefaultSides": "",
+      "Description": "Pepperoni salama, šunka, mljevena govedina, crveni luk, paprika, gljive, crne masline, extra mozzarella",
+      "ImageCode": "S_EXTRAV",
+      "Local": false,
+      "Name": "Extravaganzza",
+      "ProductType": "Pizza",
+      "Tags": {
+        "OptionQtys": [
+          "0",
+          "0.5",
+          "1",
+          "1.5",
+          "2",
+          "3"
+        ],
+        "MaxOptionQty": "10",
+        "PartCount": "2",
+        "NeedsCustomization": true
+      },
+      "Variants": [
+        "CLHTEXTRAV",
+        "LGHTEXTRAV",
+        "GRHTEXTRAV"
+      ]
+    },
+    "S_HAW": {
+      "AvailableToppings": "A,Bq=0:0.5:1:1.5,Bu,Cl,Cm,Cs,G,Gp,Bc,Jp,Kk,Kv,Ls,Mg,Mz,N,O,Pa,Pe,Pi,Ps,R,Sk,Sl,Xw=0:0.5:1:1.5,X=0:0.5:1:1.5",
+      "AvailableSides": "",
+      "Code": "S_HAW",
+      "DefaultToppings": "X=1,Mz=1,Sk=1,N=1",
+      "DefaultSides": "",
+      "Description": "Šunka, ananas, mozzarella",
+      "ImageCode": "S_HAW",
+      "Local": false,
+      "Name": "Hawaii",
+      "ProductType": "Pizza",
+      "Tags": {
+        "OptionQtys": [
+          "0",
+          "0.5",
+          "1",
+          "1.5",
+          "2",
+          "3"
+        ],
+        "MaxOptionQty": "10",
+        "PartCount": "2",
+        "NeedsCustomization": true
+      },
+      "Variants": [
+        "CLHTHAWAI",
+        "LGHTHAWAI",
+        "GRHTHAWAI"
+      ]
+    },
+    "S_MARG": {
+      "AvailableToppings": "A,Bq=0:0.5:1:1.5,Bu,Cl,Cm,Cs,G,Gp,Bc,Jp,Kk,Kv,Ls,Mg,Mz,N,O,Pa,Pe,Pi,Ps,R,Sk,Sl,Xw=0:0.5:1:1.5,X=0:0.5:1:1.5",
+      "AvailableSides": "",
+      "Code": "S_MARG",
+      "DefaultToppings": "X=1,Mz=1.5",
+      "DefaultSides": "",
+      "Description": "Umak od rajčice, mozzarella",
+      "ImageCode": "S_MARG",
+      "Local": false,
+      "Name": "Margherita",
+      "ProductType": "Pizza",
+      "Tags": {
+        "OptionQtys": [
+          "0",
+          "0.5",
+          "1",
+          "1.5",
+          "2",
+          "3"
+        ],
+        "MaxOptionQty": "10",
+        "PartCount": "2",
+        "NeedsCustomization": true
+      },
+      "Variants": [
+        "CLHTMARG",
+        "LGHTMARG",
+        "GRHTMARG"
+      ]
+    },
+    "S_PEPPSN": {
+      "AvailableToppings": "A,Bq=0:0.5:1:1.5,Bu,Cl,Cm,Cs,G,Gp,Bc,Jp,Kk,Kv,Ls,Mg,Mz,N,O,Pa,Pe,Pi,Ps,R,Sk,Sl,Xw=0:0.5:1:1.5,X=0:0.5:1:1.5",
+      "AvailableSides": "",
+      "Code": "S_PEPPSN",
+      "DefaultToppings": "X=1,Mz=1,Ps=1.5",
+      "DefaultSides": "",
+      "Description": "Extra pepperoni salama, mozzarella",
+      "ImageCode": "S_PEPPSN",
+      "Local": false,
+      "Name": "Pepperoni Passion",
+      "ProductType": "Pizza",
+      "Tags": {
+        "OptionQtys": [
+          "0",
+          "0.5",
+          "1",
+          "1.5",
+          "2",
+          "3"
+        ],
+        "MaxOptionQty": "10",
+        "PartCount": "2",
+        "NeedsCustomization": true
+      },
+      "Variants": [
+        "CLHTPEPPSN",
+        "LGHTPEPPSN",
+        "GRHTPEPPSN"
+      ]
+    },
+    "S_VEG": {
+      "AvailableToppings": "A,Bq=0:0.5:1:1.5,Bu,Cl,Cm,Cs,G,Gp,Bc,Jp,Kk,Kv,Ls,Mg,Mz,N,O,Pa,Pe,Pi,Ps,R,Sk,Sl,Xw=0:0.5:1:1.5,X=0:0.5:1:1.5",
+      "AvailableSides": "",
+      "Code": "S_VEG",
+      "DefaultToppings": "X=1,Mz=1,G=1,Cl=1,Cm=1,R=1,Pa=1,O=1",
+      "DefaultSides": "",
+      "Description": "Rajčica, gljive, paprika, crveni luk, crne masline, mozzarella, origano",
+      "ImageCode": "S_VEG",
+      "Local": false,
+      "Name": "Veggie Deluxe",
+      "ProductType": "Pizza",
+      "Tags": {
+        "OptionQtys": [
+          "0",
+          "0.5",
+          "1",
+          "1.5",
+          "2",
+          "3"
+        ],
+        "MaxOptionQty": "10",
+        "PartCount": "2",
+        "NeedsCustomization": true
+      },
+      "Variants": [
+        "CLHTVEGGIE",
+        "LGHTVEGGIE",
+        "GRHTVEGGIE"
+      ]
+    },
+    "S_BBQCHK": {
+      "AvailableToppings": "A,Bq=0:0.5:1:1.5,Bu,Cl,Cm,Cs,G,Gp,Bc,Jp,Kk,Kv,Ls,Mg,Mz,N,O,Pa,Pe,Pi,Ps,R,Sk,Sl,Xw=0:0.5:1:1.5,X=0:0.5:1:1.5",
+      "AvailableSides": "",
+      "Code": "S_BBQCHK",
+      "DefaultToppings": "Mz=1,Cl=1,Sl=1,Bq=1,Pi=1",
+      "DefaultSides": "",
+      "Description": "BBQ umak, piletina, slanina, crveni luk, mozzarella",
+      "ImageCode": "S_BBQCHK",
+      "Local": false,
+      "Name": "Memphis BBQ Chicken",
+      "ProductType": "Pizza",
+      "Tags": {
+        "OptionQtys": [
+          "0",
+          "0.5",
+          "1",
+          "1.5",
+          "2",
+          "3"
+        ],
+        "MaxOptionQty": "10",
+        "PartCount": "2",
+        "NeedsCustomization": true
+      },
+      "Variants": [
+        "CLHTBBQCHK",
+        "LGHTBBQCHK",
+        "GRHTBBQCHK"
+      ]
+    },
+    "S_CAPCCA": {
+      "AvailableToppings": "A,Bq=0:0.5:1:1.5,Bu,Cl,Cm,Cs,G,Gp,Bc,Jp,Kk,Kv,Ls,Mg,Mz,N,O,Pa,Pe,Pi,Ps,R,Sk,Sl,Xw=0:0.5:1:1.5,X=0:0.5:1:1.5",
+      "AvailableSides": "",
+      "Code": "S_CAPCCA",
+      "DefaultToppings": "X=1,Mz=1,Sk=1,G=1,Cm=1,Gp=1,O=1",
+      "DefaultSides": "",
+      "Description": "Šunka, gljive, crne masline, grana padano, mozzarella",
+      "ImageCode": "S_CAPCCA",
+      "Local": false,
+      "Name": "Capricciosa",
+      "ProductType": "Pizza",
+      "Tags": {
+        "OptionQtys": [
+          "0",
+          "0.5",
+          "1",
+          "1.5",
+          "2",
+          "3"
+        ],
+        "MaxOptionQty": "10",
+        "PartCount": "2",
+        "NeedsCustomization": true
+      },
+      "Variants": [
+        "CLHTCAPCOS",
+        "LGHTCAPCOS",
+        "GRHTCAPCOS"
+      ]
+    },
+    "S_CAPRS": {
+      "AvailableToppings": "A,Bq=0:0.5:1:1.5,Bu,Cl,Cm,Cs,G,Gp,Bc,Jp,Kk,Kv,Ls,Mg,Mz,N,O,Pa,Pe,Pi,Ps,R,Sk,Sl,Xw=0:0.5:1:1.5,X=0:0.5:1:1.5",
+      "AvailableSides": "",
+      "Code": "S_CAPRS",
+      "DefaultToppings": "X=1,Mz=1.5,R=1,Pe=1",
+      "DefaultSides": "",
+      "Description": "Rajčica, pesto, extra mozzarella",
+      "ImageCode": "S_CAPRS",
+      "Local": false,
+      "Name": "Caprese",
+      "ProductType": "Pizza",
+      "Tags": {
+        "OptionQtys": [
+          "0",
+          "0.5",
+          "1",
+          "1.5",
+          "2",
+          "3"
+        ],
+        "MaxOptionQty": "10",
+        "PartCount": "2",
+        "NeedsCustomization": true
+      },
+      "Variants": [
+        "CLHTCAPRES",
+        "LGHTCAPRES",
+        "GRHTCAPRES"
+      ]
+    },
+    "S_CHBRG": {
+      "AvailableToppings": "A,Bq=0:0.5:1:1.5,Bu,Cl,Cm,Cs,G,Gp,Bc,Jp,Kk,Kv,Ls,Mg,Mz,N,O,Pa,Pe,Pi,Ps,R,Sk,Sl,Xw=0:0.5:1:1.5,X=0:0.5:1:1.5",
+      "AvailableSides": "",
+      "Code": "S_CHBRG",
+      "DefaultToppings": "X=1,Mz=1,Cl=1,Mg=1,Cs=1,R=1,Bu=1,Kk=1",
+      "DefaultSides": "",
+      "Description": "Mljevena govedina, rajčica, kiseli krastavci, crveni luk, cheddar sir, mozzarella, prekriveno burger umakom",
+      "ImageCode": "S_CHBRG",
+      "Local": false,
+      "Name": "Cheeseburger",
+      "ProductType": "Pizza",
+      "Tags": {
+        "OptionQtys": [
+          "0",
+          "0.5",
+          "1",
+          "1.5",
+          "2",
+          "3"
+        ],
+        "MaxOptionQty": "10",
+        "PartCount": "2",
+        "NeedsCustomization": true
+      },
+      "Variants": [
+        "CLHTCHEBRG",
+        "LGHTCHEBRG",
+        "GRHTCHEBRG"
+      ]
+    },
+    "S_CHKN": {
+      "AvailableToppings": "A,Bq=0:0.5:1:1.5,Bu,Cl,Cm,Cs,G,Gp,Bc,Jp,Kk,Kv,Ls,Mg,Mz,N,O,Pa,Pe,Pi,Ps,R,Sk,Sl,Xw=0:0.5:1:1.5,X=0:0.5:1:1.5",
+      "AvailableSides": "",
+      "Code": "S_CHKN",
+      "DefaultToppings": "X=1,Mz=1,Cl=1,R=1,Pi=1,Pa=1,O=1",
+      "DefaultSides": "",
+      "Description": "Piletina, paprika, crveni luk, origano, rajčica, mozzarella",
+      "ImageCode": "S_CHKN",
+      "Local": false,
+      "Name": "Chicken Feast",
+      "ProductType": "Pizza",
+      "Tags": {
+        "OptionQtys": [
+          "0",
+          "0.5",
+          "1",
+          "1.5",
+          "2",
+          "3"
+        ],
+        "MaxOptionQty": "10",
+        "PartCount": "2",
+        "NeedsCustomization": true
+      },
+      "Variants": [
+        "CLHTCHKFST",
+        "LGHTCHKFST",
+        "GRHTCHKFST"
+      ]
+    },
+    "S_FRCHE": {
+      "AvailableToppings": "A,Bq=0:0.5:1:1.5,Bu,Cl,Cm,Cs,G,Gp,Bc,Jp,Kk,Kv,Ls,Mg,Mz,N,O,Pa,Pe,Pi,Ps,R,Sk,Sl,Xw=0:0.5:1:1.5,X=0:0.5:1:1.5",
+      "AvailableSides": "",
+      "Code": "S_FRCHE",
+      "DefaultToppings": "X=1,Mz=1,Cs=1,Gp=1,Bc=1",
+      "DefaultSides": "",
+      "Description": "Cheddar sir, pljesnivi sir, grana padano, mozzarella",
+      "ImageCode": "S_FRCHE",
+      "Local": false,
+      "Name": "Four Cheese",
+      "ProductType": "Pizza",
+      "Tags": {
+        "OptionQtys": [
+          "0",
+          "0.5",
+          "1",
+          "1.5",
+          "2",
+          "3"
+        ],
+        "MaxOptionQty": "10",
+        "PartCount": "2",
+        "NeedsCustomization": true
+      },
+      "Variants": [
+        "CLHTFRCHE",
+        "LGHTFRCHE",
+        "GRHTFRCHE"
+      ]
+    },
+    "S_FUNG": {
+      "AvailableToppings": "A,Bq=0:0.5:1:1.5,Bu,Cl,Cm,Cs,G,Gp,Bc,Jp,Kk,Kv,Ls,Mg,Mz,N,O,Pa,Pe,Pi,Ps,R,Sk,Sl,Xw=0:0.5:1:1.5,X=0:0.5:1:1.5",
+      "AvailableSides": "",
+      "Code": "S_FUNG",
+      "DefaultToppings": "X=1,Mz=1.5,G=1",
+      "DefaultSides": "",
+      "Description": "Gljive, extra mozzarella",
+      "ImageCode": "S_FUNG",
+      "Local": false,
+      "Name": "Funghi",
+      "ProductType": "Pizza",
+      "Tags": {
+        "OptionQtys": [
+          "0",
+          "0.5",
+          "1",
+          "1.5",
+          "2",
+          "3"
+        ],
+        "MaxOptionQty": "10",
+        "PartCount": "2",
+        "NeedsCustomization": true
+      },
+      "Variants": [
+        "CLHTFUNGHI",
+        "LGHTFUNGHI",
+        "GRHTFUNGHI"
+      ]
+    },
+    "S_GRPO": {
+      "AvailableToppings": "A,Bq=0:0.5:1:1.5,Bu,Cl,Cm,Cs,G,Gp,Bc,Jp,Kk,Kv,Ls,Mg,Mz,N,O,Pa,Pe,Pi,Ps,R,Sk,Sl,Xw=0:0.5:1:1.5,X=0:0.5:1:1.5",
+      "AvailableSides": "",
+      "Code": "S_GRPO",
+      "DefaultToppings": "X=1,Mz=1.5,Gp=1",
+      "DefaultSides": "",
+      "Description": "Mozzarella, grana padano, prekriveno umakom od rajčice",
+      "ImageCode": "S_GRPO",
+      "Local": false,
+      "Name": "Grana Padano",
+      "ProductType": "Pizza",
+      "Tags": {
+        "OptionQtys": [
+          "0",
+          "0.5",
+          "1",
+          "1.5",
+          "2",
+          "3"
+        ],
+        "MaxOptionQty": "10",
+        "PartCount": "2",
+        "NeedsCustomization": true
+      },
+      "Variants": [
+        "CLHTGRPDO",
+        "LGHTGRPDO",
+        "GRHTGRPDO"
+      ]
+    },
+    "S_PICANTE": {
+      "AvailableToppings": "A,Bq=0:0.5:1:1.5,Bu,Cl,Cm,Cs,G,Gp,Bc,Jp,Kk,Kv,Ls,Mg,Mz,N,O,Pa,Pe,Pi,Ps,R,Sk,Sl,Xw=0:0.5:1:1.5,X=0:0.5:1:1.5",
+      "AvailableSides": "",
+      "Code": "S_PICANTE",
+      "DefaultToppings": "X=1,Mz=1,Cl=1,Jp=1,Pa=1,Ls=1",
+      "DefaultSides": "",
+      "Description": "Crveni luk, ljuta pepperoni salama, paprike, jalapeño papričica, mozzarella",
+      "ImageCode": "S_PICANTE",
+      "Local": false,
+      "Name": "Piccante",
+      "ProductType": "Pizza",
+      "Tags": {
+        "OptionQtys": [
+          "0",
+          "0.5",
+          "1",
+          "1.5",
+          "2",
+          "3"
+        ],
+        "MaxOptionQty": "10",
+        "PartCount": "2",
+        "NeedsCustomization": true
+      },
+      "Variants": [
+        "CLHTPICNTE",
+        "LGHTPICNTE",
+        "GRHTPICNTE"
+      ]
+    },
+    "S_SLAV": {
+      "AvailableToppings": "A,Bq=0:0.5:1:1.5,Bu,Cl,Cm,Cs,G,Gp,Bc,Jp,Kk,Kv,Ls,Mg,Mz,N,O,Pa,Pe,Pi,Ps,R,Sk,Sl,Xw=0:0.5:1:1.5,X=0:0.5:1:1.5",
+      "AvailableSides": "",
+      "Code": "S_SLAV",
+      "DefaultToppings": "X=1,Mz=1,Sl=1,Jp=1,Pa=1,Kv=1,A=1,Ls=1",
+      "DefaultSides": "",
+      "Description": "Slanina, ljuta pepperoni salama, paprika, jalapeño papričica, mozzarella, prekriveno ajvarom i kiselim vrhnjem",
+      "ImageCode": "S_SLAV",
+      "Local": false,
+      "Name": "Slavonska",
+      "ProductType": "Pizza",
+      "Tags": {
+        "OptionQtys": [
+          "0",
+          "0.5",
+          "1",
+          "1.5",
+          "2",
+          "3"
+        ],
+        "MaxOptionQty": "10",
+        "PartCount": "2",
+        "NeedsCustomization": true
+      },
+      "Variants": [
+        "CLHTSLAVKA",
+        "LGHTSLAVKA",
+        "GRHTSLAVKA"
+      ]
+    },
+    "S_VSUVO": {
+      "AvailableToppings": "A,Bq=0:0.5:1:1.5,Bu,Cl,Cm,Cs,G,Gp,Bc,Jp,Kk,Kv,Ls,Mg,Mz,N,O,Pa,Pe,Pi,Ps,R,Sk,Sl,Xw=0:0.5:1:1.5,X=0:0.5:1:1.5",
+      "AvailableSides": "",
+      "Code": "S_VSUVO",
+      "DefaultToppings": "X=1,Mz=1.5,Sk=1",
+      "DefaultSides": "",
+      "Description": "Šunka, extra mozzarella",
+      "ImageCode": "S_VSUVO",
+      "Local": false,
+      "Name": "Vesuvio",
+      "ProductType": "Pizza",
+      "Tags": {
+        "OptionQtys": [
+          "0",
+          "0.5",
+          "1",
+          "1.5",
+          "2",
+          "3"
+        ],
+        "MaxOptionQty": "10",
+        "PartCount": "2",
+        "NeedsCustomization": true
+      },
+      "Variants": [
+        "CLHTVESUVO",
+        "LGHTVESUVO",
+        "GRHTVESUVO"
+      ]
+    },
+    "S_BYO": {
+      "AvailableToppings": "A,Bq=0:0.5:1:1.5,Bu,Cl,Cm,Cs,G,Gp,Bc,Jp,Kk,Kv,Ls,Mg,Mz,N,O,Pa,Pe,Pi,Ps,R,Sk,Sl,Xw=0:0.5:1:1.5,X=0:0.5:1:1.5",
+      "AvailableSides": "",
+      "Code": "S_BYO",
+      "DefaultToppings": "X=1,Mz=1",
+      "DefaultSides": "",
+      "Description": "umak od rajčice i mozzarella uključeni u cijenu",
+      "ImageCode": "S_BYO",
+      "Local": false,
+      "Name": "Napravi svoju pizzu",
+      "ProductType": "Pizza",
+      "Tags": {
+        "OptionQtys": [
+          "0",
+          "0.5",
+          "1",
+          "1.5",
+          "2",
+          "3"
+        ],
+        "MaxOptionQty": "10",
+        "PartCount": "2",
+        "NeedsCustomization": true
+      },
+      "Variants": [
+        "CLHTBYO",
+        "LGHTBYO",
+        "GRHTBYO"
+      ]
+    },
+    "S_HNH": {
+      "AvailableToppings": "A,Bq=0:0.5:1:1.5,Bu,Cl,Cm,Cs,G,Gp,Bc,Jp,Kk,Kv,Ls,Mg,Mz,N,O,Pa,Pe,Pi,Ps,R,Sk,Sl,Xw=0:0.5:1:1.5,X=0:0.5:1:1.5",
+      "AvailableSides": "",
+      "Code": "S_HNH",
+      "DefaultToppings": "X=1,Mz=1",
+      "DefaultSides": "",
+      "Description": "",
+      "ImageCode": "S_HNH",
+      "Local": false,
+      "Name": "Pola/Pola",
+      "ProductType": "Pizza",
+      "Tags": {
+        "OptionQtys": [
+          "0",
+          "0.5",
+          "1",
+          "1.5",
+          "2",
+          "3"
+        ],
+        "MaxOptionQty": "10",
+        "PartCount": "2",
+        "NeedsCustomization": true
+      },
+      "Variants": [
+        "CLHTHNH",
+        "LGHTHNH",
+        "GRHTHNH"
+      ]
+    },
+    "S_CRCH": {
+      "AvailableToppings": "A,Bq=0:0.5:1:1.5,Bu,Cl,Cm,Cs,G,Gp,Bc,Jp,Kk,Kv,Ls,Mg,Mz,N,O,Pa,Pe,Pi,Ps,R,Sk,Sl,Xw=0:0.5:1:1.5,X=0:0.5:1:1.5",
+      "AvailableSides": "",
+      "Code": "S_CRCH",
+      "DefaultToppings": "Mz=1,Cl=1,Cs=1,Gp=1,O=1,Xw=1",
+      "DefaultSides": "",
+      "Description": "Bijeli umak, cheddar sir, grana padano, mozzarella, crveni luk, origano",
+      "ImageCode": "S_CRCH",
+      "Local": false,
+      "Name": "Creamy Cheese",
+      "ProductType": "Pizza",
+      "Tags": {
+        "OptionQtys": [
+          "0",
+          "0.5",
+          "1",
+          "1.5",
+          "2",
+          "3"
+        ],
+        "MaxOptionQty": "10",
+        "PartCount": "2",
+        "NeedsCustomization": true
+      },
+      "Variants": [
+        "CLHTCRCH",
+        "LGHTCRCH",
+        "GRHTCRCH"
+      ]
+    },
+    "S_CRCAPR": {
+      "AvailableToppings": "A,Bq=0:0.5:1:1.5,Bu,Cl,Cm,Cs,G,Gp,Bc,Jp,Kk,Kv,Ls,Mg,Mz,N,O,Pa,Pe,Pi,Ps,R,Sk,Sl,Xw=0:0.5:1:1.5,X=0:0.5:1:1.5",
+      "AvailableSides": "",
+      "Code": "S_CRCAPR",
+      "DefaultToppings": "Mz=1,Sk=1,G=1,Gp=1,O=1,Xw=1",
+      "DefaultSides": "",
+      "Description": "Bijeli umak, šunka, gljive, grana padano, mozzarella, origano",
+      "ImageCode": "S_CRCAPR",
+      "Local": false,
+      "Name": "Creamy Capricciosa",
+      "ProductType": "Pizza",
+      "Tags": {
+        "OptionQtys": [
+          "0",
+          "0.5",
+          "1",
+          "1.5",
+          "2",
+          "3"
+        ],
+        "MaxOptionQty": "10",
+        "PartCount": "2",
+        "NeedsCustomization": true
+      },
+      "Variants": [
+        "CLHTCRCAPR",
+        "LGHTCRCAPR",
+        "GRHTCRCAPR"
+      ]
+    },
+    "S_CRCARB": {
+      "AvailableToppings": "A,Bq=0:0.5:1:1.5,Bu,Cl,Cm,Cs,G,Gp,Bc,Jp,Kk,Kv,Ls,Mg,Mz,N,O,Pa,Pe,Pi,Ps,R,Sk,Sl,Xw=0:0.5:1:1.5,X=0:0.5:1:1.5",
+      "AvailableSides": "",
+      "Code": "S_CRCARB",
+      "DefaultToppings": "Mz=1,Cl=1,Sl=1,Gp=1,O=1,Xw=1",
+      "DefaultSides": "",
+      "Description": "Bijeli umak, slanina, grana padano, crveni luk, mozzarella, origano",
+      "ImageCode": "S_CRCARB",
+      "Local": false,
+      "Name": "Creamy Carbonara",
+      "ProductType": "Pizza",
+      "Tags": {
+        "OptionQtys": [
+          "0",
+          "0.5",
+          "1",
+          "1.5",
+          "2",
+          "3"
+        ],
+        "MaxOptionQty": "10",
+        "PartCount": "2",
+        "NeedsCustomization": true
+      },
+      "Variants": [
+        "CLHTCRCARB",
+        "LGHTCRCARB",
+        "GRHTCRCARB"
+      ]
+    },
+    "S_CRBBQ": {
+      "AvailableToppings": "A,Bq=0:0.5:1:1.5,Bu,Cl,Cm,Cs,G,Gp,Bc,Jp,Kk,Kv,Ls,Mg,Mz,N,O,Pa,Pe,Pi,Ps,R,Sk,Sl,Xw=0:0.5:1:1.5,X=0:0.5:1:1.5",
+      "AvailableSides": "",
+      "Code": "S_CRBBQ",
+      "DefaultToppings": "Mz=1,Cl=1,Sl=1,Bq=1,Pi=1,Xw=1",
+      "DefaultSides": "",
+      "Description": "Bijeli umak, piletina, slanina, crveni luk, mozzarella, prekriveno BBQ umakom",
+      "ImageCode": "S_CRBBQ",
+      "Local": false,
+      "Name": "Creamy BBQ Chicken & Bacon",
+      "ProductType": "Pizza",
+      "Tags": {
+        "OptionQtys": [
+          "0",
+          "0.5",
+          "1",
+          "1.5",
+          "2",
+          "3"
+        ],
+        "MaxOptionQty": "10",
+        "PartCount": "2",
+        "NeedsCustomization": true
+      },
+      "Variants": [
+        "CLHTCRBBQ",
+        "LGHTCRBBQ",
+        "GRHTCRBBQ"
+      ]
+    },
+    "F_BBQDIP": {
+      "AvailableToppings": "",
+      "AvailableSides": "",
+      "Code": "F_BBQDIP",
+      "DefaultToppings": "",
+      "DefaultSides": "",
+      "Description": "",
+      "ImageCode": "F_BBQDIP",
+      "Local": false,
+      "Name": "BBQ",
+      "ProductType": "Sides",
+      "Tags": {},
+      "Variants": [
+        "BBQDIP"
+      ]
+    },
+    "F_SIDHOT": {
+      "AvailableToppings": "",
+      "AvailableSides": "",
+      "Code": "F_SIDHOT",
+      "DefaultToppings": "",
+      "DefaultSides": "",
+      "Description": "",
+      "ImageCode": "F_SIDHOT",
+      "Local": false,
+      "Name": "Frank´s RedHot ",
+      "ProductType": "Sides",
+      "Tags": {},
+      "Variants": [
+        "SIDHOT"
+      ]
+    },
+    "F_SWCHIL": {
+      "AvailableToppings": "",
+      "AvailableSides": "",
+      "Code": "F_SWCHIL",
+      "DefaultToppings": "",
+      "DefaultSides": "",
+      "Description": "",
+      "ImageCode": "F_SWCHIL",
+      "Local": false,
+      "Name": "Slatki Chilli",
+      "ProductType": "Sides",
+      "Tags": {},
+      "Variants": [
+        "SWTCHL"
+      ]
+    },
+    "S_CHICKBOX": {
+      "AvailableToppings": "",
+      "AvailableSides": "BBQDIP,SIDCHL",
+      "Code": "S_CHICKBOX",
+      "DefaultToppings": "",
+      "DefaultSides": "BBQDIP=1,SIDCHL=1",
+      "Description": "4 Chicken Wings, 3 Chicken Kickers i 3 Chicken Strippers (uklj. 2 umaka)",
+      "ImageCode": "S_CHICKBOX",
+      "Local": false,
+      "Name": "Chicken Box",
+      "ProductType": "Wings",
+      "Tags": {
+        "OptionQtys": [
+          "0",
+          "0.5",
+          "1",
+          "1.5",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "MaxOptionQty": "99",
+        "Wing": true
+      },
+      "Variants": [
+        "10PCCHBOX"
+      ]
+    },
+    "S_KICK": {
+      "AvailableToppings": "",
+      "AvailableSides": "BBQDIP,SIDHOT",
+      "Code": "S_KICK",
+      "DefaultToppings": "",
+      "DefaultSides": "BBQDIP=1",
+      "Description": "6 ljutih pilećih zalogaja u krušnim mrvicama (uklj. 1 umak)",
+      "ImageCode": "S_KICK",
+      "Local": false,
+      "Name": "Chicken Kickers",
+      "ProductType": "Wings",
+      "Tags": {
+        "OptionQtys": [
+          "0",
+          "0.5",
+          "1",
+          "1.5",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "MaxOptionQty": "99",
+        "Wing": true
+      },
+      "Variants": [
+        "6PCKICKER"
+      ]
+    },
+    "S_STRIP": {
+      "AvailableToppings": "",
+      "AvailableSides": "BBQDIP,SIDHOT",
+      "Code": "S_STRIP",
+      "DefaultToppings": "",
+      "DefaultSides": "BBQDIP=1",
+      "Description": "6 pilećih traka u krušnim mrvicama (uklj. 1 umak)",
+      "ImageCode": "S_STRIP",
+      "Local": false,
+      "Name": "Chicken Strippers",
+      "ProductType": "Wings",
+      "Tags": {
+        "OptionQtys": [
+          "0",
+          "0.5",
+          "1",
+          "1.5",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "MaxOptionQty": "99",
+        "Wing": true
+      },
+      "Variants": [
+        "6PCSTRIPS"
+      ]
+    },
+    "S_PLNWINGS": {
+      "AvailableToppings": "",
+      "AvailableSides": "BBQDIP,SIDHOT",
+      "Code": "S_PLNWINGS",
+      "DefaultToppings": "",
+      "DefaultSides": "BBQDIP=1",
+      "Description": "6 pilećih krilaca (uklj. 1 umak)",
+      "ImageCode": "S_PLNWINGS",
+      "Local": false,
+      "Name": "Chicken Wings",
+      "ProductType": "Wings",
+      "Tags": {
+        "OptionQtys": [
+          "0",
+          "0.5",
+          "1",
+          "1.5",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "MaxOptionQty": "99",
+        "Wing": true
+      },
+      "Variants": [
+        "6PCWNGPLN"
+      ]
+    }
+  },
+  "Sides": {
+    "Bread": {
+      "BBQDIP": {
+        "Availability": [],
+        "Code": "BBQDIP",
+        "Description": "BBQ",
+        "Local": false,
+        "Name": "BBQ",
+        "Tags": {
+          "Side": true
+        }
+      },
+      "SIDHOT": {
+        "Availability": [],
+        "Code": "SIDHOT",
+        "Description": "Frank´s RedHot",
+        "Local": false,
+        "Name": "Frank´s RedHot",
+        "Tags": {
+          "Side": true
+        }
+      },
+      "SIDCHL": {
+        "Availability": [],
+        "Code": "SIDCHL",
+        "Description": "Slatki Chill",
+        "Local": false,
+        "Name": "Slatki Chill",
+        "Tags": {
+          "Side": true
+        }
+      }
+    },
+    "Wings": {
+      "BBQDIP": {
+        "Availability": [],
+        "Code": "BBQDIP",
+        "Description": "BBQ",
+        "Local": false,
+        "Name": "BBQ",
+        "Tags": {
+          "Side": true
+        }
+      },
+      "SIDHOT": {
+        "Availability": [],
+        "Code": "SIDHOT",
+        "Description": "Frank´s RedHot",
+        "Local": false,
+        "Name": "Frank´s RedHot",
+        "Tags": {
+          "Side": true
+        }
+      },
+      "SIDCHL": {
+        "Availability": [],
+        "Code": "SIDCHL",
+        "Description": "Slatki Chill",
+        "Local": false,
+        "Name": "Slatki Chill",
+        "Tags": {
+          "Side": true
+        }
+      }
+    }
+  },
+  "Sizes": {
+    "Bread": {
+      "BRD8": {
+        "Code": "BRD8",
+        "Description": "8-Piece",
+        "Local": false,
+        "Name": "8-Piece",
+        "SortSeq": "02"
+      }
+    },
+    "Dessert": {
+      "DBRD3": {
+        "Code": "DBRD3",
+        "Description": "3 Pieces",
+        "Local": false,
+        "Name": "3 Pieces",
+        "SortSeq": "02"
+      },
+      "DBRD8": {
+        "Code": "DBRD8",
+        "Description": "8 Pieces",
+        "Local": false,
+        "Name": "8 Pieces",
+        "SortSeq": "04"
+      }
+    },
+    "Drinks": {
+      "1LT": {
+        "Code": "1LT",
+        "Description": "1 Liter",
+        "Local": false,
+        "Name": "1 Liter",
+        "SortSeq": "01"
+      },
+      "330ML": {
+        "Code": "330ML",
+        "Description": "330 ML",
+        "Local": false,
+        "Name": "330 ML",
+        "SortSeq": "02"
+      },
+      "500ML": {
+        "Code": "500ML",
+        "Description": "500 ML",
+        "Local": false,
+        "Name": "500 ML",
+        "SortSeq": "03"
+      }
+    },
+    "Pizza": {
+      "CL": {
+        "Code": "CL",
+        "Description": "Classic (25 cm)",
+        "Local": false,
+        "Name": "Classic (25 cm)",
+        "SortSeq": "01"
+      },
+      "LG": {
+        "Code": "LG",
+        "Description": "Large (29 cm)",
+        "Local": false,
+        "Name": "Large (29 cm)",
+        "SortSeq": "02"
+      },
+      "GR": {
+        "Code": "GR",
+        "Description": "Grande (34 cm)",
+        "Local": false,
+        "Name": "Grande (34 cm)",
+        "SortSeq": "03"
+      }
+    },
+    "Wings": {
+      "10PCW": {
+        "Code": "10PCW",
+        "Description": "10-Piece",
+        "Local": false,
+        "Name": "10-Piece",
+        "SortSeq": "01"
+      },
+      "6PCW": {
+        "Code": "6PCW",
+        "Description": "6-Piece",
+        "Local": false,
+        "Name": "6-Piece",
+        "SortSeq": "02"
+      }
+    }
+  },
+  "Toppings": {
+    "Pizza": {
+      "A": {
+        "Availability": [],
+        "Code": "A",
+        "Description": "Ajvar",
+        "Local": false,
+        "Name": "Ajvar",
+        "Tags": {
+          "NonMeat": true
+        }
+      },
+      "Bq": {
+        "Availability": [],
+        "Code": "Bq",
+        "Description": "BBQ umak",
+        "Local": false,
+        "Name": "BBQ umak",
+        "Tags": {
+          "Sauce": true,
+          "WholeOnly": true,
+          "IgnoreQty": true
+        }
+      },
+      "Bu": {
+        "Availability": [],
+        "Code": "Bu",
+        "Description": "Burger Umak",
+        "Local": false,
+        "Name": "Burger Umak",
+        "Tags": {
+          "NonMeat": true
+        }
+      },
+      "Cl": {
+        "Availability": [],
+        "Code": "Cl",
+        "Description": "Crveni Luk",
+        "Local": false,
+        "Name": "Crveni Luk",
+        "Tags": {
+          "NonMeat": true
+        }
+      },
+      "Cm": {
+        "Availability": [],
+        "Code": "Cm",
+        "Description": "Crne Masline",
+        "Local": false,
+        "Name": "Crne Masline",
+        "Tags": {
+          "NonMeat": true
+        }
+      },
+      "Cs": {
+        "Availability": [],
+        "Code": "Cs",
+        "Description": "Cheddar Sir",
+        "Local": false,
+        "Name": "Cheddar Sir",
+        "Tags": {
+          "NonMeat": true
+        }
+      },
+      "G": {
+        "Availability": [],
+        "Code": "G",
+        "Description": "Gljive",
+        "Local": false,
+        "Name": "Gljive",
+        "Tags": {
+          "NonMeat": true
+        }
+      },
+      "Gp": {
+        "Availability": [],
+        "Code": "Gp",
+        "Description": "Grana Padano",
+        "Local": false,
+        "Name": "Grana Padano",
+        "Tags": {
+          "NonMeat": true
+        }
+      },
+      "Bc": {
+        "Availability": [],
+        "Code": "Bc",
+        "Description": "Pljesnivi sir",
+        "Local": false,
+        "Name": "Pljesnivi sir",
+        "Tags": {
+          "NonMeat": true
+        }
+      },
+      "Jp": {
+        "Availability": [],
+        "Code": "Jp",
+        "Description": "Jalapeño Papričica",
+        "Local": false,
+        "Name": "Jalapeño Papričica",
+        "Tags": {
+          "NonMeat": true
+        }
+      },
+      "Kk": {
+        "Availability": [],
+        "Code": "Kk",
+        "Description": "Kiseli Krastavci",
+        "Local": false,
+        "Name": "Kiseli Krastavci",
+        "Tags": {
+          "NonMeat": true
+        }
+      },
+      "Kv": {
+        "Availability": [],
+        "Code": "Kv",
+        "Description": "Kiselo Vrhnje",
+        "Local": false,
+        "Name": "Kiselo Vrhnje",
+        "Tags": {
+          "NonMeat": true
+        }
+      },
+      "Ls": {
+        "Availability": [],
+        "Code": "Ls",
+        "Description": "Ljuta Pepperoni Salama",
+        "Local": false,
+        "Name": "Ljuta Pepperoni Salama",
+        "Tags": {
+          "Meat": true
+        }
+      },
+      "Mg": {
+        "Availability": [],
+        "Code": "Mg",
+        "Description": "Mljevena Govedina",
+        "Local": false,
+        "Name": "Mljevena Govedina",
+        "Tags": {
+          "Meat": true
+        }
+      },
+      "Mz": {
+        "Availability": [],
+        "Code": "Mz",
+        "Description": "Mozzarella",
+        "Local": false,
+        "Name": "Mozzarella",
+        "Tags": {
+          "Cheese": true
+        }
+      },
+      "N": {
+        "Availability": [],
+        "Code": "N",
+        "Description": "Ananas",
+        "Local": false,
+        "Name": "Ananas",
+        "Tags": {
+          "NonMeat": true
+        }
+      },
+      "O": {
+        "Availability": [],
+        "Code": "O",
+        "Description": "Origano",
+        "Local": false,
+        "Name": "Origano",
+        "Tags": {
+          "NonMeat": true
+        }
+      },
+      "Pa": {
+        "Availability": [],
+        "Code": "Pa",
+        "Description": "Paprika",
+        "Local": false,
+        "Name": "Paprika",
+        "Tags": {
+          "NonMeat": true
+        }
+      },
+      "Pe": {
+        "Availability": [],
+        "Code": "Pe",
+        "Description": "Pesto",
+        "Local": false,
+        "Name": "Pesto",
+        "Tags": {
+          "NonMeat": true
+        }
+      },
+      "Pi": {
+        "Availability": [],
+        "Code": "Pi",
+        "Description": "Piletina",
+        "Local": false,
+        "Name": "Piletina",
+        "Tags": {
+          "Meat": true
+        }
+      },
+      "Ps": {
+        "Availability": [],
+        "Code": "Ps",
+        "Description": "Pepperoni Salama",
+        "Local": false,
+        "Name": "Pepperoni Salama",
+        "Tags": {
+          "Meat": true
+        }
+      },
+      "R": {
+        "Availability": [],
+        "Code": "R",
+        "Description": "Rajčica",
+        "Local": false,
+        "Name": "Rajčica",
+        "Tags": {
+          "NonMeat": true
+        }
+      },
+      "Sk": {
+        "Availability": [],
+        "Code": "Sk",
+        "Description": "Šunka",
+        "Local": false,
+        "Name": "Šunka",
+        "Tags": {
+          "Meat": true
+        }
+      },
+      "Sl": {
+        "Availability": [],
+        "Code": "Sl",
+        "Description": "Slanina",
+        "Local": false,
+        "Name": "Slanina",
+        "Tags": {
+          "Meat": true
+        }
+      },
+      "Xw": {
+        "Availability": [],
+        "Code": "Xw",
+        "Description": "Bijeli umak",
+        "Local": false,
+        "Name": "Bijeli umak",
+        "Tags": {
+          "Sauce": true,
+          "WholeOnly": true,
+          "IgnoreQty": true
+        }
+      },
+      "X": {
+        "Availability": [],
+        "Code": "X",
+        "Description": "Umak od rajčice",
+        "Local": false,
+        "Name": "Umak od rajčice",
+        "Tags": {
+          "Sauce": true,
+          "WholeOnly": true,
+          "IgnoreQty": true
+        }
+      }
+    }
+  },
+  "Variants": {
+    "8PCCHSYBRD": {
+      "Code": "8PCCHSYBRD",
+      "FlavorCode": "",
+      "ImageCode": "8PCCHSYBRD",
+      "Local": false,
+      "Name": "8-Piece Cheesy Bread",
+      "Price": "20",
+      "ProductCode": "F_CHEBRD",
+      "SizeCode": "BRD8",
+      "Tags": {
+        "DefaultSides": "",
+        "DefaultToppings": ""
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "20",
+        "Price1-0": "20",
+        "Price1-3": "20",
+        "Price2-3": "20",
+        "Price1-4": "20",
+        "Price2-2": "20",
+        "Price1-1": "20",
+        "Price2-1": "20",
+        "Price1-2": "20",
+        "Price2-0": "20"
+      },
+      "Surcharge": "0"
+    },
+    "8PCGARBRD": {
+      "Code": "8PCGARBRD",
+      "FlavorCode": "",
+      "ImageCode": "8PCGARBRD",
+      "Local": false,
+      "Name": "8-Piece Garlic Bread",
+      "Price": "20",
+      "ProductCode": "F_GARBRD",
+      "SizeCode": "BRD8",
+      "Tags": {
+        "DefaultSides": "",
+        "DefaultToppings": ""
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "20",
+        "Price1-0": "20",
+        "Price1-3": "20",
+        "Price2-3": "20",
+        "Price1-4": "20",
+        "Price2-2": "20",
+        "Price1-1": "20",
+        "Price2-1": "20",
+        "Price1-2": "20",
+        "Price2-0": "20"
+      },
+      "Surcharge": "0"
+    },
+    "8CBRDTG": {
+      "Code": "8CBRDTG",
+      "FlavorCode": "",
+      "ImageCode": "8CBRDTG",
+      "Local": false,
+      "Name": "8-Piece Cheesy Bread Tomato & Garlic",
+      "Price": "24",
+      "ProductCode": "F_CBRDTG",
+      "SizeCode": "BRD8",
+      "Tags": {
+        "DefaultSides": "",
+        "DefaultToppings": ""
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "24",
+        "Price1-0": "24",
+        "Price1-3": "24",
+        "Price2-3": "24",
+        "Price1-4": "24",
+        "Price2-2": "24",
+        "Price1-1": "24",
+        "Price2-1": "24",
+        "Price1-2": "24",
+        "Price2-0": "24"
+      },
+      "Surcharge": "0"
+    },
+    "8CBRDHB": {
+      "Code": "8CBRDHB",
+      "FlavorCode": "",
+      "ImageCode": "8CBRDHB",
+      "Local": false,
+      "Name": "8-Piece Cheesy Bread Ham & Blue Cheese",
+      "Price": "24",
+      "ProductCode": "F_CBRDHB",
+      "SizeCode": "BRD8",
+      "Tags": {
+        "DefaultSides": "",
+        "DefaultToppings": ""
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "24",
+        "Price1-0": "24",
+        "Price1-3": "24",
+        "Price2-3": "24",
+        "Price1-4": "24",
+        "Price2-2": "24",
+        "Price1-1": "24",
+        "Price2-1": "24",
+        "Price1-2": "24",
+        "Price2-0": "24"
+      },
+      "Surcharge": "0"
+    },
+    "8CBRDPP": {
+      "Code": "8CBRDPP",
+      "FlavorCode": "",
+      "ImageCode": "8CBRDPP",
+      "Local": false,
+      "Name": "8-Piece Cheesy Bread Pepperoni & Peppers",
+      "Price": "24",
+      "ProductCode": "F_CBRDPP",
+      "SizeCode": "BRD8",
+      "Tags": {
+        "DefaultSides": "",
+        "DefaultToppings": ""
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "24",
+        "Price1-0": "24",
+        "Price1-3": "24",
+        "Price2-3": "24",
+        "Price1-4": "24",
+        "Price2-2": "24",
+        "Price1-1": "24",
+        "Price2-1": "24",
+        "Price1-2": "24",
+        "Price2-0": "24"
+      },
+      "Surcharge": "0"
+    },
+    "8CBRDBJ": {
+      "Code": "8CBRDBJ",
+      "FlavorCode": "",
+      "ImageCode": "8CBRDBJ",
+      "Local": false,
+      "Name": "8-Piece Cheesy Bread Bacon & Jalapeño",
+      "Price": "24",
+      "ProductCode": "F_CBRDBJ",
+      "SizeCode": "BRD8",
+      "Tags": {
+        "DefaultSides": "",
+        "DefaultToppings": ""
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "24",
+        "Price1-0": "24",
+        "Price1-3": "24",
+        "Price2-3": "24",
+        "Price1-4": "24",
+        "Price2-2": "24",
+        "Price1-1": "24",
+        "Price2-1": "24",
+        "Price1-2": "24",
+        "Price2-0": "24"
+      },
+      "Surcharge": "0"
+    },
+    "3PCCHCKIE": {
+      "Code": "3PCCHCKIE",
+      "FlavorCode": "",
+      "ImageCode": "3PCCHCKIE",
+      "Local": false,
+      "Name": "3-Piece Chocolate Chip Cookies",
+      "Price": "18",
+      "ProductCode": "F_CCOOKIE",
+      "SizeCode": "DBRD3",
+      "Tags": {
+        "DefaultSides": "",
+        "DefaultToppings": ""
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "18",
+        "Price1-0": "18",
+        "Price1-3": "18",
+        "Price2-3": "18",
+        "Price1-4": "18",
+        "Price2-2": "18",
+        "Price1-1": "18",
+        "Price2-1": "18",
+        "Price1-2": "18",
+        "Price2-0": "18"
+      },
+      "Surcharge": "0"
+    },
+    "8PCCHOCPIE": {
+      "Code": "8PCCHOCPIE",
+      "FlavorCode": "",
+      "ImageCode": "8PCCHOCPIE",
+      "Local": false,
+      "Name": "8-Piece Choco Pie",
+      "Price": "25",
+      "ProductCode": "F_CHOCO",
+      "SizeCode": "DBRD8",
+      "Tags": {
+        "DefaultSides": "",
+        "DefaultToppings": ""
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "25",
+        "Price1-0": "25",
+        "Price1-3": "25",
+        "Price2-3": "25",
+        "Price1-4": "25",
+        "Price2-2": "25",
+        "Price1-1": "25",
+        "Price2-1": "25",
+        "Price1-2": "25",
+        "Price2-0": "25"
+      },
+      "Surcharge": "0"
+    },
+    "8PCCINASTX": {
+      "Code": "8PCCINASTX",
+      "FlavorCode": "",
+      "ImageCode": "8PCCINASTX",
+      "Local": false,
+      "Name": "8-Piece CinnamonStix",
+      "Price": "22",
+      "ProductCode": "F_CINNA",
+      "SizeCode": "DBRD8",
+      "Tags": {
+        "DefaultSides": "",
+        "DefaultToppings": ""
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "22",
+        "Price1-0": "22",
+        "Price1-3": "22",
+        "Price2-3": "22",
+        "Price1-4": "22",
+        "Price2-2": "22",
+        "Price1-1": "22",
+        "Price2-1": "22",
+        "Price1-2": "22",
+        "Price2-0": "22"
+      },
+      "Surcharge": "0"
+    },
+    "8CHRCHOPIE": {
+      "Code": "8CHRCHOPIE",
+      "FlavorCode": "",
+      "ImageCode": "8CHRCHOPIE",
+      "Local": true,
+      "Name": "8-Piece Cherry Choco Pie",
+      "Price": "25",
+      "ProductCode": "F_CHRCHOCO",
+      "SizeCode": "DBRD8",
+      "Tags": {
+        "DefaultSides": "",
+        "DefaultToppings": ""
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "25",
+        "Price1-0": "25",
+        "Price1-3": "25",
+        "Price2-3": "25",
+        "Price1-4": "25",
+        "Price2-2": "25",
+        "Price1-1": "25",
+        "Price2-1": "25",
+        "Price1-2": "25",
+        "Price2-0": "25"
+      },
+      "Surcharge": "0"
+    },
+    "1LTCKZERO": {
+      "Code": "1LTCKZERO",
+      "FlavorCode": "",
+      "ImageCode": "1LTCKZERO",
+      "Local": false,
+      "Name": "1 Liter Coca-Cola No Sugar",
+      "Price": "18",
+      "ProductCode": "F_CKZERO",
+      "SizeCode": "1LT",
+      "Tags": {
+        "DefaultSides": "",
+        "DefaultToppings": ""
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "18",
+        "Price1-0": "18",
+        "Price1-3": "18",
+        "Price2-3": "18",
+        "Price1-4": "18",
+        "Price2-2": "18",
+        "Price1-1": "18",
+        "Price2-1": "18",
+        "Price1-2": "18",
+        "Price2-0": "18"
+      },
+      "Surcharge": "0"
+    },
+    "1LTCOKE": {
+      "Code": "1LTCOKE",
+      "FlavorCode": "",
+      "ImageCode": "1LTCOKE",
+      "Local": false,
+      "Name": "1 Liter Coke",
+      "Price": "18",
+      "ProductCode": "F_COKE",
+      "SizeCode": "1LT",
+      "Tags": {
+        "DefaultSides": "",
+        "DefaultToppings": ""
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "18",
+        "Price1-0": "18",
+        "Price1-3": "18",
+        "Price2-3": "18",
+        "Price1-4": "18",
+        "Price2-2": "18",
+        "Price1-1": "18",
+        "Price2-1": "18",
+        "Price1-2": "18",
+        "Price2-0": "18"
+      },
+      "Surcharge": "0"
+    },
+    "1LTORANGE": {
+      "Code": "1LTORANGE",
+      "FlavorCode": "",
+      "ImageCode": "1LTORANGE",
+      "Local": false,
+      "Name": "1 Liter Fanta Orange",
+      "Price": "18",
+      "ProductCode": "F_ORANGE",
+      "SizeCode": "1LT",
+      "Tags": {
+        "DefaultSides": "",
+        "DefaultToppings": ""
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "18",
+        "Price1-0": "18",
+        "Price1-3": "18",
+        "Price2-3": "18",
+        "Price1-4": "18",
+        "Price2-2": "18",
+        "Price1-1": "18",
+        "Price2-1": "18",
+        "Price1-2": "18",
+        "Price2-0": "18"
+      },
+      "Surcharge": "0"
+    },
+    "1LTSPRITE": {
+      "Code": "1LTSPRITE",
+      "FlavorCode": "",
+      "ImageCode": "1LTSPRITE",
+      "Local": false,
+      "Name": "1 Liter Sprite",
+      "Price": "18",
+      "ProductCode": "F_SPRITE",
+      "SizeCode": "1LT",
+      "Tags": {
+        "DefaultSides": "",
+        "DefaultToppings": ""
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "18",
+        "Price1-0": "18",
+        "Price1-3": "18",
+        "Price2-3": "18",
+        "Price1-4": "18",
+        "Price2-2": "18",
+        "Price1-1": "18",
+        "Price2-1": "18",
+        "Price1-2": "18",
+        "Price2-0": "18"
+      },
+      "Surcharge": "0"
+    },
+    "330MLINDAL": {
+      "Code": "330MLINDAL",
+      "FlavorCode": "",
+      "ImageCode": "330MLINDAL",
+      "Local": false,
+      "Name": "330ML India Pale Ale",
+      "Price": "19",
+      "ProductCode": "F_INDPLALE",
+      "SizeCode": "330ML",
+      "Tags": {
+        "DefaultSides": "",
+        "DefaultToppings": ""
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "19",
+        "Price1-0": "19",
+        "Price1-3": "19",
+        "Price2-3": "19",
+        "Price1-4": "19",
+        "Price2-2": "19",
+        "Price1-1": "19",
+        "Price2-1": "19",
+        "Price1-2": "19",
+        "Price2-0": "19"
+      },
+      "Surcharge": "0"
+    },
+    "330MLPILSN": {
+      "Code": "330MLPILSN",
+      "FlavorCode": "",
+      "ImageCode": "330MLPILSN",
+      "Local": false,
+      "Name": "330ML Pilsner",
+      "Price": "16",
+      "ProductCode": "F_PILSNER",
+      "SizeCode": "330ML",
+      "Tags": {
+        "DefaultSides": "",
+        "DefaultToppings": ""
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "16",
+        "Price1-0": "16",
+        "Price1-3": "16",
+        "Price2-3": "16",
+        "Price1-4": "16",
+        "Price2-2": "16",
+        "Price1-1": "16",
+        "Price2-1": "16",
+        "Price1-2": "16",
+        "Price2-0": "16"
+      },
+      "Surcharge": "0"
+    },
+    "330MLPLALE": {
+      "Code": "330MLPLALE",
+      "FlavorCode": "",
+      "ImageCode": "330MLPLALE",
+      "Local": false,
+      "Name": "330ML Pale Ale",
+      "Price": "16",
+      "ProductCode": "F_PALEALE",
+      "SizeCode": "330ML",
+      "Tags": {
+        "DefaultSides": "",
+        "DefaultToppings": ""
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "16",
+        "Price1-0": "16",
+        "Price1-3": "16",
+        "Price2-3": "16",
+        "Price1-4": "16",
+        "Price2-2": "16",
+        "Price1-1": "16",
+        "Price2-1": "16",
+        "Price1-2": "16",
+        "Price2-0": "16"
+      },
+      "Surcharge": "0"
+    },
+    "330MLHNKEN": {
+      "Code": "330MLHNKEN",
+      "FlavorCode": "",
+      "ImageCode": "330MLHNKEN",
+      "Local": false,
+      "Name": "Heineken svijetlo lager pivo 0,33l",
+      "Price": "14",
+      "ProductCode": "F_HEINEKEN",
+      "SizeCode": "330ML",
+      "Tags": {
+        "DefaultSides": "",
+        "DefaultToppings": ""
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "14",
+        "Price1-0": "14",
+        "Price1-3": "14",
+        "Price2-3": "14",
+        "Price1-4": "14",
+        "Price2-2": "14",
+        "Price1-1": "14",
+        "Price2-1": "14",
+        "Price1-2": "14",
+        "Price2-0": "14"
+      },
+      "Surcharge": "0"
+    },
+    "500MLCOKE": {
+      "Code": "500MLCOKE",
+      "FlavorCode": "",
+      "ImageCode": "500MLCOKE",
+      "Local": false,
+      "Name": "500ML Coke",
+      "Price": "12",
+      "ProductCode": "F_COKE",
+      "SizeCode": "500ML",
+      "Tags": {
+        "DefaultSides": "",
+        "DefaultToppings": ""
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "12",
+        "Price1-0": "12",
+        "Price1-3": "12",
+        "Price2-3": "12",
+        "Price1-4": "12",
+        "Price2-2": "12",
+        "Price1-1": "12",
+        "Price2-1": "12",
+        "Price1-2": "12",
+        "Price2-0": "12"
+      },
+      "Surcharge": "0"
+    },
+    "500MLCWATR": {
+      "Code": "500MLCWATR",
+      "FlavorCode": "",
+      "ImageCode": "500MLCWATR",
+      "Local": false,
+      "Name": "500ML Gazirana Voda",
+      "Price": "8",
+      "ProductCode": "F_CWATER",
+      "SizeCode": "500ML",
+      "Tags": {
+        "DefaultSides": "",
+        "DefaultToppings": ""
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "8",
+        "Price1-0": "8",
+        "Price1-3": "8",
+        "Price2-3": "8",
+        "Price1-4": "8",
+        "Price2-2": "8",
+        "Price1-1": "8",
+        "Price2-1": "8",
+        "Price1-2": "8",
+        "Price2-0": "8"
+      },
+      "Surcharge": "0"
+    },
+    "500MLCZERO": {
+      "Code": "500MLCZERO",
+      "FlavorCode": "",
+      "ImageCode": "500MLCZERO",
+      "Local": false,
+      "Name": "500ML Coca-Cola No Sugar",
+      "Price": "12",
+      "ProductCode": "F_CKZERO",
+      "SizeCode": "500ML",
+      "Tags": {
+        "DefaultSides": "",
+        "DefaultToppings": ""
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "12",
+        "Price1-0": "12",
+        "Price1-3": "12",
+        "Price2-3": "12",
+        "Price1-4": "12",
+        "Price2-2": "12",
+        "Price1-1": "12",
+        "Price2-1": "12",
+        "Price1-2": "12",
+        "Price2-0": "12"
+      },
+      "Surcharge": "0"
+    },
+    "500MLFZFF": {
+      "Code": "500MLFZFF",
+      "FlavorCode": "",
+      "ImageCode": "500MLFZFF",
+      "Local": false,
+      "Name": "500ML Fuze Šumskog Voda",
+      "Price": "12",
+      "ProductCode": "F_FZFF",
+      "SizeCode": "500ML",
+      "Tags": {
+        "DefaultSides": "",
+        "DefaultToppings": ""
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "12",
+        "Price1-0": "12",
+        "Price1-3": "12",
+        "Price2-3": "12",
+        "Price1-4": "12",
+        "Price2-2": "12",
+        "Price1-1": "12",
+        "Price2-1": "12",
+        "Price1-2": "12",
+        "Price2-0": "12"
+      },
+      "Surcharge": "0"
+    },
+    "500MLFZPCH": {
+      "Code": "500MLFZPCH",
+      "FlavorCode": "",
+      "ImageCode": "500MLFZPCH",
+      "Local": false,
+      "Name": "500ML Fuze Breskve",
+      "Price": "12",
+      "ProductCode": "F_FZPCH",
+      "SizeCode": "500ML",
+      "Tags": {
+        "DefaultSides": "",
+        "DefaultToppings": ""
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "12",
+        "Price1-0": "12",
+        "Price1-3": "12",
+        "Price2-3": "12",
+        "Price1-4": "12",
+        "Price2-2": "12",
+        "Price1-1": "12",
+        "Price2-1": "12",
+        "Price1-2": "12",
+        "Price2-0": "12"
+      },
+      "Surcharge": "0"
+    },
+    "500MLORG": {
+      "Code": "500MLORG",
+      "FlavorCode": "",
+      "ImageCode": "500MLORG",
+      "Local": false,
+      "Name": "500ML Fanta Orange",
+      "Price": "12",
+      "ProductCode": "F_ORANGE",
+      "SizeCode": "500ML",
+      "Tags": {
+        "DefaultSides": "",
+        "DefaultToppings": ""
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "12",
+        "Price1-0": "12",
+        "Price1-3": "12",
+        "Price2-3": "12",
+        "Price1-4": "12",
+        "Price2-2": "12",
+        "Price1-1": "12",
+        "Price2-1": "12",
+        "Price1-2": "12",
+        "Price2-0": "12"
+      },
+      "Surcharge": "0"
+    },
+    "500MLSPRT": {
+      "Code": "500MLSPRT",
+      "FlavorCode": "",
+      "ImageCode": "500MLSPRT",
+      "Local": false,
+      "Name": "500ML Sprite",
+      "Price": "12",
+      "ProductCode": "F_SPRITE",
+      "SizeCode": "500ML",
+      "Tags": {
+        "DefaultSides": "",
+        "DefaultToppings": ""
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "12",
+        "Price1-0": "12",
+        "Price1-3": "12",
+        "Price2-3": "12",
+        "Price1-4": "12",
+        "Price2-2": "12",
+        "Price1-1": "12",
+        "Price2-1": "12",
+        "Price1-2": "12",
+        "Price2-0": "12"
+      },
+      "Surcharge": "0"
+    },
+    "500MLWATER": {
+      "Code": "500MLWATER",
+      "FlavorCode": "",
+      "ImageCode": "500MLWATER",
+      "Local": false,
+      "Name": "500ML Negazirana Voda",
+      "Price": "8",
+      "ProductCode": "F_WATER",
+      "SizeCode": "500ML",
+      "Tags": {
+        "DefaultSides": "",
+        "DefaultToppings": ""
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "8",
+        "Price1-0": "8",
+        "Price1-3": "8",
+        "Price2-3": "8",
+        "Price1-4": "8",
+        "Price2-2": "8",
+        "Price1-1": "8",
+        "Price2-1": "8",
+        "Price1-2": "8",
+        "Price2-0": "8"
+      },
+      "Surcharge": "0"
+    },
+    "CLHTBBQMT": {
+      "Code": "CLHTBBQMT",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "CLHTBBQMT",
+      "Local": false,
+      "Name": "Classic (25 cm) Original Crust BBQ Meatlovers",
+      "Price": "50",
+      "ProductCode": "S_BBQMT",
+      "SizeCode": "CL",
+      "Tags": {
+        "Premium": true,
+        "DefaultSides": "",
+        "DefaultToppings": "Mz=1,Ps=1,Sk=1,Sl=1,Bq=1,Pi=1"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "66,96",
+        "Price1-0": "50",
+        "Price1-3": "62,72",
+        "Price2-3": "62,72",
+        "Price1-4": "66,96",
+        "Price2-2": "58,48",
+        "Price1-1": "54,24",
+        "Price2-1": "54,24",
+        "Price1-2": "58,48",
+        "Price2-0": "50"
+      },
+      "Surcharge": "0"
+    },
+    "CLHTEXTRAV": {
+      "Code": "CLHTEXTRAV",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "CLHTEXTRAV",
+      "Local": false,
+      "Name": "Classic (25 cm) Original Crust Extravaganzza",
+      "Price": "50",
+      "ProductCode": "S_EXTRAV",
+      "SizeCode": "CL",
+      "Tags": {
+        "Premium": true,
+        "DefaultSides": "",
+        "DefaultToppings": "X=1,Mz=1.5,Ps=1,Sk=1,G=1,Cl=1,Cm=1,Mg=1,Pa=1"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "66,96",
+        "Price1-0": "50",
+        "Price1-3": "62,72",
+        "Price2-3": "62,72",
+        "Price1-4": "66,96",
+        "Price2-2": "58,48",
+        "Price1-1": "54,24",
+        "Price2-1": "54,24",
+        "Price1-2": "58,48",
+        "Price2-0": "50"
+      },
+      "Surcharge": "0"
+    },
+    "CLHTHAWAI": {
+      "Code": "CLHTHAWAI",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "CLHTHAWAI",
+      "Local": false,
+      "Name": "Classic (25 cm) Original Crust Hawaii",
+      "Price": "45",
+      "ProductCode": "S_HAW",
+      "SizeCode": "CL",
+      "Tags": {
+        "Feast": true,
+        "DefaultSides": "",
+        "DefaultToppings": "X=1,Mz=1,Sk=1,N=1"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "61,96",
+        "Price1-0": "45",
+        "Price1-3": "57,72",
+        "Price2-3": "57,72",
+        "Price1-4": "61,96",
+        "Price2-2": "53,48",
+        "Price1-1": "49,24",
+        "Price2-1": "49,24",
+        "Price1-2": "53,48",
+        "Price2-0": "45"
+      },
+      "Surcharge": "0"
+    },
+    "CLHTMARG": {
+      "Code": "CLHTMARG",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "CLHTMARG",
+      "Local": false,
+      "Name": "Classic (25 cm) Original Crust Margherita",
+      "Price": "35",
+      "ProductCode": "S_MARG",
+      "SizeCode": "CL",
+      "Tags": {
+        "Classic": true,
+        "DefaultSides": "",
+        "DefaultToppings": "X=1,Mz=1.5"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "51,96",
+        "Price1-0": "35",
+        "Price1-3": "47,72",
+        "Price2-3": "47,72",
+        "Price1-4": "51,96",
+        "Price2-2": "43,48",
+        "Price1-1": "39,24",
+        "Price2-1": "39,24",
+        "Price1-2": "43,48",
+        "Price2-0": "35"
+      },
+      "Surcharge": "0"
+    },
+    "CLHTPEPPSN": {
+      "Code": "CLHTPEPPSN",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "CLHTPEPPSN",
+      "Local": false,
+      "Name": "Classic (25 cm) Original Crust Pepperoni Passion",
+      "Price": "45",
+      "ProductCode": "S_PEPPSN",
+      "SizeCode": "CL",
+      "Tags": {
+        "Feast": true,
+        "DefaultSides": "",
+        "DefaultToppings": "X=1,Mz=1,Ps=1.5"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "61,96",
+        "Price1-0": "45",
+        "Price1-3": "57,72",
+        "Price2-3": "57,72",
+        "Price1-4": "61,96",
+        "Price2-2": "53,48",
+        "Price1-1": "49,24",
+        "Price2-1": "49,24",
+        "Price1-2": "53,48",
+        "Price2-0": "45"
+      },
+      "Surcharge": "0"
+    },
+    "CLHTVEGGIE": {
+      "Code": "CLHTVEGGIE",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "CLHTVEGGIE",
+      "Local": false,
+      "Name": "Classic (25 cm) Original Crust Veggie Deluxe",
+      "Price": "45",
+      "ProductCode": "S_VEG",
+      "SizeCode": "CL",
+      "Tags": {
+        "Feast": true,
+        "DefaultSides": "",
+        "DefaultToppings": "X=1,Mz=1,G=1,Cl=1,Cm=1,R=1,Pa=1,O=1"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "61,96",
+        "Price1-0": "45",
+        "Price1-3": "57,72",
+        "Price2-3": "57,72",
+        "Price1-4": "61,96",
+        "Price2-2": "53,48",
+        "Price1-1": "49,24",
+        "Price2-1": "49,24",
+        "Price1-2": "53,48",
+        "Price2-0": "45"
+      },
+      "Surcharge": "0"
+    },
+    "CLHTBBQCHK": {
+      "Code": "CLHTBBQCHK",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "CLHTBBQCHK",
+      "Local": false,
+      "Name": "Classic (25 cm) Original Crust Memphis BBQ Chicken",
+      "Price": "50",
+      "ProductCode": "S_BBQCHK",
+      "SizeCode": "CL",
+      "Tags": {
+        "Premium": true,
+        "DefaultSides": "",
+        "DefaultToppings": "Mz=1,Cl=1,Sl=1,Bq=1,Pi=1"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "66,96",
+        "Price1-0": "50",
+        "Price1-3": "62,72",
+        "Price2-3": "62,72",
+        "Price1-4": "66,96",
+        "Price2-2": "58,48",
+        "Price1-1": "54,24",
+        "Price2-1": "54,24",
+        "Price1-2": "58,48",
+        "Price2-0": "50"
+      },
+      "Surcharge": "0"
+    },
+    "CLHTCAPCOS": {
+      "Code": "CLHTCAPCOS",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "CLHTCAPCOS",
+      "Local": false,
+      "Name": "Classic (25 cm) Original Crust Capricciosa",
+      "Price": "45",
+      "ProductCode": "S_CAPCCA",
+      "SizeCode": "CL",
+      "Tags": {
+        "Feast": true,
+        "DefaultSides": "",
+        "DefaultToppings": "X=1,Mz=1,Sk=1,G=1,Cm=1,Gp=1,O=1"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "61,96",
+        "Price1-0": "45",
+        "Price1-3": "57,72",
+        "Price2-3": "57,72",
+        "Price1-4": "61,96",
+        "Price2-2": "53,48",
+        "Price1-1": "49,24",
+        "Price2-1": "49,24",
+        "Price1-2": "53,48",
+        "Price2-0": "45"
+      },
+      "Surcharge": "0"
+    },
+    "CLHTCAPRES": {
+      "Code": "CLHTCAPRES",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "CLHTCAPRES",
+      "Local": false,
+      "Name": "Classic (25 cm) Original Crust Caprese",
+      "Price": "40",
+      "ProductCode": "S_CAPRS",
+      "SizeCode": "CL",
+      "Tags": {
+        "Classic": true,
+        "DefaultSides": "",
+        "DefaultToppings": "X=1,Mz=1.5,R=1,Pe=1"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "56,96",
+        "Price1-0": "40",
+        "Price1-3": "52,72",
+        "Price2-3": "52,72",
+        "Price1-4": "56,96",
+        "Price2-2": "48,48",
+        "Price1-1": "44,24",
+        "Price2-1": "44,24",
+        "Price1-2": "48,48",
+        "Price2-0": "40"
+      },
+      "Surcharge": "0"
+    },
+    "CLHTCHEBRG": {
+      "Code": "CLHTCHEBRG",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "CLHTCHEBRG",
+      "Local": false,
+      "Name": "Classic (25 cm) Original Crust Cheeseburger",
+      "Price": "50",
+      "ProductCode": "S_CHBRG",
+      "SizeCode": "CL",
+      "Tags": {
+        "Premium": true,
+        "DefaultSides": "",
+        "DefaultToppings": "X=1,Mz=1,Cl=1,Mg=1,Cs=1,R=1,Bu=1,Kk=1"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "66,96",
+        "Price1-0": "50",
+        "Price1-3": "62,72",
+        "Price2-3": "62,72",
+        "Price1-4": "66,96",
+        "Price2-2": "58,48",
+        "Price1-1": "54,24",
+        "Price2-1": "54,24",
+        "Price1-2": "58,48",
+        "Price2-0": "50"
+      },
+      "Surcharge": "0"
+    },
+    "CLHTCHKFST": {
+      "Code": "CLHTCHKFST",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "CLHTCHKFST",
+      "Local": false,
+      "Name": "Classic (25 cm) Original Crust Chicken Feast",
+      "Price": "45",
+      "ProductCode": "S_CHKN",
+      "SizeCode": "CL",
+      "Tags": {
+        "Feast": true,
+        "DefaultSides": "",
+        "DefaultToppings": "X=1,Mz=1,Cl=1,R=1,Pi=1,Pa=1,O=1"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "61,96",
+        "Price1-0": "45",
+        "Price1-3": "57,72",
+        "Price2-3": "57,72",
+        "Price1-4": "61,96",
+        "Price2-2": "53,48",
+        "Price1-1": "49,24",
+        "Price2-1": "49,24",
+        "Price1-2": "53,48",
+        "Price2-0": "45"
+      },
+      "Surcharge": "0"
+    },
+    "CLHTFRCHE": {
+      "Code": "CLHTFRCHE",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "CLHTFRCHE",
+      "Local": false,
+      "Name": "Classic (25 cm) Original Crust Four Cheese",
+      "Price": "45",
+      "ProductCode": "S_FRCHE",
+      "SizeCode": "CL",
+      "Tags": {
+        "Feast": true,
+        "DefaultSides": "",
+        "DefaultToppings": "X=1,Mz=1,Cs=1,Gp=1,Bc=1"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "61,96",
+        "Price1-0": "45",
+        "Price1-3": "57,72",
+        "Price2-3": "57,72",
+        "Price1-4": "61,96",
+        "Price2-2": "53,48",
+        "Price1-1": "49,24",
+        "Price2-1": "49,24",
+        "Price1-2": "53,48",
+        "Price2-0": "45"
+      },
+      "Surcharge": "0"
+    },
+    "CLHTFUNGHI": {
+      "Code": "CLHTFUNGHI",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "CLHTFUNGHI",
+      "Local": false,
+      "Name": "Classic (25 cm) Original Crust Funghi",
+      "Price": "40",
+      "ProductCode": "S_FUNG",
+      "SizeCode": "CL",
+      "Tags": {
+        "Classic": true,
+        "DefaultSides": "",
+        "DefaultToppings": "X=1,Mz=1.5,G=1"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "56,96",
+        "Price1-0": "40",
+        "Price1-3": "52,72",
+        "Price2-3": "52,72",
+        "Price1-4": "56,96",
+        "Price2-2": "48,48",
+        "Price1-1": "44,24",
+        "Price2-1": "44,24",
+        "Price1-2": "48,48",
+        "Price2-0": "40"
+      },
+      "Surcharge": "0"
+    },
+    "CLHTGRPDO": {
+      "Code": "CLHTGRPDO",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "CLHTGRPDO",
+      "Local": false,
+      "Name": "Classic (25 cm) Original Crust Grana Padano",
+      "Price": "40",
+      "ProductCode": "S_GRPO",
+      "SizeCode": "CL",
+      "Tags": {
+        "Classic": true,
+        "DefaultSides": "",
+        "DefaultToppings": "X=1,Mz=1.5,Gp=1"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "56,96",
+        "Price1-0": "40",
+        "Price1-3": "52,72",
+        "Price2-3": "52,72",
+        "Price1-4": "56,96",
+        "Price2-2": "48,48",
+        "Price1-1": "44,24",
+        "Price2-1": "44,24",
+        "Price1-2": "48,48",
+        "Price2-0": "40"
+      },
+      "Surcharge": "0"
+    },
+    "CLHTPICNTE": {
+      "Code": "CLHTPICNTE",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "CLHTPICNTE",
+      "Local": false,
+      "Name": "Classic (25 cm) Original Crust Piccante",
+      "Price": "45",
+      "ProductCode": "S_PICANTE",
+      "SizeCode": "CL",
+      "Tags": {
+        "Feast": true,
+        "DefaultSides": "",
+        "DefaultToppings": "X=1,Mz=1,Cl=1,Jp=1,Pa=1,Ls=1"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "61,96",
+        "Price1-0": "45",
+        "Price1-3": "57,72",
+        "Price2-3": "57,72",
+        "Price1-4": "61,96",
+        "Price2-2": "53,48",
+        "Price1-1": "49,24",
+        "Price2-1": "49,24",
+        "Price1-2": "53,48",
+        "Price2-0": "45"
+      },
+      "Surcharge": "0"
+    },
+    "CLHTSLAVKA": {
+      "Code": "CLHTSLAVKA",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "CLHTSLAVKA",
+      "Local": false,
+      "Name": "Classic (25 cm) Original Crust Slavonska",
+      "Price": "45",
+      "ProductCode": "S_SLAV",
+      "SizeCode": "CL",
+      "Tags": {
+        "Feast": true,
+        "DefaultSides": "",
+        "DefaultToppings": "X=1,Mz=1,Sl=1,Jp=1,Pa=1,Kv=1,A=1,Ls=1"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "61,96",
+        "Price1-0": "45",
+        "Price1-3": "57,72",
+        "Price2-3": "57,72",
+        "Price1-4": "61,96",
+        "Price2-2": "53,48",
+        "Price1-1": "49,24",
+        "Price2-1": "49,24",
+        "Price1-2": "53,48",
+        "Price2-0": "45"
+      },
+      "Surcharge": "0"
+    },
+    "CLHTVESUVO": {
+      "Code": "CLHTVESUVO",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "CLHTVESUVO",
+      "Local": false,
+      "Name": "Classic (25 cm) Original Crust Vesuvio",
+      "Price": "40",
+      "ProductCode": "S_VSUVO",
+      "SizeCode": "CL",
+      "Tags": {
+        "Classic": true,
+        "DefaultSides": "",
+        "DefaultToppings": "X=1,Mz=1.5,Sk=1"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "56,96",
+        "Price1-0": "40",
+        "Price1-3": "52,72",
+        "Price2-3": "52,72",
+        "Price1-4": "56,96",
+        "Price2-2": "48,48",
+        "Price1-1": "44,24",
+        "Price2-1": "44,24",
+        "Price1-2": "48,48",
+        "Price2-0": "40"
+      },
+      "Surcharge": "0"
+    },
+    "CLHTBYO": {
+      "Code": "CLHTBYO",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "CLHTBYO",
+      "Local": false,
+      "Name": "Classic (25 cm) Original Crust Create Your Own",
+      "Price": "35",
+      "ProductCode": "S_BYO",
+      "SizeCode": "CL",
+      "Tags": {
+        "DefaultSides": "",
+        "DefaultToppings": "X=1,Mz=1"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "51,96",
+        "Price1-0": "35",
+        "Price1-3": "47,72",
+        "Price2-3": "47,72",
+        "Price1-4": "51,96",
+        "Price2-2": "43,48",
+        "Price1-1": "39,24",
+        "Price2-1": "39,24",
+        "Price1-2": "43,48",
+        "Price2-0": "35"
+      },
+      "Surcharge": "0"
+    },
+    "CLHTHNH": {
+      "Code": "CLHTHNH",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "CLHTHNH",
+      "Local": false,
+      "Name": "Classic (25 cm) Original Crust Half & Half",
+      "Price": "35",
+      "ProductCode": "S_HNH",
+      "SizeCode": "CL",
+      "Tags": {
+        "DefaultSides": "",
+        "DefaultToppings": "X=1,Mz=1"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "51,96",
+        "Price1-0": "35",
+        "Price1-3": "47,72",
+        "Price2-3": "47,72",
+        "Price1-4": "51,96",
+        "Price2-2": "43,48",
+        "Price1-1": "39,24",
+        "Price2-1": "39,24",
+        "Price1-2": "43,48",
+        "Price2-0": "35"
+      },
+      "Surcharge": "0"
+    },
+    "CLHTCRCH": {
+      "Code": "CLHTCRCH",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "CLHTCRCH",
+      "Local": false,
+      "Name": "Classic (25cm) Original Crust Creamy Cheese",
+      "Price": "35",
+      "ProductCode": "S_CRCH",
+      "SizeCode": "CL",
+      "Tags": {
+        "CategoryCode": "Promo",
+        "DefaultSides": "",
+        "DefaultToppings": "Mz=1,Cl=1,Cs=1,Gp=1,O=1,Xw=1"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "51,96",
+        "Price1-0": "35",
+        "Price1-3": "47,72",
+        "Price2-3": "47,72",
+        "Price1-4": "51,96",
+        "Price2-2": "43,48",
+        "Price1-1": "39,24",
+        "Price2-1": "39,24",
+        "Price1-2": "43,48",
+        "Price2-0": "35"
+      },
+      "Surcharge": "0"
+    },
+    "CLHTCRCAPR": {
+      "Code": "CLHTCRCAPR",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "CLHTCRCAPR",
+      "Local": false,
+      "Name": "Classic (25cm) Original Crust Creamy Capricciosa",
+      "Price": "40",
+      "ProductCode": "S_CRCAPR",
+      "SizeCode": "CL",
+      "Tags": {
+        "CategoryCode": "Promo",
+        "DefaultSides": "",
+        "DefaultToppings": "Mz=1,Sk=1,G=1,Gp=1,O=1,Xw=1"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "56,96",
+        "Price1-0": "40",
+        "Price1-3": "52,72",
+        "Price2-3": "52,72",
+        "Price1-4": "56,96",
+        "Price2-2": "48,48",
+        "Price1-1": "44,24",
+        "Price2-1": "44,24",
+        "Price1-2": "48,48",
+        "Price2-0": "40"
+      },
+      "Surcharge": "0"
+    },
+    "CLHTCRCARB": {
+      "Code": "CLHTCRCARB",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "CLHTCRCARB",
+      "Local": false,
+      "Name": "Classic (25cm) Original Crust Creamy Carbonara",
+      "Price": "45",
+      "ProductCode": "S_CRCARB",
+      "SizeCode": "CL",
+      "Tags": {
+        "CategoryCode": "Promo",
+        "DefaultSides": "",
+        "DefaultToppings": "Mz=1,Cl=1,Sl=1,Gp=1,O=1,Xw=1"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "61,96",
+        "Price1-0": "45",
+        "Price1-3": "57,72",
+        "Price2-3": "57,72",
+        "Price1-4": "61,96",
+        "Price2-2": "53,48",
+        "Price1-1": "49,24",
+        "Price2-1": "49,24",
+        "Price1-2": "53,48",
+        "Price2-0": "45"
+      },
+      "Surcharge": "0"
+    },
+    "CLHTCRBBQ": {
+      "Code": "CLHTCRBBQ",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "CLHTCRBBQ",
+      "Local": false,
+      "Name": "Classic (25cm) Original Crust Creamy BBQ Chicken & Bacon",
+      "Price": "50",
+      "ProductCode": "S_CRBBQ",
+      "SizeCode": "CL",
+      "Tags": {
+        "CategoryCode": "Promo",
+        "DefaultSides": "",
+        "DefaultToppings": "Mz=1,Cl=1,Sl=1,Bq=1,Pi=1,Xw=1"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "66,96",
+        "Price1-0": "50",
+        "Price1-3": "62,72",
+        "Price2-3": "62,72",
+        "Price1-4": "66,96",
+        "Price2-2": "58,48",
+        "Price1-1": "54,24",
+        "Price2-1": "54,24",
+        "Price1-2": "58,48",
+        "Price2-0": "50"
+      },
+      "Surcharge": "0"
+    },
+    "LGHTBBQMT": {
+      "Code": "LGHTBBQMT",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "LGHTBBQMT",
+      "Local": false,
+      "Name": "Large (29 cm) Original Crust BBQ Meatlovers",
+      "Price": "60",
+      "ProductCode": "S_BBQMT",
+      "SizeCode": "LG",
+      "Tags": {
+        "Premium": true,
+        "DefaultSides": "",
+        "DefaultToppings": "Mz=1,Ps=1,Sk=1,Sl=1,Bq=1,Pi=1"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "80,96",
+        "Price1-0": "60",
+        "Price1-3": "75,72",
+        "Price2-3": "75,72",
+        "Price1-4": "80,96",
+        "Price2-2": "70,48",
+        "Price1-1": "65,24",
+        "Price2-1": "65,24",
+        "Price1-2": "70,48",
+        "Price2-0": "60"
+      },
+      "Surcharge": "0"
+    },
+    "LGHTEXTRAV": {
+      "Code": "LGHTEXTRAV",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "LGHTEXTRAV",
+      "Local": false,
+      "Name": "Large (29 cm) Original Crust Extravaganzza",
+      "Price": "60",
+      "ProductCode": "S_EXTRAV",
+      "SizeCode": "LG",
+      "Tags": {
+        "Premium": true,
+        "DefaultSides": "",
+        "DefaultToppings": "X=1,Mz=1.5,Ps=1,Sk=1,G=1,Cl=1,Cm=1,Mg=1,Pa=1"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "80,96",
+        "Price1-0": "60",
+        "Price1-3": "75,72",
+        "Price2-3": "75,72",
+        "Price1-4": "80,96",
+        "Price2-2": "70,48",
+        "Price1-1": "65,24",
+        "Price2-1": "65,24",
+        "Price1-2": "70,48",
+        "Price2-0": "60"
+      },
+      "Surcharge": "0"
+    },
+    "LGHTHAWAI": {
+      "Code": "LGHTHAWAI",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "LGHTHAWAI",
+      "Local": false,
+      "Name": "Large (29 cm) Original Crust Hawaii",
+      "Price": "55",
+      "ProductCode": "S_HAW",
+      "SizeCode": "LG",
+      "Tags": {
+        "Feast": true,
+        "DefaultSides": "",
+        "DefaultToppings": "X=1,Mz=1,Sk=1,N=1"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "75,96",
+        "Price1-0": "55",
+        "Price1-3": "70,72",
+        "Price2-3": "70,72",
+        "Price1-4": "75,96",
+        "Price2-2": "65,48",
+        "Price1-1": "60,24",
+        "Price2-1": "60,24",
+        "Price1-2": "65,48",
+        "Price2-0": "55"
+      },
+      "Surcharge": "0"
+    },
+    "LGHTMARG": {
+      "Code": "LGHTMARG",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "LGHTMARG",
+      "Local": false,
+      "Name": "Large (29 cm) Original Crust Margherita",
+      "Price": "45",
+      "ProductCode": "S_MARG",
+      "SizeCode": "LG",
+      "Tags": {
+        "Classic": true,
+        "DefaultSides": "",
+        "DefaultToppings": "X=1,Mz=1.5"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "65,96",
+        "Price1-0": "45",
+        "Price1-3": "60,72",
+        "Price2-3": "60,72",
+        "Price1-4": "65,96",
+        "Price2-2": "55,48",
+        "Price1-1": "50,24",
+        "Price2-1": "50,24",
+        "Price1-2": "55,48",
+        "Price2-0": "45"
+      },
+      "Surcharge": "0"
+    },
+    "LGHTPEPPSN": {
+      "Code": "LGHTPEPPSN",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "LGHTPEPPSN",
+      "Local": false,
+      "Name": "Large (29 cm) Original Crust Pepperoni Passion",
+      "Price": "55",
+      "ProductCode": "S_PEPPSN",
+      "SizeCode": "LG",
+      "Tags": {
+        "Feast": true,
+        "DefaultSides": "",
+        "DefaultToppings": "X=1,Mz=1,Ps=1.5"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "75,96",
+        "Price1-0": "55",
+        "Price1-3": "70,72",
+        "Price2-3": "70,72",
+        "Price1-4": "75,96",
+        "Price2-2": "65,48",
+        "Price1-1": "60,24",
+        "Price2-1": "60,24",
+        "Price1-2": "65,48",
+        "Price2-0": "55"
+      },
+      "Surcharge": "0"
+    },
+    "LGHTVEGGIE": {
+      "Code": "LGHTVEGGIE",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "LGHTVEGGIE",
+      "Local": false,
+      "Name": "Large (29 cm) Original Crust Veggie Deluxe",
+      "Price": "55",
+      "ProductCode": "S_VEG",
+      "SizeCode": "LG",
+      "Tags": {
+        "Feast": true,
+        "DefaultSides": "",
+        "DefaultToppings": "X=1,Mz=1,G=1,Cl=1,Cm=1,R=1,Pa=1,O=1"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "75,96",
+        "Price1-0": "55",
+        "Price1-3": "70,72",
+        "Price2-3": "70,72",
+        "Price1-4": "75,96",
+        "Price2-2": "65,48",
+        "Price1-1": "60,24",
+        "Price2-1": "60,24",
+        "Price1-2": "65,48",
+        "Price2-0": "55"
+      },
+      "Surcharge": "0"
+    },
+    "LGHTBBQCHK": {
+      "Code": "LGHTBBQCHK",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "LGHTBBQCHK",
+      "Local": false,
+      "Name": "Large (29 cm) Original Crust Memphis BBQ Chicken",
+      "Price": "60",
+      "ProductCode": "S_BBQCHK",
+      "SizeCode": "LG",
+      "Tags": {
+        "Premium": true,
+        "DefaultSides": "",
+        "DefaultToppings": "Mz=1,Cl=1,Sl=1,Bq=1,Pi=1"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "80,96",
+        "Price1-0": "60",
+        "Price1-3": "75,72",
+        "Price2-3": "75,72",
+        "Price1-4": "80,96",
+        "Price2-2": "70,48",
+        "Price1-1": "65,24",
+        "Price2-1": "65,24",
+        "Price1-2": "70,48",
+        "Price2-0": "60"
+      },
+      "Surcharge": "0"
+    },
+    "LGHTCAPCOS": {
+      "Code": "LGHTCAPCOS",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "LGHTCAPCOS",
+      "Local": false,
+      "Name": "Large (29 cm) Original Crust Capricciosa",
+      "Price": "55",
+      "ProductCode": "S_CAPCCA",
+      "SizeCode": "LG",
+      "Tags": {
+        "Feast": true,
+        "DefaultSides": "",
+        "DefaultToppings": "X=1,Mz=1,Sk=1,G=1,Cm=1,Gp=1,O=1"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "75,96",
+        "Price1-0": "55",
+        "Price1-3": "70,72",
+        "Price2-3": "70,72",
+        "Price1-4": "75,96",
+        "Price2-2": "65,48",
+        "Price1-1": "60,24",
+        "Price2-1": "60,24",
+        "Price1-2": "65,48",
+        "Price2-0": "55"
+      },
+      "Surcharge": "0"
+    },
+    "LGHTCAPRES": {
+      "Code": "LGHTCAPRES",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "LGHTCAPRES",
+      "Local": false,
+      "Name": "Large (29 cm) Original Crust Caprese",
+      "Price": "50",
+      "ProductCode": "S_CAPRS",
+      "SizeCode": "LG",
+      "Tags": {
+        "Classic": true,
+        "DefaultSides": "",
+        "DefaultToppings": "X=1,Mz=1.5,R=1,Pe=1"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "70,96",
+        "Price1-0": "50",
+        "Price1-3": "65,72",
+        "Price2-3": "65,72",
+        "Price1-4": "70,96",
+        "Price2-2": "60,48",
+        "Price1-1": "55,24",
+        "Price2-1": "55,24",
+        "Price1-2": "60,48",
+        "Price2-0": "50"
+      },
+      "Surcharge": "0"
+    },
+    "LGHTCHEBRG": {
+      "Code": "LGHTCHEBRG",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "LGHTCHEBRG",
+      "Local": false,
+      "Name": "Large (29 cm) Original Crust Cheeseburger",
+      "Price": "60",
+      "ProductCode": "S_CHBRG",
+      "SizeCode": "LG",
+      "Tags": {
+        "Premium": true,
+        "DefaultSides": "",
+        "DefaultToppings": "X=1,Mz=1,Cl=1,Mg=1,Cs=1,R=1,Bu=1,Kk=1"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "80,96",
+        "Price1-0": "60",
+        "Price1-3": "75,72",
+        "Price2-3": "75,72",
+        "Price1-4": "80,96",
+        "Price2-2": "70,48",
+        "Price1-1": "65,24",
+        "Price2-1": "65,24",
+        "Price1-2": "70,48",
+        "Price2-0": "60"
+      },
+      "Surcharge": "0"
+    },
+    "LGHTCHKFST": {
+      "Code": "LGHTCHKFST",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "LGHTCHKFST",
+      "Local": false,
+      "Name": "Large (29 cm) Original Crust Chicken Feast",
+      "Price": "55",
+      "ProductCode": "S_CHKN",
+      "SizeCode": "LG",
+      "Tags": {
+        "Feast": true,
+        "DefaultSides": "",
+        "DefaultToppings": "X=1,Mz=1,Cl=1,R=1,Pi=1,Pa=1,O=1"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "75,96",
+        "Price1-0": "55",
+        "Price1-3": "70,72",
+        "Price2-3": "70,72",
+        "Price1-4": "75,96",
+        "Price2-2": "65,48",
+        "Price1-1": "60,24",
+        "Price2-1": "60,24",
+        "Price1-2": "65,48",
+        "Price2-0": "55"
+      },
+      "Surcharge": "0"
+    },
+    "LGHTFRCHE": {
+      "Code": "LGHTFRCHE",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "LGHTFRCHE",
+      "Local": false,
+      "Name": "Large (29 cm) Original Crust Four Cheese",
+      "Price": "55",
+      "ProductCode": "S_FRCHE",
+      "SizeCode": "LG",
+      "Tags": {
+        "Feast": true,
+        "DefaultSides": "",
+        "DefaultToppings": "X=1,Mz=1,Cs=1,Gp=1,Bc=1"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "75,96",
+        "Price1-0": "55",
+        "Price1-3": "70,72",
+        "Price2-3": "70,72",
+        "Price1-4": "75,96",
+        "Price2-2": "65,48",
+        "Price1-1": "60,24",
+        "Price2-1": "60,24",
+        "Price1-2": "65,48",
+        "Price2-0": "55"
+      },
+      "Surcharge": "0"
+    },
+    "LGHTFUNGHI": {
+      "Code": "LGHTFUNGHI",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "LGHTFUNGHI",
+      "Local": false,
+      "Name": "Large (29 cm) Original Crust Funghi",
+      "Price": "50",
+      "ProductCode": "S_FUNG",
+      "SizeCode": "LG",
+      "Tags": {
+        "Classic": true,
+        "DefaultSides": "",
+        "DefaultToppings": "X=1,Mz=1.5,G=1"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "70,96",
+        "Price1-0": "50",
+        "Price1-3": "65,72",
+        "Price2-3": "65,72",
+        "Price1-4": "70,96",
+        "Price2-2": "60,48",
+        "Price1-1": "55,24",
+        "Price2-1": "55,24",
+        "Price1-2": "60,48",
+        "Price2-0": "50"
+      },
+      "Surcharge": "0"
+    },
+    "LGHTGRPDO": {
+      "Code": "LGHTGRPDO",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "LGHTGRPDO",
+      "Local": false,
+      "Name": "Large (29 cm) Original Crust Grana Padano",
+      "Price": "50",
+      "ProductCode": "S_GRPO",
+      "SizeCode": "LG",
+      "Tags": {
+        "Classic": true,
+        "DefaultSides": "",
+        "DefaultToppings": "X=1,Mz=1.5,Gp=1"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "70,96",
+        "Price1-0": "50",
+        "Price1-3": "65,72",
+        "Price2-3": "65,72",
+        "Price1-4": "70,96",
+        "Price2-2": "60,48",
+        "Price1-1": "55,24",
+        "Price2-1": "55,24",
+        "Price1-2": "60,48",
+        "Price2-0": "50"
+      },
+      "Surcharge": "0"
+    },
+    "LGHTPICNTE": {
+      "Code": "LGHTPICNTE",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "LGHTPICNTE",
+      "Local": false,
+      "Name": "Large (29 cm) Original Crust Piccante",
+      "Price": "55",
+      "ProductCode": "S_PICANTE",
+      "SizeCode": "LG",
+      "Tags": {
+        "Feast": true,
+        "DefaultSides": "",
+        "DefaultToppings": "X=1,Mz=1,Cl=1,Jp=1,Pa=1,Ls=1"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "75,96",
+        "Price1-0": "55",
+        "Price1-3": "70,72",
+        "Price2-3": "70,72",
+        "Price1-4": "75,96",
+        "Price2-2": "65,48",
+        "Price1-1": "60,24",
+        "Price2-1": "60,24",
+        "Price1-2": "65,48",
+        "Price2-0": "55"
+      },
+      "Surcharge": "0"
+    },
+    "LGHTSLAVKA": {
+      "Code": "LGHTSLAVKA",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "LGHTSLAVKA",
+      "Local": false,
+      "Name": "Large (29 cm) Original Crust Slavonska",
+      "Price": "55",
+      "ProductCode": "S_SLAV",
+      "SizeCode": "LG",
+      "Tags": {
+        "Feast": true,
+        "DefaultSides": "",
+        "DefaultToppings": "X=1,Mz=1,Sl=1,Jp=1,Pa=1,Kv=1,A=1,Ls=1"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "75,96",
+        "Price1-0": "55",
+        "Price1-3": "70,72",
+        "Price2-3": "70,72",
+        "Price1-4": "75,96",
+        "Price2-2": "65,48",
+        "Price1-1": "60,24",
+        "Price2-1": "60,24",
+        "Price1-2": "65,48",
+        "Price2-0": "55"
+      },
+      "Surcharge": "0"
+    },
+    "LGHTVESUVO": {
+      "Code": "LGHTVESUVO",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "LGHTVESUVO",
+      "Local": false,
+      "Name": "Large (29 cm) Original Crust Vesuvio",
+      "Price": "50",
+      "ProductCode": "S_VSUVO",
+      "SizeCode": "LG",
+      "Tags": {
+        "Classic": true,
+        "DefaultSides": "",
+        "DefaultToppings": "X=1,Mz=1.5,Sk=1"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "70,96",
+        "Price1-0": "50",
+        "Price1-3": "65,72",
+        "Price2-3": "65,72",
+        "Price1-4": "70,96",
+        "Price2-2": "60,48",
+        "Price1-1": "55,24",
+        "Price2-1": "55,24",
+        "Price1-2": "60,48",
+        "Price2-0": "50"
+      },
+      "Surcharge": "0"
+    },
+    "LGHTBYO": {
+      "Code": "LGHTBYO",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "LGHTBYO",
+      "Local": false,
+      "Name": "Large (29 cm) Original Crust Create Your Own",
+      "Price": "45",
+      "ProductCode": "S_BYO",
+      "SizeCode": "LG",
+      "Tags": {
+        "DefaultSides": "",
+        "DefaultToppings": "X=1,Mz=1"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "65,96",
+        "Price1-0": "45",
+        "Price1-3": "60,72",
+        "Price2-3": "60,72",
+        "Price1-4": "65,96",
+        "Price2-2": "55,48",
+        "Price1-1": "50,24",
+        "Price2-1": "50,24",
+        "Price1-2": "55,48",
+        "Price2-0": "45"
+      },
+      "Surcharge": "0"
+    },
+    "LGHTHNH": {
+      "Code": "LGHTHNH",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "LGHTHNH",
+      "Local": false,
+      "Name": "Large (29 cm) Original Crust Half & Half",
+      "Price": "45",
+      "ProductCode": "S_HNH",
+      "SizeCode": "LG",
+      "Tags": {
+        "DefaultSides": "",
+        "DefaultToppings": "X=1,Mz=1"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "65,96",
+        "Price1-0": "45",
+        "Price1-3": "60,72",
+        "Price2-3": "60,72",
+        "Price1-4": "65,96",
+        "Price2-2": "55,48",
+        "Price1-1": "50,24",
+        "Price2-1": "50,24",
+        "Price1-2": "55,48",
+        "Price2-0": "45"
+      },
+      "Surcharge": "0"
+    },
+    "LGHTCRCH": {
+      "Code": "LGHTCRCH",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "LGHTCRCH",
+      "Local": false,
+      "Name": "Large (29cm) Original Crust Creamy Cheese",
+      "Price": "45",
+      "ProductCode": "S_CRCH",
+      "SizeCode": "LG",
+      "Tags": {
+        "CategoryCode": "Promo",
+        "DefaultSides": "",
+        "DefaultToppings": "Mz=1,Cl=1,Cs=1,Gp=1,O=1,Xw=1"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "65,96",
+        "Price1-0": "45",
+        "Price1-3": "60,72",
+        "Price2-3": "60,72",
+        "Price1-4": "65,96",
+        "Price2-2": "55,48",
+        "Price1-1": "50,24",
+        "Price2-1": "50,24",
+        "Price1-2": "55,48",
+        "Price2-0": "45"
+      },
+      "Surcharge": "0"
+    },
+    "LGHTCRCAPR": {
+      "Code": "LGHTCRCAPR",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "LGHTCRCAPR",
+      "Local": false,
+      "Name": "Large (29cm) Original Crust Creamy Capricciosa",
+      "Price": "50",
+      "ProductCode": "S_CRCAPR",
+      "SizeCode": "LG",
+      "Tags": {
+        "CategoryCode": "Promo",
+        "DefaultSides": "",
+        "DefaultToppings": "Mz=1,Sk=1,G=1,Gp=1,O=1,Xw=1"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "70,96",
+        "Price1-0": "50",
+        "Price1-3": "65,72",
+        "Price2-3": "65,72",
+        "Price1-4": "70,96",
+        "Price2-2": "60,48",
+        "Price1-1": "55,24",
+        "Price2-1": "55,24",
+        "Price1-2": "60,48",
+        "Price2-0": "50"
+      },
+      "Surcharge": "0"
+    },
+    "LGHTCRCARB": {
+      "Code": "LGHTCRCARB",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "LGHTCRCARB",
+      "Local": false,
+      "Name": "Large (29cm) Original Crust Creamy Carbonara",
+      "Price": "55",
+      "ProductCode": "S_CRCARB",
+      "SizeCode": "LG",
+      "Tags": {
+        "CategoryCode": "Promo",
+        "DefaultSides": "",
+        "DefaultToppings": "Mz=1,Cl=1,Sl=1,Gp=1,O=1,Xw=1"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "75,96",
+        "Price1-0": "55",
+        "Price1-3": "70,72",
+        "Price2-3": "70,72",
+        "Price1-4": "75,96",
+        "Price2-2": "65,48",
+        "Price1-1": "60,24",
+        "Price2-1": "60,24",
+        "Price1-2": "65,48",
+        "Price2-0": "55"
+      },
+      "Surcharge": "0"
+    },
+    "LGHTCRBBQ": {
+      "Code": "LGHTCRBBQ",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "LGHTCRBBQ",
+      "Local": false,
+      "Name": "Large (29cm) Original Crust Creamy BBQ Chicken & Bacon",
+      "Price": "60",
+      "ProductCode": "S_CRBBQ",
+      "SizeCode": "LG",
+      "Tags": {
+        "CategoryCode": "Promo",
+        "DefaultSides": "",
+        "DefaultToppings": "Mz=1,Cl=1,Sl=1,Bq=1,Pi=1,Xw=1"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "80,96",
+        "Price1-0": "60",
+        "Price1-3": "75,72",
+        "Price2-3": "75,72",
+        "Price1-4": "80,96",
+        "Price2-2": "70,48",
+        "Price1-1": "65,24",
+        "Price2-1": "65,24",
+        "Price1-2": "70,48",
+        "Price2-0": "60"
+      },
+      "Surcharge": "0"
+    },
+    "GRHTBBQMT": {
+      "Code": "GRHTBBQMT",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "GRHTBBQMT",
+      "Local": false,
+      "Name": "Grande (34 cm) Original Crust BBQ Meatlovers",
+      "Price": "75",
+      "ProductCode": "S_BBQMT",
+      "SizeCode": "GR",
+      "Tags": {
+        "Premium": true,
+        "DefaultSides": "",
+        "DefaultToppings": "Mz=1,Ps=1,Sk=1,Sl=1,Bq=1,Pi=1"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "99,96",
+        "Price1-0": "75",
+        "Price1-3": "93,72",
+        "Price2-3": "93,72",
+        "Price1-4": "99,96",
+        "Price2-2": "87,48",
+        "Price1-1": "81,24",
+        "Price2-1": "81,24",
+        "Price1-2": "87,48",
+        "Price2-0": "75"
+      },
+      "Surcharge": "0"
+    },
+    "GRHTEXTRAV": {
+      "Code": "GRHTEXTRAV",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "GRHTEXTRAV",
+      "Local": false,
+      "Name": "Grande (34 cm) Original Crust Extravaganzza",
+      "Price": "75",
+      "ProductCode": "S_EXTRAV",
+      "SizeCode": "GR",
+      "Tags": {
+        "Premium": true,
+        "DefaultSides": "",
+        "DefaultToppings": "X=1,Mz=1.5,Ps=1,Sk=1,G=1,Cl=1,Cm=1,Mg=1,Pa=1"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "99,96",
+        "Price1-0": "75",
+        "Price1-3": "93,72",
+        "Price2-3": "93,72",
+        "Price1-4": "99,96",
+        "Price2-2": "87,48",
+        "Price1-1": "81,24",
+        "Price2-1": "81,24",
+        "Price1-2": "87,48",
+        "Price2-0": "75"
+      },
+      "Surcharge": "0"
+    },
+    "GRHTHAWAI": {
+      "Code": "GRHTHAWAI",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "GRHTHAWAI",
+      "Local": false,
+      "Name": "Grande (34 cm) Original Crust Hawaii",
+      "Price": "70",
+      "ProductCode": "S_HAW",
+      "SizeCode": "GR",
+      "Tags": {
+        "Feast": true,
+        "DefaultSides": "",
+        "DefaultToppings": "X=1,Mz=1,Sk=1,N=1"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "94,96",
+        "Price1-0": "70",
+        "Price1-3": "88,72",
+        "Price2-3": "88,72",
+        "Price1-4": "94,96",
+        "Price2-2": "82,48",
+        "Price1-1": "76,24",
+        "Price2-1": "76,24",
+        "Price1-2": "82,48",
+        "Price2-0": "70"
+      },
+      "Surcharge": "0"
+    },
+    "GRHTMARG": {
+      "Code": "GRHTMARG",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "GRHTMARG",
+      "Local": false,
+      "Name": "Grande (34 cm) Original Crust Margherita",
+      "Price": "60",
+      "ProductCode": "S_MARG",
+      "SizeCode": "GR",
+      "Tags": {
+        "Classic": true,
+        "DefaultSides": "",
+        "DefaultToppings": "X=1,Mz=1.5"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "84,96",
+        "Price1-0": "60",
+        "Price1-3": "78,72",
+        "Price2-3": "78,72",
+        "Price1-4": "84,96",
+        "Price2-2": "72,48",
+        "Price1-1": "66,24",
+        "Price2-1": "66,24",
+        "Price1-2": "72,48",
+        "Price2-0": "60"
+      },
+      "Surcharge": "0"
+    },
+    "GRHTPEPPSN": {
+      "Code": "GRHTPEPPSN",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "GRHTPEPPSN",
+      "Local": false,
+      "Name": "Grande (34 cm) Original Crust Pepperoni Passion",
+      "Price": "70",
+      "ProductCode": "S_PEPPSN",
+      "SizeCode": "GR",
+      "Tags": {
+        "Feast": true,
+        "DefaultSides": "",
+        "DefaultToppings": "X=1,Mz=1,Ps=1.5"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "94,96",
+        "Price1-0": "70",
+        "Price1-3": "88,72",
+        "Price2-3": "88,72",
+        "Price1-4": "94,96",
+        "Price2-2": "82,48",
+        "Price1-1": "76,24",
+        "Price2-1": "76,24",
+        "Price1-2": "82,48",
+        "Price2-0": "70"
+      },
+      "Surcharge": "0"
+    },
+    "GRHTVEGGIE": {
+      "Code": "GRHTVEGGIE",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "GRHTVEGGIE",
+      "Local": false,
+      "Name": "Grande (34 cm) Original Crust Veggie Deluxe",
+      "Price": "70",
+      "ProductCode": "S_VEG",
+      "SizeCode": "GR",
+      "Tags": {
+        "Feast": true,
+        "DefaultSides": "",
+        "DefaultToppings": "X=1,Mz=1,G=1,Cl=1,Cm=1,R=1,Pa=1,O=1"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "94,96",
+        "Price1-0": "70",
+        "Price1-3": "88,72",
+        "Price2-3": "88,72",
+        "Price1-4": "94,96",
+        "Price2-2": "82,48",
+        "Price1-1": "76,24",
+        "Price2-1": "76,24",
+        "Price1-2": "82,48",
+        "Price2-0": "70"
+      },
+      "Surcharge": "0"
+    },
+    "GRHTBBQCHK": {
+      "Code": "GRHTBBQCHK",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "GRHTBBQCHK",
+      "Local": false,
+      "Name": "Grande (34 cm) Original Crust Memphis BBQ Chicken",
+      "Price": "75",
+      "ProductCode": "S_BBQCHK",
+      "SizeCode": "GR",
+      "Tags": {
+        "Premium": true,
+        "DefaultSides": "",
+        "DefaultToppings": "Mz=1,Cl=1,Sl=1,Bq=1,Pi=1"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "99,96",
+        "Price1-0": "75",
+        "Price1-3": "93,72",
+        "Price2-3": "93,72",
+        "Price1-4": "99,96",
+        "Price2-2": "87,48",
+        "Price1-1": "81,24",
+        "Price2-1": "81,24",
+        "Price1-2": "87,48",
+        "Price2-0": "75"
+      },
+      "Surcharge": "0"
+    },
+    "GRHTCAPCOS": {
+      "Code": "GRHTCAPCOS",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "GRHTCAPCOS",
+      "Local": false,
+      "Name": "Grande (34 cm) Original Crust Capricciosa",
+      "Price": "70",
+      "ProductCode": "S_CAPCCA",
+      "SizeCode": "GR",
+      "Tags": {
+        "Feast": true,
+        "DefaultSides": "",
+        "DefaultToppings": "X=1,Mz=1,Sk=1,G=1,Cm=1,Gp=1,O=1"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "94,96",
+        "Price1-0": "70",
+        "Price1-3": "88,72",
+        "Price2-3": "88,72",
+        "Price1-4": "94,96",
+        "Price2-2": "82,48",
+        "Price1-1": "76,24",
+        "Price2-1": "76,24",
+        "Price1-2": "82,48",
+        "Price2-0": "70"
+      },
+      "Surcharge": "0"
+    },
+    "GRHTCAPRES": {
+      "Code": "GRHTCAPRES",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "GRHTCAPRES",
+      "Local": false,
+      "Name": "Grande (34 cm) Original Crust Caprese",
+      "Price": "65",
+      "ProductCode": "S_CAPRS",
+      "SizeCode": "GR",
+      "Tags": {
+        "Classic": true,
+        "DefaultSides": "",
+        "DefaultToppings": "X=1,Mz=1.5,R=1,Pe=1"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "89,96",
+        "Price1-0": "65",
+        "Price1-3": "83,72",
+        "Price2-3": "83,72",
+        "Price1-4": "89,96",
+        "Price2-2": "77,48",
+        "Price1-1": "71,24",
+        "Price2-1": "71,24",
+        "Price1-2": "77,48",
+        "Price2-0": "65"
+      },
+      "Surcharge": "0"
+    },
+    "GRHTCHEBRG": {
+      "Code": "GRHTCHEBRG",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "GRHTCHEBRG",
+      "Local": false,
+      "Name": "Grande (34 cm) Original Crust Cheeseburger",
+      "Price": "75",
+      "ProductCode": "S_CHBRG",
+      "SizeCode": "GR",
+      "Tags": {
+        "Premium": true,
+        "DefaultSides": "",
+        "DefaultToppings": "X=1,Mz=1,Cl=1,Mg=1,Cs=1,R=1,Bu=1,Kk=1"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "99,96",
+        "Price1-0": "75",
+        "Price1-3": "93,72",
+        "Price2-3": "93,72",
+        "Price1-4": "99,96",
+        "Price2-2": "87,48",
+        "Price1-1": "81,24",
+        "Price2-1": "81,24",
+        "Price1-2": "87,48",
+        "Price2-0": "75"
+      },
+      "Surcharge": "0"
+    },
+    "GRHTCHKFST": {
+      "Code": "GRHTCHKFST",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "GRHTCHKFST",
+      "Local": false,
+      "Name": "Grande (34 cm) Original Crust Chicken Feast",
+      "Price": "70",
+      "ProductCode": "S_CHKN",
+      "SizeCode": "GR",
+      "Tags": {
+        "Feast": true,
+        "DefaultSides": "",
+        "DefaultToppings": "X=1,Mz=1,Cl=1,R=1,Pi=1,Pa=1,O=1"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "94,96",
+        "Price1-0": "70",
+        "Price1-3": "88,72",
+        "Price2-3": "88,72",
+        "Price1-4": "94,96",
+        "Price2-2": "82,48",
+        "Price1-1": "76,24",
+        "Price2-1": "76,24",
+        "Price1-2": "82,48",
+        "Price2-0": "70"
+      },
+      "Surcharge": "0"
+    },
+    "GRHTFRCHE": {
+      "Code": "GRHTFRCHE",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "GRHTFRCHE",
+      "Local": false,
+      "Name": "Grande (34 cm) Original Crust Four Cheese",
+      "Price": "70",
+      "ProductCode": "S_FRCHE",
+      "SizeCode": "GR",
+      "Tags": {
+        "Feast": true,
+        "DefaultSides": "",
+        "DefaultToppings": "X=1,Mz=1,Cs=1,Gp=1,Bc=1"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "94,96",
+        "Price1-0": "70",
+        "Price1-3": "88,72",
+        "Price2-3": "88,72",
+        "Price1-4": "94,96",
+        "Price2-2": "82,48",
+        "Price1-1": "76,24",
+        "Price2-1": "76,24",
+        "Price1-2": "82,48",
+        "Price2-0": "70"
+      },
+      "Surcharge": "0"
+    },
+    "GRHTFUNGHI": {
+      "Code": "GRHTFUNGHI",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "GRHTFUNGHI",
+      "Local": false,
+      "Name": "Grande (34 cm) Original Crust Funghi",
+      "Price": "65",
+      "ProductCode": "S_FUNG",
+      "SizeCode": "GR",
+      "Tags": {
+        "Classic": true,
+        "DefaultSides": "",
+        "DefaultToppings": "X=1,Mz=1.5,G=1"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "89,96",
+        "Price1-0": "65",
+        "Price1-3": "83,72",
+        "Price2-3": "83,72",
+        "Price1-4": "89,96",
+        "Price2-2": "77,48",
+        "Price1-1": "71,24",
+        "Price2-1": "71,24",
+        "Price1-2": "77,48",
+        "Price2-0": "65"
+      },
+      "Surcharge": "0"
+    },
+    "GRHTGRPDO": {
+      "Code": "GRHTGRPDO",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "GRHTGRPDO",
+      "Local": false,
+      "Name": "Grande (34 cm) Original Crust Grana Padano",
+      "Price": "65",
+      "ProductCode": "S_GRPO",
+      "SizeCode": "GR",
+      "Tags": {
+        "Classic": true,
+        "DefaultSides": "",
+        "DefaultToppings": "X=1,Mz=1.5,Gp=1"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "89,96",
+        "Price1-0": "65",
+        "Price1-3": "83,72",
+        "Price2-3": "83,72",
+        "Price1-4": "89,96",
+        "Price2-2": "77,48",
+        "Price1-1": "71,24",
+        "Price2-1": "71,24",
+        "Price1-2": "77,48",
+        "Price2-0": "65"
+      },
+      "Surcharge": "0"
+    },
+    "GRHTPICNTE": {
+      "Code": "GRHTPICNTE",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "GRHTPICNTE",
+      "Local": false,
+      "Name": "Grande (34 cm) Original Crust Cheesy Piccante",
+      "Price": "70",
+      "ProductCode": "S_PICANTE",
+      "SizeCode": "GR",
+      "Tags": {
+        "Feast": true,
+        "DefaultSides": "",
+        "DefaultToppings": "X=1,Mz=1,Cl=1,Jp=1,Pa=1,Ls=1"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "94,96",
+        "Price1-0": "70",
+        "Price1-3": "88,72",
+        "Price2-3": "88,72",
+        "Price1-4": "94,96",
+        "Price2-2": "82,48",
+        "Price1-1": "76,24",
+        "Price2-1": "76,24",
+        "Price1-2": "82,48",
+        "Price2-0": "70"
+      },
+      "Surcharge": "0"
+    },
+    "GRHTSLAVKA": {
+      "Code": "GRHTSLAVKA",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "GRHTSLAVKA",
+      "Local": false,
+      "Name": "(Grande 34 cm) Original Crust Slavonska",
+      "Price": "70",
+      "ProductCode": "S_SLAV",
+      "SizeCode": "GR",
+      "Tags": {
+        "Feast": true,
+        "DefaultSides": "",
+        "DefaultToppings": "X=1,Mz=1,Sl=1,Jp=1,Pa=1,Kv=1,A=1,Ls=1"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "94,96",
+        "Price1-0": "70",
+        "Price1-3": "88,72",
+        "Price2-3": "88,72",
+        "Price1-4": "94,96",
+        "Price2-2": "82,48",
+        "Price1-1": "76,24",
+        "Price2-1": "76,24",
+        "Price1-2": "82,48",
+        "Price2-0": "70"
+      },
+      "Surcharge": "0"
+    },
+    "GRHTVESUVO": {
+      "Code": "GRHTVESUVO",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "GRHTVESUVO",
+      "Local": false,
+      "Name": "Grande (34 cm) Original Crust Vesuvio",
+      "Price": "65",
+      "ProductCode": "S_VSUVO",
+      "SizeCode": "GR",
+      "Tags": {
+        "Classic": true,
+        "DefaultSides": "",
+        "DefaultToppings": "X=1,Mz=1.5,Sk=1"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "89,96",
+        "Price1-0": "65",
+        "Price1-3": "83,72",
+        "Price2-3": "83,72",
+        "Price1-4": "89,96",
+        "Price2-2": "77,48",
+        "Price1-1": "71,24",
+        "Price2-1": "71,24",
+        "Price1-2": "77,48",
+        "Price2-0": "65"
+      },
+      "Surcharge": "0"
+    },
+    "GRHTBYO": {
+      "Code": "GRHTBYO",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "GRHTBYO",
+      "Local": false,
+      "Name": "Grande (34 cm) Original Crust Create Your Own",
+      "Price": "60",
+      "ProductCode": "S_BYO",
+      "SizeCode": "GR",
+      "Tags": {
+        "DefaultSides": "",
+        "DefaultToppings": "X=1,Mz=1"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "84,96",
+        "Price1-0": "60",
+        "Price1-3": "78,72",
+        "Price2-3": "78,72",
+        "Price1-4": "84,96",
+        "Price2-2": "72,48",
+        "Price1-1": "66,24",
+        "Price2-1": "66,24",
+        "Price1-2": "72,48",
+        "Price2-0": "60"
+      },
+      "Surcharge": "0"
+    },
+    "GRHTHNH": {
+      "Code": "GRHTHNH",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "GRHTHNH",
+      "Local": false,
+      "Name": "Grande (34 cm) Original Crust Half & Half",
+      "Price": "60",
+      "ProductCode": "S_HNH",
+      "SizeCode": "GR",
+      "Tags": {
+        "DefaultSides": "",
+        "DefaultToppings": "X=1,Mz=1"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "84,96",
+        "Price1-0": "60",
+        "Price1-3": "78,72",
+        "Price2-3": "78,72",
+        "Price1-4": "84,96",
+        "Price2-2": "72,48",
+        "Price1-1": "66,24",
+        "Price2-1": "66,24",
+        "Price1-2": "72,48",
+        "Price2-0": "60"
+      },
+      "Surcharge": "0"
+    },
+    "GRHTCRCH": {
+      "Code": "GRHTCRCH",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "GRHTCRCH",
+      "Local": false,
+      "Name": "Grande (34cm) Original Crust Creamy Cheese",
+      "Price": "60",
+      "ProductCode": "S_CRCH",
+      "SizeCode": "GR",
+      "Tags": {
+        "CategoryCode": "Promo",
+        "DefaultSides": "",
+        "DefaultToppings": "Mz=1,Cl=1,Cs=1,Gp=1,O=1,Xw=1"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "84,96",
+        "Price1-0": "60",
+        "Price1-3": "78,72",
+        "Price2-3": "78,72",
+        "Price1-4": "84,96",
+        "Price2-2": "72,48",
+        "Price1-1": "66,24",
+        "Price2-1": "66,24",
+        "Price1-2": "72,48",
+        "Price2-0": "60"
+      },
+      "Surcharge": "0"
+    },
+    "GRHTCRCAPR": {
+      "Code": "GRHTCRCAPR",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "GRHTCRCAPR",
+      "Local": false,
+      "Name": "Grande (34cm) Original Crust Creamy Capricciosa",
+      "Price": "65",
+      "ProductCode": "S_CRCAPR",
+      "SizeCode": "GR",
+      "Tags": {
+        "CategoryCode": "Promo",
+        "DefaultSides": "",
+        "DefaultToppings": "Mz=1,Sk=1,G=1,Gp=1,O=1,Xw=1"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "89,96",
+        "Price1-0": "65",
+        "Price1-3": "83,72",
+        "Price2-3": "83,72",
+        "Price1-4": "89,96",
+        "Price2-2": "77,48",
+        "Price1-1": "71,24",
+        "Price2-1": "71,24",
+        "Price1-2": "77,48",
+        "Price2-0": "65"
+      },
+      "Surcharge": "0"
+    },
+    "GRHTCRCARB": {
+      "Code": "GRHTCRCARB",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "GRHTCRCARB",
+      "Local": false,
+      "Name": "Grande (34cm) Original Crust Creamy Carbonara",
+      "Price": "70",
+      "ProductCode": "S_CRCARB",
+      "SizeCode": "GR",
+      "Tags": {
+        "CategoryCode": "Promo",
+        "DefaultSides": "",
+        "DefaultToppings": "Mz=1,Cl=1,Sl=1,Gp=1,O=1,Xw=1"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "94,96",
+        "Price1-0": "70",
+        "Price1-3": "88,72",
+        "Price2-3": "88,72",
+        "Price1-4": "94,96",
+        "Price2-2": "82,48",
+        "Price1-1": "76,24",
+        "Price2-1": "76,24",
+        "Price1-2": "82,48",
+        "Price2-0": "70"
+      },
+      "Surcharge": "0"
+    },
+    "GRHTCRBBQ": {
+      "Code": "GRHTCRBBQ",
+      "FlavorCode": "HANDTOSS",
+      "ImageCode": "GRHTCRBBQ",
+      "Local": false,
+      "Name": "Grande (34cm) Original Crust Creamy BBQ Chicken & Bacon",
+      "Price": "75",
+      "ProductCode": "S_CRBBQ",
+      "SizeCode": "GR",
+      "Tags": {
+        "CategoryCode": "Promo",
+        "DefaultSides": "",
+        "DefaultToppings": "Mz=1,Cl=1,Sl=1,Bq=1,Pi=1,Xw=1"
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "99,96",
+        "Price1-0": "75",
+        "Price1-3": "93,72",
+        "Price2-3": "93,72",
+        "Price1-4": "99,96",
+        "Price2-2": "87,48",
+        "Price1-1": "81,24",
+        "Price2-1": "81,24",
+        "Price1-2": "87,48",
+        "Price2-0": "75"
+      },
+      "Surcharge": "0"
+    },
+    "BBQDIP": {
+      "Code": "BBQDIP",
+      "FlavorCode": "",
+      "ImageCode": "BBQDIP",
+      "Local": false,
+      "Name": "BBQ Dip Cup",
+      "Price": "3",
+      "ProductCode": "F_BBQDIP",
+      "SizeCode": "",
+      "Tags": {
+        "DefaultSides": "",
+        "DefaultToppings": ""
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "3",
+        "Price1-0": "3",
+        "Price1-3": "3",
+        "Price2-3": "3",
+        "Price1-4": "3",
+        "Price2-2": "3",
+        "Price1-1": "3",
+        "Price2-1": "3",
+        "Price1-2": "3",
+        "Price2-0": "3"
+      },
+      "Surcharge": "0"
+    },
+    "SIDHOT": {
+      "Code": "SIDHOT",
+      "FlavorCode": "",
+      "ImageCode": "SIDHOT",
+      "Local": false,
+      "Name": "Frank´s RedHot Dip Cup",
+      "Price": "3",
+      "ProductCode": "F_SIDHOT",
+      "SizeCode": "",
+      "Tags": {
+        "DefaultSides": "",
+        "DefaultToppings": ""
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "3",
+        "Price1-0": "3",
+        "Price1-3": "3",
+        "Price2-3": "3",
+        "Price1-4": "3",
+        "Price2-2": "3",
+        "Price1-1": "3",
+        "Price2-1": "3",
+        "Price1-2": "3",
+        "Price2-0": "3"
+      },
+      "Surcharge": "0"
+    },
+    "SWTCHL": {
+      "Code": "SWTCHL",
+      "FlavorCode": "",
+      "ImageCode": "SWTCHL",
+      "Local": false,
+      "Name": "Sweet Chilli Dip Cup",
+      "Price": "3",
+      "ProductCode": "F_SWCHIL",
+      "SizeCode": "",
+      "Tags": {
+        "DefaultSides": "",
+        "DefaultToppings": ""
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "3",
+        "Price1-0": "3",
+        "Price1-3": "3",
+        "Price2-3": "3",
+        "Price1-4": "3",
+        "Price2-2": "3",
+        "Price1-1": "3",
+        "Price2-1": "3",
+        "Price1-2": "3",
+        "Price2-0": "3"
+      },
+      "Surcharge": "0"
+    },
+    "10PCCHBOX": {
+      "Code": "10PCCHBOX",
+      "FlavorCode": "CHIBOX",
+      "ImageCode": "10PCCHBOX",
+      "Local": false,
+      "Name": "10-Piece Chicken Box",
+      "Price": "38",
+      "ProductCode": "S_CHICKBOX",
+      "SizeCode": "10PCW",
+      "Tags": {
+        "Wing": true,
+        "DefaultSides": "BBQDIP=1,SIDCHL=1",
+        "DefaultToppings": ""
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "38",
+        "Price1-0": "38",
+        "Price1-3": "38",
+        "Price2-3": "38",
+        "Price1-4": "38",
+        "Price2-2": "38",
+        "Price1-1": "38",
+        "Price2-1": "38",
+        "Price1-2": "38",
+        "Price2-0": "38"
+      },
+      "Surcharge": "0"
+    },
+    "6PCKICKER": {
+      "Code": "6PCKICKER",
+      "FlavorCode": "KICK",
+      "ImageCode": "6PCKICKER",
+      "Local": false,
+      "Name": "6-Piece Chicken Kickers",
+      "Price": "25",
+      "ProductCode": "S_KICK",
+      "SizeCode": "6PCW",
+      "Tags": {
+        "Wing": true,
+        "DefaultSides": "BBQDIP=1",
+        "DefaultToppings": ""
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "25,25",
+        "Price1-0": "25",
+        "Price1-3": "25,12",
+        "Price2-3": "25,12",
+        "Price1-4": "25,25",
+        "Price2-2": "25,12",
+        "Price1-1": "25",
+        "Price2-1": "25",
+        "Price1-2": "25,12",
+        "Price2-0": "25"
+      },
+      "Surcharge": "0"
+    },
+    "6PCSTRIPS": {
+      "Code": "6PCSTRIPS",
+      "FlavorCode": "STRIP",
+      "ImageCode": "6PCSTRIPS",
+      "Local": false,
+      "Name": "6-Piece Chicken Strippers",
+      "Price": "25",
+      "ProductCode": "S_STRIP",
+      "SizeCode": "6PCW",
+      "Tags": {
+        "Wing": true,
+        "DefaultSides": "BBQDIP=1",
+        "DefaultToppings": ""
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "25,25",
+        "Price1-0": "25",
+        "Price1-3": "25,12",
+        "Price2-3": "25,12",
+        "Price1-4": "25,25",
+        "Price2-2": "25,12",
+        "Price1-1": "25",
+        "Price2-1": "25",
+        "Price1-2": "25,12",
+        "Price2-0": "25"
+      },
+      "Surcharge": "0"
+    },
+    "6PCWNGPLN": {
+      "Code": "6PCWNGPLN",
+      "FlavorCode": "PLNWINGS",
+      "ImageCode": "6PCWNGPLN",
+      "Local": false,
+      "Name": "6-Piece Chicken Wings",
+      "Price": "25",
+      "ProductCode": "S_PLNWINGS",
+      "SizeCode": "6PCW",
+      "Tags": {
+        "Wing": true,
+        "DefaultSides": "BBQDIP=1",
+        "DefaultToppings": ""
+      },
+      "AllowedCookingInstructions": "",
+      "DefaultCookingInstructions": "",
+      "Prepared": false,
+      "Pricing": {
+        "Price2-4": "25,25",
+        "Price1-0": "25",
+        "Price1-3": "25,12",
+        "Price2-3": "25,12",
+        "Price1-4": "25,25",
+        "Price2-2": "25,12",
+        "Price1-1": "25",
+        "Price2-1": "25",
+        "Price1-2": "25,12",
+        "Price2-0": "25"
+      },
+      "Surcharge": "0"
+    }
+  },
+  "PreconfiguredProducts": {},
+  "ShortProductDescriptions": {},
+  "ShortCouponDescriptions": {},
+  "CouponTiers": {},
+  "UnsupportedProducts": {
+    "ICEDIP": {
+      "PulseCode": "ICEDIP",
+      "Description": "Each Icing Dip"
+    },
+    "6PCBRWNBTE": {
+      "PulseCode": "6PCBRWNBTE",
+      "Description": "6 Piece Brownie Bites"
+    },
+    "DLVRYFEE": {
+      "PulseCode": "DLVRYFEE",
+      "Description": "Delivery Charge"
+    }
+  },
+  "UnsupportedOptions": {
+    "SIDICE": {
+      "PulseCode": "SIDICE",
+      "Description": "Icing Dip"
+    }
+  },
+  "CookingInstructions": {},
+  "CookingInstructionGroups": {}
+}
