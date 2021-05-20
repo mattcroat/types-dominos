@@ -1,5 +1,5 @@
 /**
- * Requires node types
+ * References @types/node
  */
 
 /// <reference types="node" />
@@ -19,7 +19,7 @@ declare module 'dominos' {
   type OptionsType = {}
   type IsNewType = boolean
 
-  interface ItemType {
+  interface IItem {
     iD?: IDType
     code: CodeType
     qty?: QtyType
@@ -31,25 +31,24 @@ declare module 'dominos' {
     public iD: IDType
     public code: CodeType
     public qty: QtyType
-    // todo: check if this should be typed
     public options: OptionsType
     public isNew: IsNewType
 
-    constructor({ iD, code, qty, options, isNew }: ItemType)
+    constructor({ iD, code, qty, options, isNew }: IItem)
   }
 
   /**
    * Customer
    */
 
-  type AddressType = Address | AddressObjectType | AddressStringType
+  type AddressType = Address | IAddressObject | AddressStringType
   type FirstNameType = string
   type LastNameType = string
   type EmailType = string
   type PhoneType = string
   type PhonePrefixType = string
 
-  interface CustomerType {
+  interface ICustomer {
     address: AddressType
     firstName: FirstNameType
     lastName: LastNameType
@@ -73,7 +72,7 @@ declare module 'dominos' {
       email,
       phone,
       phonePrefix,
-    }: CustomerType)
+    }: ICustomer)
   }
 
   /**
@@ -90,7 +89,7 @@ declare module 'dominos' {
   type PostalCodeType = string
   type DeliveryInstructionsType = string
 
-  interface AddressObjectType {
+  interface IAddressObject {
     street?: StreetType
     streetName?: StreetNameType
     streetNumber?: StreetNumberType
@@ -153,7 +152,7 @@ declare module 'dominos' {
   type CashType = number
   type SavingsType = string
 
-  interface AmountsBreakdownOptionsType {
+  interface IAmountsBreakdownOptions {
     foodAndBeverage?: FoodAndBeverageType
     adjustment?: AdjustmentType
     surcharge?: SurchargeType
@@ -165,7 +164,7 @@ declare module 'dominos' {
     tax4?: Tax4Type
     tax5?: Tax5Type
     bottle?: BottleType
-    customer?: CustomerType
+    customer?: ICustomer
     roundingAdjustment?: RoundingAdjustmentType
     cash?: CashType
     savings?: SavingsType
@@ -204,7 +203,7 @@ declare module 'dominos' {
       roundingAdjustment,
       cash,
       savings,
-    }: AmountsBreakdownOptionsType)
+    }: IAmountsBreakdownOptions)
   }
 
   /**
@@ -271,7 +270,7 @@ declare module 'dominos' {
     priceResponse: {}
     placeResponse: {}
 
-    constructor(customer: CustomerType)
+    constructor(customer: ICustomer)
   }
 
   /**
@@ -295,7 +294,7 @@ declare module 'dominos' {
     | 'JCB'
     | 'ENROUTE'
 
-  interface PaymentOptionsType {
+  interface IPaymentOptions {
     amount?: AmountType
     tipAmount?: TipAmountType
     number: NumberType
@@ -321,7 +320,7 @@ declare module 'dominos' {
       expiration,
       securityCode,
       postalCode,
-    }: PaymentOptionsType)
+    }: IPaymentOptions)
   }
 
   /**
@@ -349,7 +348,7 @@ declare module 'dominos' {
   // todo: add language suggestions? might not be future proof
   type LanguageType = string
   // todo: add description from docs to each field
-  interface MenuType {
+  interface IMenu {
     categories: {}
     coupons: {
       products: {}
@@ -375,7 +374,7 @@ declare module 'dominos' {
   }
 
   class Menu {
-    public menu: MenuType
+    public menu: IMenu
 
     constructor(storeID: StoreIDType, lang?: LanguageType)
   }
@@ -424,7 +423,7 @@ declare module 'dominos' {
   }
 
   class Store {
-    public menu: MenuType
+    public menu: IMenu
     public info: BasicStoreInfoType
 
     constructor(storeID: StoreIDType, lang?: LanguageType)
@@ -447,7 +446,7 @@ declare module 'dominos' {
    * Urls
    */
 
-  interface CountryURLsType {
+  interface ICountryURLs {
     sourceUri: string
     location: {
       find: string
@@ -470,7 +469,7 @@ declare module 'dominos' {
     stepUpsell: string
   }
 
-  declare var urls: CountryURLsType
+  declare var urls: ICountryURLs
 }
 
 /**
@@ -514,7 +513,7 @@ class Base64File {
  */
 
 declare module 'dominos/utils/urls.js' {
-  interface CountryURLsType {
+  interface ICountryURLs {
     referer?: string
     sourceUri: string
     location: {
@@ -539,8 +538,8 @@ declare module 'dominos/utils/urls.js' {
     stepUpsell?: string
   }
 
-  function useInternational(internationalURLs: CountryURLsType)
+  function useInternational(internationalURLs: ICountryURLs)
 
-  declare var canada: CountryURLsType
-  declare var usa: CountryURLsType
+  declare var canada: ICountryURLs
+  declare var usa: ICountryURLs
 }
