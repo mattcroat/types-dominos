@@ -230,7 +230,7 @@ declare module 'dominos' {
   type CashType = number
   type SavingsType = string
 
-  interface IAmountsBreakdownOptions {
+  interface IAmountsBreakdown {
     /**
      * Cost of the food, and beverage.
      */
@@ -293,8 +293,7 @@ declare module 'dominos' {
     savings?: SavingsType
   }
 
-  // todo: remove options from interface names :)
-  class AmountsBreakdown implements IAmountsBreakdownOptions {
+  class AmountsBreakdown implements IAmountsBreakdown {
     foodAndBeverage: FoodAndBeverageType
     adjustment: AdjustmentType
     surcharge: SurchargeType
@@ -327,7 +326,7 @@ declare module 'dominos' {
       roundingAdjustment,
       cash,
       savings,
-    }: IAmountsBreakdownOptions)
+    }: IAmountsBreakdown)
   }
 
   /**
@@ -583,7 +582,7 @@ declare module 'dominos' {
     | 'JCB'
     | 'ENROUTE'
 
-  interface IPaymentOptions {
+  interface IPayment {
     /**
      * Amount to pay with the card.
      */
@@ -610,7 +609,7 @@ declare module 'dominos' {
     postalCode: PostalCodeType
   }
 
-  class Payment implements IPaymentOptions {
+  class Payment implements IPayment {
     /**
      * Payment type.
      */
@@ -634,7 +633,7 @@ declare module 'dominos' {
       expiration,
       securityCode,
       postalCode,
-    }: IPaymentOptions)
+    }: IPayment)
   }
 
   /**
