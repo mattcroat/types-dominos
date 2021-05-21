@@ -1234,6 +1234,8 @@ declare module 'dominos' {
  * Base64File
  */
 
+type Agent = import('http').Agent
+
 interface INodeFetchOptions {
   /**
    * HTTP request method like **GET**.
